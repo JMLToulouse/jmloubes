@@ -45,8 +45,9 @@ To add or rename a theme, edit `_data/research_themes.yml`.
 | Journal | blue | `@article`, `@incollection`, `@book` |
 | Conference | purple | `@inproceedings`, `@conference` |
 | Preprint | amber | `@unpublished`, `@techreport`, `@misc`, or an `@article` whose journal is arXiv |
+| Patent | red | `@patent` (use `holder` for the applicants and `number` for the patent number) |
 
-Force a type with `pubtype = {preprint}` (or `journal`, `conference`). Once a preprint
+Force a type with `pubtype = {preprint}` (or `journal`, `conference`, `patent`). Once a preprint
 is accepted, change its entry type or `pubtype` and its venue.
 
 ## Optional fields used on the page

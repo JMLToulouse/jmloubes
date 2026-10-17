@@ -8,7 +8,7 @@
     {% for a in p.authors %}{% if p.me[forloop.index0] %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
   </div>
   <div class="pub__meta">
-    {% if p.venue != "" %}<em>{{ p.venue }}</em>{% if p.year > 0 %}, {% endif %}{% endif %}{% if p.year > 0 %}{{ p.year }}{% endif %}
+    {% if p.type == "patent" %}{{ p.venue }}{% else %}{% if p.venue != "" %}<em>{{ p.venue }}</em>{% if p.year > 0 %}, {% endif %}{% endif %}{% if p.year > 0 %}{{ p.year }}{% endif %}{% endif %}
     {% if p.pdf != "" %}<a class="pub__link" href="{{ p.pdf }}" target="_blank" rel="noopener noreferrer">PDF</a>{% endif %}
     {% if p.doi != "" %}<a class="pub__link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>{% endif %}
     {% if p.hal != "" %}<a class="pub__link" href="{{ p.hal }}" target="_blank" rel="noopener noreferrer">HAL</a>{% endif %}

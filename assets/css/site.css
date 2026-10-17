@@ -17,6 +17,8 @@
   --pub-conference-bg: #f3ebfb;
   --pub-preprint: #9a5800;
   --pub-preprint-bg: #fdf1e1;
+  --pub-patent: #b3261e;
+  --pub-patent-bg: #fbe9e7;
 }
 
 html {
@@ -367,6 +369,7 @@ body {
 .type-toggle--journal    { --pub-color: var(--pub-journal); }
 .type-toggle--conference { --pub-color: var(--pub-conference); }
 .type-toggle--preprint   { --pub-color: var(--pub-preprint); }
+.type-toggle--patent     { --pub-color: var(--pub-patent); }
 
 .research-header {
   margin-bottom: 1em;
@@ -417,6 +420,7 @@ body {
 .pub--journal    { --pub-color: var(--pub-journal);    --pub-bg: var(--pub-journal-bg); }
 .pub--conference { --pub-color: var(--pub-conference); --pub-bg: var(--pub-conference-bg); }
 .pub--preprint   { --pub-color: var(--pub-preprint);   --pub-bg: var(--pub-preprint-bg); }
+.pub--patent     { --pub-color: var(--pub-patent);     --pub-bg: var(--pub-patent-bg); }
 
 .pub__badge {
   display: inline-block;
