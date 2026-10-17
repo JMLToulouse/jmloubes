@@ -1,0 +1,28 @@
+# Selected publications shown on the home page, in three topics.
+# `keys` are BibTeX keys from _bibliography/*.bib (the part after "@article{"),
+# listed in the order they should appear. `intro` is an optional sentence (HTML).
+
+- title: Evaluation of AI
+  intro:
+  keys:
+    - chauvin:hal-05506096
+    - gsshilova2026discoveringg
+    - bachoc:hal-05072199
+    - delara:hal-03216124
+
+- title: Optimal Transport and Applications
+  intro:
+  keys:
+    - lalanne:hal-05638043
+    - gsbarrio2023animprovedce
+    - delbarrio:hal-01517192
+    - legouic:hal-01163262
+
+- title: Machine Learning
+  intro:
+  keys:
+    - ferrere:hal-05531600
+    - mai:hal-05637345
+    - bachoc:hal-04956911
+    - ilidrissi:hal-04233915
+    - gsbachoc2023explainingma

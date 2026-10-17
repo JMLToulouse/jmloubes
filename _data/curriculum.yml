@@ -1,0 +1,47 @@
+# Curriculum, newest first. `text` is HTML; `items` are optional sub-items.
+- years: 2024–today
+  text: >-
+    Research Director at <a href="https://www.inria.fr/en">Inria</a>, head of the team
+    <strong>Regalia</strong> (Regulation of AI), on leave from the University of Toulouse
+  items:
+    - years: 2025–today
+      text: >-
+        Scientific Director of the French AI Safety Institute
+        (<a href="https://www.sgdsn.gouv.fr/notre-organisation/composantes/institut-national-pour-levaluation-et-la-securite-de-lintelligence">INESIA</a>)
+        and Director of the national program on AI evaluation
+    - years: 2024–2025
+      text: Representative of Inria at the CEN-CENELEC committee on AI standards
+- years: 2019–today
+  text: >-
+    Principal Investigator, Chair TRIAL (Trustworthy AI &amp; Machine Learning) at
+    <a href="https://aniti.univ-toulouse.fr/">ANITI</a>, renewed 2023–2027
+- years: 2007–2024
+  text: >-
+    Professor of Applied Mathematics at the <a href="https://www.univ-tlse3.fr/home">University of Toulouse</a>,
+    <a href="https://www.math.univ-toulouse.fr/en/">Institut de Mathématiques de Toulouse</a>
+  items:
+    - years: 2019
+      text: Promoted to Exceptional Class (First Class in 2013)
+    - years: 2019–2023
+      text: Deputy President of Université Toulouse III, in charge of innovation for industry
+    - years: 2018–2020
+      text: Scientific Director of the DEEL project — certifiable and explainable AI for safety-critical systems
+    - years: 2008–today
+      text: Research Excellence Award (PEDR)
+- years: 2005–2007
+  text: CNRS Researcher in Mathematics, University Montpellier II
+  items:
+    - years: 2006
+      text: Habilitation à Diriger des Recherches, University of Montpellier
+- years: 2002–2005
+  text: CNRS Researcher in Mathematics, University Paris XI Orsay (now Paris-Saclay)
+- years: 1998–2001
+  text: >-
+    PhD in Applied Mathematics, University Toulouse III &amp; Leiden University, supervised by
+    <a href="https://scholar.google.com/citations?user=W8_hHDcAAAAJ">Sara van de Geer</a>
+- years: 1995–1998
+  text: >-
+    <a href="https://ens-paris-saclay.fr/">ENS Cachan</a> (now ENS Paris-Saclay); Master in Mathematics, University Paris VII
+  items:
+    - years: 1998
+      text: <a href="https://fr.wikipedia.org/wiki/Agr%C3%A9gation_de_math%C3%A9matiques">Agrégation</a> of Mathematics

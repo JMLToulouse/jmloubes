@@ -1,0 +1,23 @@
+# Research themes shown in the left-hand list of the Research page.
+# `name` is what you write in the `theme` field of a BibTeX entry
+# (case-insensitive; the slug also works). The order here is the display order.
+
+- name: Evaluation of AI
+  slug: evaluation-of-ai
+  description: Audit, certification and risk assessment of AI systems — fairness, robustness, explainability and the evaluation of general-purpose AI models.
+
+- name: Machine Learning
+  slug: machine-learning
+  description: Statistical learning theory and methods — fair and robust learning, kernels, bandits, counterfactual reasoning and deep learning.
+
+- name: Optimal Transport
+  slug: optimal-transport
+  description: Wasserstein distances and barycenters, transport-based inference, and optimal transport as a tool for fairness and data comparison.
+
+- name: Statistics and Data Science
+  slug: statistics-and-data-science
+  description: Mathematical statistics — nonparametric estimation, inverse problems, testing, sensitivity analysis and functional data.
+
+- name: Industrial Projects
+  slug: industrial-projects
+  description: Research carried out with industrial partners in aerospace, automotive, energy, health and finance.

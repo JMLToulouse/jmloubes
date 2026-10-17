@@ -1,0 +1,26 @@
+{% comment %} One publication entry; expects `p` (an item of site.data.publications). {% endcomment %}
+<li class="pub pub--{{ p.type }}" data-type="{{ p.type }}" data-themes="{{ p.themes | join: ' ' }}">
+  <span class="pub__badge">{{ p.type | capitalize }}</span>
+  <div class="pub__title">
+    {% if p.url != "" %}<a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+  </div>
+  <div class="pub__authors">
+    {% for a in p.authors %}{% if p.me[forloop.index0] %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+  </div>
+  <div class="pub__meta">
+    {% if p.venue != "" %}<em>{{ p.venue }}</em>{% if p.year > 0 %}, {% endif %}{% endif %}{% if p.year > 0 %}{{ p.year }}{% endif %}
+    {% if p.pdf != "" %}<a class="pub__link" href="{{ p.pdf }}" target="_blank" rel="noopener noreferrer">PDF</a>{% endif %}
+    {% if p.doi != "" %}<a class="pub__link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>{% endif %}
+    {% if p.hal != "" %}<a class="pub__link" href="{{ p.hal }}" target="_blank" rel="noopener noreferrer">HAL</a>{% endif %}
+    {% if p.arxiv != "" %}<a class="pub__link" href="https://arxiv.org/abs/{{ p.arxiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>{% endif %}
+    {% if p.code != "" %}<a class="pub__link" href="{{ p.code }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
+  </div>
+  {% if include.themes %}
+    <ul class="pub__themes">
+      {% for slug in p.themes %}
+        {% assign t = site.data.research_themes | where: "slug", slug | first %}
+        <li><a href="#{{ slug }}" data-theme="{{ slug }}">{{ t.name }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</li>

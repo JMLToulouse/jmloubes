@@ -1,0 +1,49 @@
+# News, newest first. `date` is free text (e.g. "September 2026");
+# `text` is HTML. Only the first `site.news_shown` items appear on the home page.
+
+- date: September 2026
+  text: >-
+    Our article <a href="https://hal.science/hal-05638043">Minimax Private Estimation of Smooth Optimal-Transport Maps</a>
+    (Clément Lalanne, David Rodríguez-Vítores, Franck Iutzeler, Jean-Michel Loubes) has been accepted to the
+    40th <a href="https://neurips.cc/">Conference on Neural Information Processing Systems</a> (NeurIPS 2026).
+
+- date: July 2026
+  text: >-
+    Three papers at <a href="https://icml.cc/">ICML 2026</a> in Seoul, including one spotlight:
+    <a href="https://arxiv.org/abs/2603.02673">Exact Functional ANOVA Decomposition for Categorical Inputs Models</a>
+    (Baptiste Ferrere, Nicolas Bousquet, Fabrice Gamboa, Jean-Michel Loubes, Joseph Muré) — <strong>Spotlight</strong>;
+    <a href="https://arxiv.org/abs/2602.11083">Token-Efficient Change Detection in LLM APIs</a>
+    (Timothée Chauvin, Clément Lalanne, Erwan Le Merrer, Jean-Michel Loubes, François Taïani, Gilles Tredan);
+    and <a href="https://hal.science/hal-05637345">Correcting Overparameterization Effects in Fair Empirical Risk Minimization</a>
+    (Xiaoyi Mai, Jean-Michel Loubes).
+
+- date: 2026
+  text: >-
+    Two papers accepted at <a href="https://satml.org/2026/accepted-papers/">IEEE SaTML 2026</a>:
+    <a href="https://hal.science/hal-05519642">Evaluating Black-Box Vulnerabilities with Wasserstein-Constrained Data Perturbations</a>
+    (with Adriana Laurindo Monteiro) and
+    <a href="https://arxiv.org/abs/2604.02342">Homophily-aware Supervised Contrastive Counterfactual Augmented Fair Graph Neural Network</a>
+    (with Mahdi Tavassoli Kejani, Fadi Dornaika and Charlotte Laclau).
+
+- date: 2025
+  text: >-
+    Creation of the Inria research team <strong>Regalia</strong> — Regulation of AI.
+
+- date: 2025
+  text: >-
+    Our article <a href="https://hal.science/hal-05072199">When majority rules, minority loses: bias amplification of gradient descent</a>
+    has been accepted to NeurIPS 2025.
+
+- date: 2025
+  text: >-
+    Teaching "Fairness and Statistics" at the <a href="https://www.ihp.fr/en">Institut Henri Poincaré</a>.
+
+- date: 2025
+  text: Speaking at the World AI Summit 2025.
+
+- date: 2024
+  text: Member of the AFNOR / CEN-CENELEC committee on AI standards.
+
+- date: 2024
+  text: >-
+    Appointed Research Director at <a href="https://www.inria.fr/en">Inria</a>.

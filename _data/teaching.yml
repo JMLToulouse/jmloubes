@@ -1,0 +1,10 @@
+# Teaching, one item per course. `text` is HTML.
+- title: Fairness and Statistics
+  text: >-
+    <a href="https://www.ihp.fr/en">Institut Henri Poincaré</a> (IHP), 2025.
+- title: Master 2 MAPI3
+  text: >-
+    <a href="http://departement-math.univ-tlse3.fr/master-mathematiques-appliquees-pour-l-ingenierie-l-industrie-et-l-innovation-mapi3--620692.kjsp">Applied Mathematics for Engineering, Industry and Innovation</a>,
+    University of Toulouse. Former director of the Master in Machine Learning (40 students per year).
+- title: AI regulation
+  text: Training courses through CNRS Formation, and for journalists, public administration, the military and industrial groups (2018–present).

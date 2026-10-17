@@ -1,0 +1,149 @@
+{% comment %}
+  Publication list with the research themes on the left.
+  Built from _data/publications.json, which scripts/build_publications.py
+  generates from the BibTeX files in _bibliography/. Do not edit the list here.
+{% endcomment %}
+
+{% assign pubs = site.data.publications %}
+{% assign themes = site.data.research_themes %}
+
+<div class="research">
+
+  <nav class="research-nav" aria-label="Research themes">
+    <h3 class="research-nav__heading">Research themes</h3>
+    <ul class="research-nav__list">
+      <li>
+        <a href="#publications" class="research-nav__link is-active" data-theme="all" aria-current="true"
+           data-desc="Publications across all research themes, newest first.">
+          <span>All publications</span><span class="research-nav__count">{{ pubs | size }}</span>
+        </a>
+      </li>
+      {% for t in themes %}
+        {% assign n = pubs | where_exp: "p", "p.themes contains t.slug" | size %}
+        <li>
+          <a href="#{{ t.slug }}" class="research-nav__link" data-theme="{{ t.slug }}" data-desc="{{ t.description | escape }}">
+            <span>{{ t.name }}</span><span class="research-nav__count">{{ n }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h3 class="research-nav__heading">Publication type</h3>
+    <ul class="research-nav__types">
+      {% assign type_labels = "journal:Journal,conference:Conference,preprint:Preprint" | split: "," %}
+      {% for tl in type_labels %}
+        {% assign parts = tl | split: ":" %}
+        {% assign n = pubs | where: "type", parts[0] | size %}
+        <li>
+          <button type="button" class="type-toggle type-toggle--{{ parts[0] }}" data-type="{{ parts[0] }}" aria-pressed="true">
+            <span class="type-toggle__dot" aria-hidden="true"></span>{{ parts[1] }}<span class="research-nav__count">{{ n }}</span>
+          </button>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="research-content">
+    <header class="research-header">
+      <h3 class="research-header__title" id="research-title">All publications</h3>
+      <p class="research-header__desc" id="research-desc">Publications across all research themes, newest first.</p>
+      <p class="research-header__count" id="research-count" aria-live="polite">{{ pubs | size }} publications</p>
+    </header>
+
+    {% assign current_year = nil %}
+    {% for p in pubs %}
+      {% if p.year != current_year %}
+        {% unless forloop.first %}</ol></section>{% endunless %}
+        {% assign current_year = p.year %}
+        <section class="pub-year">
+          <h4 class="pub-year__title">{% if p.year > 0 %}{{ p.year }}{% else %}Undated{% endif %}</h4>
+          <ol class="pub-list">
+      {% endif %}
+      {% include pub-item.html themes=true %}
+      {% if forloop.last %}</ol></section>{% endif %}
+    {% endfor %}
+
+    <p class="research-empty" id="research-empty" hidden>No publication matches this selection.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  var section = document.getElementById('publications');
+  var items = Array.prototype.slice.call(section.querySelectorAll('.pub'));
+  var years = Array.prototype.slice.call(section.querySelectorAll('.pub-year'));
+  var links = Array.prototype.slice.call(section.querySelectorAll('.research-nav__link'));
+  var toggles = Array.prototype.slice.call(section.querySelectorAll('.type-toggle'));
+  var title = document.getElementById('research-title');
+  var desc = document.getElementById('research-desc');
+  var count = document.getElementById('research-count');
+  var empty = document.getElementById('research-empty');
+  var state = { theme: 'all', types: { journal: true, conference: true, preprint: true } };
+
+  function isTheme(slug) {
+    return links.some(function (a) { return a.dataset.theme === slug; });
+  }
+
+  function render() {
+    var shown = 0;
+    items.forEach(function (li) {
+      var themeOk = state.theme === 'all' || (' ' + li.dataset.themes + ' ').indexOf(' ' + state.theme + ' ') > -1;
+      var visible = themeOk && state.types[li.dataset.type];
+      li.hidden = !visible;
+      if (visible) shown++;
+    });
+    years.forEach(function (sec) {
+      sec.hidden = !sec.querySelector('.pub:not([hidden])');
+    });
+    links.forEach(function (a) {
+      var active = a.dataset.theme === state.theme;
+      a.classList.toggle('is-active', active);
+      if (active) {
+        a.setAttribute('aria-current', 'true');
+        title.textContent = a.firstElementChild.textContent;
+        desc.textContent = a.dataset.desc;
+      } else {
+        a.removeAttribute('aria-current');
+      }
+    });
+    toggles.forEach(function (b) {
+      b.setAttribute('aria-pressed', state.types[b.dataset.type] ? 'true' : 'false');
+    });
+    count.textContent = shown + (shown === 1 ? ' publication' : ' publications');
+    empty.hidden = shown > 0;
+  }
+
+  section.addEventListener('click', function (e) {
+    var a = e.target.closest('a[data-theme]');
+    if (!a) return;
+    e.preventDefault();
+    state.theme = a.dataset.theme;
+    history.replaceState(null, '', state.theme === 'all' ? '#publications' : '#' + state.theme);
+    render();
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  toggles.forEach(function (b) {
+    b.addEventListener('click', function () {
+      state.types[b.dataset.type] = !state.types[b.dataset.type];
+      render();
+    });
+  });
+
+  function fromHash() {
+    var h = decodeURIComponent(location.hash.replace('#', ''));
+    if (isTheme(h) && h !== 'all') {
+      state.theme = h;
+      render();
+      section.scrollIntoView();
+    } else if (h === 'publications') {
+      state.theme = 'all';
+      render();
+    }
+  }
+
+  window.addEventListener('hashchange', fromHash);
+  render();
+  fromHash();
+})();
+</script>
