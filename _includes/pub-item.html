@@ -1,6 +1,6 @@
 {% comment %} One publication entry; expects `p` (an item of site.data.publications). {% endcomment %}
 <li class="pub pub--{{ p.type }}" data-type="{{ p.type }}" data-themes="{{ p.themes | join: ' ' }}">
-  <span class="pub__badge">{{ p.type | capitalize }}</span>
+  <span class="pub__badge" title="{{ p.type | capitalize }}">{{ p.abbr | default: p.type }}</span>
   <div class="pub__title">
     {% if p.url != "" %}<a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
   </div>

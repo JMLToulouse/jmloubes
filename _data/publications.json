@@ -1,34 +1,5 @@
 [
  {
-  "key": "gsrodrguezvtores2025animprovedce",
-  "type": "journal",
-  "themes": [
-   "optimal-transport",
-   "statistics-and-data-science"
-  ],
-  "title": "An improved central limit theorem for the empirical sliced Wasserstein distance",
-  "authors": [
-   "David Rodríguez-Vítores",
-   "Eustasio del Barrio",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "Journal of Multivariate Analysis (to appear)",
-  "year": 2027,
-  "month": 0,
-  "doi": "",
-  "url": "https://arxiv.org/abs/2503.18831",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "2503.18831",
-  "code": "",
-  "app": ""
- },
- {
   "key": "gsbarrio2025distribution",
   "type": "journal",
   "themes": [
@@ -49,6 +20,7 @@
    false
   ],
   "venue": "Statistical Science (to appear)",
+  "abbr": "Stat. Sci.",
   "year": 2027,
   "month": 0,
   "doi": "",
@@ -77,6 +49,7 @@
    false
   ],
   "venue": "Bernoulli (to appear)",
+  "abbr": "Bernoulli",
   "year": 2027,
   "month": 0,
   "doi": "",
@@ -88,125 +61,61 @@
   "app": ""
  },
  {
-  "key": "lalanne:hal-05638043",
-  "type": "conference",
+  "key": "gsrodrguezvtores2025animprovedce",
+  "type": "journal",
   "themes": [
    "optimal-transport",
-   "machine-learning",
    "statistics-and-data-science"
   ],
-  "title": "Minimax Private Estimation of Smooth Optimal-Transport Maps",
+  "title": "An improved central limit theorem for the empirical sliced Wasserstein distance",
   "authors": [
-   "Clément Lalanne",
    "David Rodríguez-Vítores",
-   "Franck Iutzeler",
+   "Eustasio del Barrio",
    "Jean-Michel Loubes"
   ],
   "me": [
    false,
    false,
-   false,
    true
   ],
-  "venue": "NeurIPS 2026 - Fortieth Annual Conference on Neural Information Processing Systems",
-  "year": 2026,
-  "month": 12,
+  "venue": "Journal of Multivariate Analysis (to appear)",
+  "abbr": "JMVA",
+  "year": 2027,
+  "month": 0,
   "doi": "",
-  "url": "https://hal.science/hal-05638043",
-  "pdf": "https://hal.science/hal-05638043v1/file/main.pdf",
-  "hal": "https://hal.science/hal-05638043",
-  "arxiv": "",
+  "url": "https://arxiv.org/abs/2503.18831",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "2503.18831",
   "code": "",
   "app": ""
  },
  {
-  "key": "etienne:hal-05725815",
-  "type": "conference",
+  "key": "rodriguezvitores:hal-04923829",
+  "type": "journal",
   "themes": [
-   "evaluation-of-ai"
-  ],
-  "title": "A Methodology to Compare Real and LLM-Simulated Multimodal Interactions: The Case of Gender Bias",
-  "authors": [
-   "Elodie Etienne",
-   "Magalie Ochs",
-   "Jean-Michel Loubes",
-   "Chloé Clavel"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "ICMI '26: Proceedings of the 28th International Conference on Multimodal Interaction",
-  "year": 2026,
-  "month": 10,
-  "doi": "10.1145/3776574.3831157",
-  "url": "https://doi.org/10.1145/3776574.3831157",
-  "pdf": "https://hal.science/hal-05725815v1/file/icmi26-61.pdf",
-  "hal": "https://hal.science/hal-05725815",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "lezane:hal-05775266",
-  "type": "preprint",
-  "themes": [
+   "optimal-transport",
    "machine-learning"
   ],
-  "title": "On the Comparison of Optimizers for Imbalanced Learning",
+  "title": "Learning with Differentially Private Sliced Wasserstein Gradients",
   "authors": [
-   "Clément Lezane",
-   "François Bachoc",
-   "Jérôme Bolte",
+   "David Rodríguez-Vítores",
+   "Clément Lalanne",
    "Jean-Michel Loubes"
   ],
   "me": [
    false,
    false,
-   false,
    true
   ],
-  "venue": "",
+  "venue": "Transactions on Machine Learning Research",
+  "abbr": "TMLR",
   "year": 2026,
-  "month": 10,
+  "month": 6,
   "doi": "",
-  "url": "https://hal.science/hal-05775266",
-  "pdf": "https://hal.science/hal-05775266v1/file/HAL.pdf",
-  "hal": "https://hal.science/hal-05775266",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "ozgunay:hal-05712708",
-  "type": "conference",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning",
-   "industrial-projects"
-  ],
-  "title": "An Explainable GNN Framework for Component-Level Anomaly Diagnosis",
-  "authors": [
-   "Sena Ozgunay",
-   "Louise Travé-Massuyès",
-   "Jean-Michel Loubes",
-   "Raul Sena Ferreira"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "OpenAccess Series in Informatics",
-  "year": 2026,
-  "month": 9,
-  "doi": "10.4230/OASIcs.DX.2026.3",
-  "url": "https://doi.org/10.4230/OASIcs.DX.2026.3",
-  "pdf": "https://hal.science/hal-05712708v2/file/An%20Explainable%20GNN%20Framework%20for%20Component-Level%20Anomaly%20Diagnosis.pdf",
-  "hal": "https://hal.science/hal-05712708",
+  "url": "https://hal.science/hal-04923829",
+  "pdf": "https://hal.science/hal-04923829v3/file/main_TMLR_FINAL.pdf",
+  "hal": "https://hal.science/hal-04923829",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -233,6 +142,7 @@
    false
   ],
   "venue": "npj Digital Medicine",
+  "abbr": "npj Digit. Med.",
   "year": 2026,
   "month": 9,
   "doi": "",
@@ -244,101 +154,6 @@
   "app": ""
  },
  {
-  "key": "gsshilova2026discoveringg",
-  "type": "conference",
-  "themes": [
-   "evaluation-of-ai"
-  ],
-  "title": "Discovering Geometric Biases in 3D Face Reconstruction: A Curvature-Aware Spectral Framework for Fairness Evaluation",
-  "authors": [
-   "Veronika Shilova",
-   "Emmanuel Malherbe",
-   "Giovanni Palma",
-   "Panagiotis-Alexandros Bokaris",
-   "Laurent Risser",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "European Conference on Computer Vision",
-  "year": 2026,
-  "month": 9,
-  "doi": "",
-  "url": "https://link.springer.com/chapter/10.1007/978-3-032-37035-8_30",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "lafargue:hal-05374858",
-  "type": "conference",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning"
-  ],
-  "title": "Exposing the Illusion of Fairness: Auditing Vulnerabilities to Distributional Manipulation Attacks",
-  "authors": [
-   "Valentin Lafargue",
-   "Adriana Laurindo Monteiro",
-   "Emmanuelle Claeys",
-   "Laurent Risser",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "ECML PKDD 2026 - Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
-  "year": 2026,
-  "month": 9,
-  "doi": "",
-  "url": "https://ut-toulouseinp.hal.science/hal-05374858",
-  "pdf": "https://ut-toulouseinp.hal.science/hal-05374858v2/file/full_paper.pdf",
-  "hal": "https://ut-toulouseinp.hal.science/hal-05374858",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsferrere2026minimaxaddit",
-  "type": "preprint",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Minimax Additive Regression under Unknown Dependent Designs",
-  "authors": [
-   "Baptiste Ferrere",
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "arXiv",
-  "year": 2026,
-  "month": 9,
-  "doi": "",
-  "url": "https://arxiv.org/abs/2609.39212",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "2609.39212",
-  "code": "",
-  "app": ""
- },
- {
   "key": "gsmisrai2026usingambient",
   "type": "journal",
   "themes": [
@@ -346,18 +161,27 @@
   ],
   "title": "Using ambient AI in clinical consultations: reframing policy around clinical audit and patient safety",
   "authors": [
-   "Antoine Piau Vincent Misrai",
+   "Vincent Misrai",
    "Alena Bruchon",
-   "Alexis Campan",
-   "Jean-Michel Loubes"
+   "Prokar Dasgupta",
+   "Shahrokh F. Shariat",
+   "Jeremy Y. C. Teoh",
+   "Jean-Michel Loubes",
+   "Sameer Pujari",
+   "Antoine Piau"
   ],
   "me": [
    false,
    false,
    false,
-   true
+   false,
+   false,
+   true,
+   false,
+   false
   ],
   "venue": "Frontiers in Digital Health",
+  "abbr": "Front. Digit. Health",
   "year": 2026,
   "month": 8,
   "doi": "",
@@ -369,72 +193,28 @@
   "app": ""
  },
  {
-  "key": "shilova:hal-05706876",
-  "type": "preprint",
+  "key": "eynard2026souverainete",
+  "type": "journal",
   "themes": [
-   "optimal-transport",
-   "evaluation-of-ai",
-   "machine-learning"
+   "evaluation-of-ai"
   ],
-  "title": "OT-FairBoost: Optimal Transport-Guided Gradient Boosting for Fairness Regularization on Tabular Data",
+  "title": "Souveraineté numérique et intelligence artificielle",
   "authors": [
-   "Veronika Shilova",
-   "Abdoulaye Sakho",
-   "Younes Boumoussou",
-   "Laurent Risser",
-   "Jean-Michel Loubes",
-   "Emmanuel Malherbe"
+   "Jessica Eynard",
+   "Jean-Michel Loubes"
   ],
   "me": [
    false,
-   false,
-   false,
-   false,
-   true,
-   false
+   true
   ],
-  "venue": "",
+  "venue": "Dalloz IP/IT",
+  "abbr": "Dalloz IP/IT",
   "year": 2026,
-  "month": 7,
+  "month": 4,
   "doi": "",
-  "url": "https://hal.science/hal-05706876",
-  "pdf": "https://hal.science/hal-05706876v1/file/Fair_Forests_preprint.pdf",
-  "hal": "https://hal.science/hal-05706876",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "chauvin:hal-05506096",
-  "type": "conference",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning"
-  ],
-  "title": "Token-Efficient Change Detection in LLM APIs",
-  "authors": [
-   "Timothee Chauvin",
-   "Clément Lalanne",
-   "Erwan Le Merrer",
-   "Jean-Michel Loubes",
-   "François Taïani",
-   "Gilles Tredan"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true,
-   false,
-   false
-  ],
-  "venue": "ICML 2026 - 43rd International Conference on Machine Learning",
-  "year": 2026,
-  "month": 7,
-  "doi": "",
-  "url": "https://hal.science/hal-05506096",
-  "pdf": "https://hal.science/hal-05506096v2/file/main.pdf",
-  "hal": "https://hal.science/hal-05506096",
+  "url": "https://picsel.finances.gouv.fr/Default/doc/SYRACUSE_INTERNET/1228526/souverainete-numerique-et-intelligence-artificielle",
+  "pdf": "",
+  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -467,12 +247,434 @@
    true
   ],
   "venue": "International Network for Advanced AI Measurement, Evaluation, and Science",
+  "abbr": "AI Measurement Network",
   "year": 2026,
   "month": 7,
   "doi": "",
   "url": "https://hal.science/hal-05700650",
   "pdf": "https://hal.science/hal-05700650v1/file/main%202.pdf",
   "hal": "https://hal.science/hal-05700650",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "lalanne:hal-05638043",
+  "type": "conference",
+  "themes": [
+   "optimal-transport",
+   "machine-learning",
+   "statistics-and-data-science"
+  ],
+  "title": "Minimax Private Estimation of Smooth Optimal-Transport Maps",
+  "authors": [
+   "Clément Lalanne",
+   "David Rodríguez-Vítores",
+   "Franck Iutzeler",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "NeurIPS 2026 - Fortieth Annual Conference on Neural Information Processing Systems",
+  "abbr": "NeurIPS",
+  "year": 2026,
+  "month": 12,
+  "doi": "",
+  "url": "https://hal.science/hal-05638043",
+  "pdf": "https://hal.science/hal-05638043v1/file/main.pdf",
+  "hal": "https://hal.science/hal-05638043",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "chauvin:hal-05506096",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "Token-Efficient Change Detection in LLM APIs",
+  "authors": [
+   "Timothee Chauvin",
+   "Clément Lalanne",
+   "Erwan Le Merrer",
+   "Jean-Michel Loubes",
+   "François Taïani",
+   "Gilles Tredan"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "venue": "ICML 2026 - 43rd International Conference on Machine Learning",
+  "abbr": "ICML",
+  "year": 2026,
+  "month": 7,
+  "doi": "",
+  "url": "https://hal.science/hal-05506096",
+  "pdf": "https://hal.science/hal-05506096v2/file/main.pdf",
+  "hal": "https://hal.science/hal-05506096",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "mai:hal-05637345",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai"
+  ],
+  "title": "Correcting Overparameterization Effects in Fair Empirical Risk Minimization",
+  "authors": [
+   "Xiaoyi Mai",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   true
+  ],
+  "venue": "ICML 2026 - 43rd International Conference on Machine Learning",
+  "abbr": "ICML",
+  "year": 2026,
+  "month": 5,
+  "doi": "",
+  "url": "https://hal.science/hal-05637345",
+  "pdf": "https://hal.science/hal-05637345v1/file/Fairness_in_High_Dimensions-5.pdf",
+  "hal": "https://hal.science/hal-05637345",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "ferrere:hal-05531600",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning",
+   "statistics-and-data-science"
+  ],
+  "title": "Exact Functional ANOVA Decomposition for Categorical Inputs Models",
+  "authors": [
+   "Baptiste Ferrere",
+   "Nicolas Bousquet",
+   "Fabrice Gamboa",
+   "Jean-Michel Loubes",
+   "Joseph Muré"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "ICML 2026 - 43rd International Conference on Machine Learning (Spotlight)",
+  "abbr": "ICML",
+  "year": 2026,
+  "month": 3,
+  "doi": "",
+  "url": "https://hal.science/hal-05531600",
+  "pdf": "https://hal.science/hal-05531600v1/file/main_paper.pdf",
+  "hal": "https://hal.science/hal-05531600",
+  "arxiv": "2603.02673",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsshilova2026discoveringg",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai"
+  ],
+  "title": "Discovering Geometric Biases in 3D Face Reconstruction: A Curvature-Aware Spectral Framework for Fairness Evaluation",
+  "authors": [
+   "Veronika Shilova",
+   "Emmanuel Malherbe",
+   "Giovanni Palma",
+   "Panagiotis-Alexandros Bokaris",
+   "Laurent Risser",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "European Conference on Computer Vision",
+  "abbr": "ECCV",
+  "year": 2026,
+  "month": 9,
+  "doi": "",
+  "url": "https://link.springer.com/chapter/10.1007/978-3-032-37035-8_30",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "monteiro:hal-05519642",
+  "type": "conference",
+  "themes": [
+   "optimal-transport",
+   "evaluation-of-ai"
+  ],
+  "title": "Evaluating Black-Box Vulnerabilities with Wasserstein-Constrained Data Perturbations",
+  "authors": [
+   "Adriana Laurindo Monteiro",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   true
+  ],
+  "venue": "IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2026)",
+  "abbr": "SaTML",
+  "year": 2026,
+  "month": 3,
+  "doi": "",
+  "url": "https://hal.science/hal-05519642",
+  "pdf": "https://hal.science/hal-05519642v1/file/satml_cameraready.pdf",
+  "hal": "https://hal.science/hal-05519642",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gskejani2026homophilyawa",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "Homophily-aware Supervised Contrastive Counterfactual Augmented Fair Graph Neural Network",
+  "authors": [
+   "Mahdi Tavassoli Kejani",
+   "Fadi Dornaika",
+   "Charlotte Laclau",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2026)",
+  "abbr": "SaTML",
+  "year": 2026,
+  "month": 2,
+  "doi": "",
+  "url": "https://arxiv.org/abs/2604.02342",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "2604.02342",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "lafargue:hal-05374858",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "Exposing the Illusion of Fairness: Auditing Vulnerabilities to Distributional Manipulation Attacks",
+  "authors": [
+   "Valentin Lafargue",
+   "Adriana Laurindo Monteiro",
+   "Emmanuelle Claeys",
+   "Laurent Risser",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "ECML PKDD 2026 - Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
+  "abbr": "ECML PKDD",
+  "year": 2026,
+  "month": 9,
+  "doi": "",
+  "url": "https://ut-toulouseinp.hal.science/hal-05374858",
+  "pdf": "https://ut-toulouseinp.hal.science/hal-05374858v2/file/full_paper.pdf",
+  "hal": "https://ut-toulouseinp.hal.science/hal-05374858",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "etienne:hal-05725815",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai"
+  ],
+  "title": "A Methodology to Compare Real and LLM-Simulated Multimodal Interactions: The Case of Gender Bias",
+  "authors": [
+   "Elodie Etienne",
+   "Magalie Ochs",
+   "Jean-Michel Loubes",
+   "Chloé Clavel"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "ICMI '26: Proceedings of the 28th International Conference on Multimodal Interaction",
+  "abbr": "ICMI",
+  "year": 2026,
+  "month": 10,
+  "doi": "10.1145/3776574.3831157",
+  "url": "https://doi.org/10.1145/3776574.3831157",
+  "pdf": "https://hal.science/hal-05725815v1/file/icmi26-61.pdf",
+  "hal": "https://hal.science/hal-05725815",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "ozgunay:hal-05712708",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning",
+   "industrial-projects"
+  ],
+  "title": "An Explainable GNN Framework for Component-Level Anomaly Diagnosis",
+  "authors": [
+   "Sena Ozgunay",
+   "Louise Travé-Massuyès",
+   "Jean-Michel Loubes",
+   "Raul Sena Ferreira"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "OpenAccess Series in Informatics",
+  "abbr": "OASIcs",
+  "year": 2026,
+  "month": 9,
+  "doi": "10.4230/OASIcs.DX.2026.3",
+  "url": "https://doi.org/10.4230/OASIcs.DX.2026.3",
+  "pdf": "https://hal.science/hal-05712708v2/file/An%20Explainable%20GNN%20Framework%20for%20Component-Level%20Anomaly%20Diagnosis.pdf",
+  "hal": "https://hal.science/hal-05712708",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "lezane:hal-05775266",
+  "type": "preprint",
+  "themes": [
+   "machine-learning"
+  ],
+  "title": "On the Comparison of Optimizers for Imbalanced Learning",
+  "authors": [
+   "Clément Lezane",
+   "François Bachoc",
+   "Jérôme Bolte",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2026,
+  "month": 10,
+  "doi": "",
+  "url": "https://hal.science/hal-05775266",
+  "pdf": "https://hal.science/hal-05775266v1/file/HAL.pdf",
+  "hal": "https://hal.science/hal-05775266",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsferrere2026minimaxaddit",
+  "type": "preprint",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Minimax Additive Regression under Unknown Dependent Designs",
+  "authors": [
+   "Baptiste Ferrere",
+   "Fabrice Gamboa",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "arXiv",
+  "abbr": "Preprint",
+  "year": 2026,
+  "month": 9,
+  "doi": "",
+  "url": "https://arxiv.org/abs/2609.39212",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "2609.39212",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "shilova:hal-05706876",
+  "type": "preprint",
+  "themes": [
+   "optimal-transport",
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "OT-FairBoost: Optimal Transport-Guided Gradient Boosting for Fairness Regularization on Tabular Data",
+  "authors": [
+   "Veronika Shilova",
+   "Abdoulaye Sakho",
+   "Younes Boumoussou",
+   "Laurent Risser",
+   "Jean-Michel Loubes",
+   "Emmanuel Malherbe"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2026,
+  "month": 7,
+  "doi": "",
+  "url": "https://hal.science/hal-05706876",
+  "pdf": "https://hal.science/hal-05706876v1/file/Fair_Forests_preprint.pdf",
+  "hal": "https://hal.science/hal-05706876",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -501,67 +703,13 @@
    false
   ],
   "venue": "",
+  "abbr": "Preprint",
   "year": 2026,
   "month": 6,
   "doi": "",
   "url": "https://hal.science/hal-05642033",
   "pdf": "https://hal.science/hal-05642033v1/file/Bias_Regalia.pdf",
   "hal": "https://hal.science/hal-05642033",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "rodriguezvitores:hal-04923829",
-  "type": "journal",
-  "themes": [
-   "optimal-transport",
-   "machine-learning"
-  ],
-  "title": "Learning with Differentially Private Sliced Wasserstein Gradients",
-  "authors": [
-   "David Rodríguez-Vítores",
-   "Clément Lalanne",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "Transactions on Machine Learning Research",
-  "year": 2026,
-  "month": 6,
-  "doi": "",
-  "url": "https://hal.science/hal-04923829",
-  "pdf": "https://hal.science/hal-04923829v3/file/main_TMLR_FINAL.pdf",
-  "hal": "https://hal.science/hal-04923829",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "mai:hal-05637345",
-  "type": "conference",
-  "themes": [
-   "evaluation-of-ai"
-  ],
-  "title": "Correcting Overparameterization Effects in Fair Empirical Risk Minimization",
-  "authors": [
-   "Xiaoyi Mai",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   true
-  ],
-  "venue": "ICML 2026 - 43rd International Conference on Machine Learning",
-  "year": 2026,
-  "month": 5,
-  "doi": "",
-  "url": "https://hal.science/hal-05637345",
-  "pdf": "https://hal.science/hal-05637345v1/file/Fairness_in_High_Dimensions-5.pdf",
-  "hal": "https://hal.science/hal-05637345",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -587,6 +735,7 @@
    true
   ],
   "venue": "arXiv",
+  "abbr": "Preprint",
   "year": 2026,
   "month": 5,
   "doi": "",
@@ -619,6 +768,7 @@
    true
   ],
   "venue": "",
+  "abbr": "Preprint",
   "year": 2026,
   "month": 4,
   "doi": "",
@@ -626,93 +776,6 @@
   "pdf": "https://hal.science/hal-03095805v4/file/l1_spectralclustering.pdf",
   "hal": "https://hal.science/hal-03095805",
   "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "eynard2026souverainete",
-  "type": "journal",
-  "themes": [
-   "evaluation-of-ai"
-  ],
-  "title": "Souveraineté numérique et intelligence artificielle",
-  "authors": [
-   "Jessica Eynard",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   true
-  ],
-  "venue": "Dalloz IP/IT",
-  "year": 2026,
-  "month": 4,
-  "doi": "",
-  "url": "https://picsel.finances.gouv.fr/Default/doc/SYRACUSE_INTERNET/1228526/souverainete-numerique-et-intelligence-artificielle",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "monteiro:hal-05519642",
-  "type": "conference",
-  "themes": [
-   "optimal-transport",
-   "evaluation-of-ai"
-  ],
-  "title": "Evaluating Black-Box Vulnerabilities with Wasserstein-Constrained Data Perturbations",
-  "authors": [
-   "Adriana Laurindo Monteiro",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   true
-  ],
-  "venue": "IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2026)",
-  "year": 2026,
-  "month": 3,
-  "doi": "",
-  "url": "https://hal.science/hal-05519642",
-  "pdf": "https://hal.science/hal-05519642v1/file/satml_cameraready.pdf",
-  "hal": "https://hal.science/hal-05519642",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "ferrere:hal-05531600",
-  "type": "conference",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning",
-   "statistics-and-data-science"
-  ],
-  "title": "Exact Functional ANOVA Decomposition for Categorical Inputs Models",
-  "authors": [
-   "Baptiste Ferrere",
-   "Nicolas Bousquet",
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes",
-   "Joseph Muré"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "ICML 2026 - 43rd International Conference on Machine Learning (Spotlight)",
-  "year": 2026,
-  "month": 3,
-  "doi": "",
-  "url": "https://hal.science/hal-05531600",
-  "pdf": "https://hal.science/hal-05531600v1/file/main_paper.pdf",
-  "hal": "https://hal.science/hal-05531600",
-  "arxiv": "2603.02673",
   "code": "",
   "app": ""
  },
@@ -738,6 +801,7 @@
    true
   ],
   "venue": "arXiv",
+  "abbr": "Preprint",
   "year": 2026,
   "month": 3,
   "doi": "",
@@ -771,6 +835,7 @@
    false
   ],
   "venue": "",
+  "abbr": "Preprint",
   "year": 2026,
   "month": 2,
   "doi": "",
@@ -804,6 +869,7 @@
    false
   ],
   "venue": "",
+  "abbr": "Preprint",
   "year": 2026,
   "month": 2,
   "doi": "",
@@ -815,17 +881,17 @@
   "app": ""
  },
  {
-  "key": "gskejani2026homophilyawa",
-  "type": "conference",
+  "key": "bachoc:hal-04956911",
+  "type": "journal",
   "themes": [
-   "evaluation-of-ai",
-   "machine-learning"
+   "machine-learning",
+   "statistics-and-data-science"
   ],
-  "title": "Homophily-aware Supervised Contrastive Counterfactual Augmented Fair Graph Neural Network",
+  "title": "Improved learning theory for kernel distribution regression with two-stage sampling",
   "authors": [
-   "Mahdi Tavassoli Kejani",
-   "Fadi Dornaika",
-   "Charlotte Laclau",
+   "François Bachoc",
+   "Louis Béthune",
+   "Alberto González-Sanz",
    "Jean-Michel Loubes"
   ],
   "me": [
@@ -834,14 +900,111 @@
    false,
    true
   ],
-  "venue": "IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2026)",
-  "year": 2026,
-  "month": 2,
+  "venue": "Annals of Statistics",
+  "abbr": "Ann. Statist.",
+  "year": 2025,
+  "month": 0,
   "doi": "",
-  "url": "https://arxiv.org/abs/2604.02342",
+  "url": "https://hal.science/hal-04956911",
+  "pdf": "https://hal.science/hal-04956911v1/file/Arxiv_January_2025.pdf",
+  "hal": "https://hal.science/hal-04956911",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "ilidrissi:hal-04233915",
+  "type": "journal",
+  "themes": [
+   "evaluation-of-ai"
+  ],
+  "title": "Hoeffding decomposition of functions of random dependent variables",
+  "authors": [
+   "Marouane Il Idrissi",
+   "Nicolas Bousquet",
+   "Fabrice Gamboa",
+   "Bertrand Iooss",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "Journal of Multivariate Analysis",
+  "abbr": "JMVA",
+  "year": 2025,
+  "month": 4,
+  "doi": "10.1016/j.jmva.2025.105444",
+  "url": "https://doi.org/10.1016/j.jmva.2025.105444",
+  "pdf": "https://hal.science/hal-04233915v4/file/genANOVA.pdf",
+  "hal": "https://hal.science/hal-04233915",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsariasserna2025matrixvariat",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Matrix‐variate risk measures under Wishart and gamma distributions",
+  "authors": [
+   "María Andrea Arias‐Serna",
+   "Francisco José Caro‐Lopera",
+   "Jean Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "Journal of Corporate Accounting & Finance",
+  "abbr": "J. Corp. Account. Finance",
+  "year": 2025,
+  "month": 1,
+  "doi": "",
+  "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jcaf.22734",
   "pdf": "",
   "hal": "",
-  "arxiv": "2604.02342",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsferrere2025multivariate",
+  "type": "journal",
+  "themes": [
+   "evaluation-of-ai",
+   "statistics-and-data-science"
+  ],
+  "title": "Multivariate Bernoulli Hoeffding Decomposition: From Theory to Sensitivity Analysis",
+  "authors": [
+   "Baptiste Ferrere",
+   "Nicolas Bousquet",
+   "Fabrice Gamboa",
+   "Jean-Michel Loubes",
+   "Joseph Muré"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "stat",
+  "abbr": "Stat",
+  "year": 2025,
+  "month": 11,
+  "doi": "",
+  "url": "https://www.researchgate.net/profile/Nicolas-Bousquet-3/publication/396331255_Explaining_Models_under_Multivariate_Bernoulli_Distribution_via_Hoeffding_Decomposition/links/6939787aa1fd017989069f33/Explaining-Models-under-Multivariate-Bernoulli-Distribution-via-Hoeffding-Decomposition.pdf",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
   "code": "",
   "app": ""
  },
@@ -866,12 +1029,175 @@
    true
   ],
   "venue": "NeurIPS 2025 - Thirty-ninth Annual Conference on Neural Information Processing Systems",
+  "abbr": "NeurIPS",
   "year": 2025,
   "month": 12,
   "doi": "",
   "url": "https://hal.science/hal-05072199",
   "pdf": "https://hal.science/hal-05072199v3/file/HAL_Sept_2026.pdf",
   "hal": "https://hal.science/hal-05072199",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "lalanne:hal-04923578",
+  "type": "conference",
+  "themes": [
+   "optimal-transport",
+   "machine-learning",
+   "statistics-and-data-science"
+  ],
+  "title": "On the Private Estimation of Smooth Transport Maps",
+  "authors": [
+   "Clément Lalanne",
+   "Franck Iutzeler",
+   "Jean-Michel Loubes",
+   "Julien Chhor"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "ICML 2025 - 42nd International Conference on Machine Learning",
+  "abbr": "ICML",
+  "year": 2025,
+  "month": 7,
+  "doi": "",
+  "url": "https://hal.science/hal-04923578",
+  "pdf": "https://hal.science/hal-04923578v1/file/main.pdf",
+  "hal": "https://hal.science/hal-04923578",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "krco:hal-05444953",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "When Mitigating Bias is Unfair: Multiplicity and Arbitrariness in Algorithmic Group Fairness",
+  "authors": [
+   "Nataša Krčo",
+   "Thibault Laugel",
+   "Vincent Grari",
+   "Jean-Michel Loubes",
+   "Marcin Detyniecki"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+  "abbr": "SaTML",
+  "year": 2025,
+  "month": 4,
+  "doi": "10.1109/SaTML64287.2025.00046",
+  "url": "https://doi.org/10.1109/SaTML64287.2025.00046",
+  "pdf": "",
+  "hal": "https://hal.science/hal-05444953",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "lafargue:hal-05374875",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "Fairness is in the details: Face Dataset Auditing",
+  "authors": [
+   "Valentin Lafargue",
+   "Emmanuelle Claeys",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "ECML PKDD: Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
+  "abbr": "ECML PKDD",
+  "year": 2025,
+  "month": 9,
+  "doi": "10.1007/978-3-032-06129-4\\_18",
+  "url": "https://doi.org/10.1007/978-3-032-06129-4\\_18",
+  "pdf": "https://ut-toulouseinp.hal.science/hal-05374875v2/file/978-3-032-06129-4-364-380.pdf",
+  "hal": "https://ut-toulouseinp.hal.science/hal-05374875",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsshilova2025fairnessawar",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai"
+  ],
+  "title": "Fairness-aware grouping for continuous sensitive variables: Application for debiasing face analysis with respect to skin tone",
+  "authors": [
+   "Veronika Shilova",
+   "Emmanuel Malherbe",
+   "Giovanni Palma",
+   "Laurent Risser",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "ECAI 2025: 28th European Conference on Artificial Intelligence 25-30 October 2025, Bologna, Italy-Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025) Proceedings",
+  "abbr": "ECAI",
+  "year": 2025,
+  "month": 0,
+  "doi": "",
+  "url": "https://journals.sagepub.com/doi/abs/10.3233/FAIA251472",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "ozgunay:hal-05002338",
+  "type": "conference",
+  "themes": [
+   "machine-learning",
+   "industrial-projects"
+  ],
+  "title": "Detecting Anomalies Using Graph Neural Networks: A Review",
+  "authors": [
+   "Sena Ozgunay",
+   "Louise Travé-Massuyès",
+   "Jean-Michel Loubes",
+   "Raul Sena Ferreira"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "RJCIA 2025 - 23es Rencontres des Jeunes Chercheurs en Intelligence Artificielle",
+  "abbr": "RJCIA",
+  "year": 2025,
+  "month": 6,
+  "doi": "",
+  "url": "https://hal.science/hal-05002338",
+  "pdf": "https://hal.science/hal-05002338v3/file/GNN_AD_Sena_RJCIA_2025.pdf",
+  "hal": "https://hal.science/hal-05002338",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -894,6 +1220,7 @@
    true
   ],
   "venue": "",
+  "abbr": "Preprint",
   "year": 2025,
   "month": 11,
   "doi": "",
@@ -923,6 +1250,7 @@
    true
   ],
   "venue": "arXiv",
+  "abbr": "Preprint",
   "year": 2025,
   "month": 11,
   "doi": "",
@@ -930,196 +1258,6 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2512.03074",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsferrere2025multivariate",
-  "type": "journal",
-  "themes": [
-   "evaluation-of-ai",
-   "statistics-and-data-science"
-  ],
-  "title": "Multivariate Bernoulli Hoeffding Decomposition: From Theory to Sensitivity Analysis",
-  "authors": [
-   "Baptiste Ferrere",
-   "Nicolas Bousquet",
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes",
-   "Joseph Muré"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "stat",
-  "year": 2025,
-  "month": 11,
-  "doi": "",
-  "url": "https://www.researchgate.net/profile/Nicolas-Bousquet-3/publication/396331255_Explaining_Models_under_Multivariate_Bernoulli_Distribution_via_Hoeffding_Decomposition/links/6939787aa1fd017989069f33/Explaining-Models-under-Multivariate-Bernoulli-Distribution-via-Hoeffding-Decomposition.pdf",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "lafargue:hal-05374875",
-  "type": "conference",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning"
-  ],
-  "title": "Fairness is in the details: Face Dataset Auditing",
-  "authors": [
-   "Valentin Lafargue",
-   "Emmanuelle Claeys",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "ECML PKDD: Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
-  "year": 2025,
-  "month": 9,
-  "doi": "10.1007/978-3-032-06129-4\\_18",
-  "url": "https://doi.org/10.1007/978-3-032-06129-4\\_18",
-  "pdf": "https://ut-toulouseinp.hal.science/hal-05374875v2/file/978-3-032-06129-4-364-380.pdf",
-  "hal": "https://ut-toulouseinp.hal.science/hal-05374875",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "lalanne:hal-04923578",
-  "type": "conference",
-  "themes": [
-   "optimal-transport",
-   "machine-learning",
-   "statistics-and-data-science"
-  ],
-  "title": "On the Private Estimation of Smooth Transport Maps",
-  "authors": [
-   "Clément Lalanne",
-   "Franck Iutzeler",
-   "Jean-Michel Loubes",
-   "Julien Chhor"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "ICML 2025 - 42nd International Conference on Machine Learning",
-  "year": 2025,
-  "month": 7,
-  "doi": "",
-  "url": "https://hal.science/hal-04923578",
-  "pdf": "https://hal.science/hal-04923578v1/file/main.pdf",
-  "hal": "https://hal.science/hal-04923578",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "ozgunay:hal-05002338",
-  "type": "conference",
-  "themes": [
-   "machine-learning",
-   "industrial-projects"
-  ],
-  "title": "Detecting Anomalies Using Graph Neural Networks: A Review",
-  "authors": [
-   "Sena Ozgunay",
-   "Louise Travé-Massuyès",
-   "Jean-Michel Loubes",
-   "Raul Sena Ferreira"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "RJCIA 2025 - 23es Rencontres des Jeunes Chercheurs en Intelligence Artificielle",
-  "year": 2025,
-  "month": 6,
-  "doi": "",
-  "url": "https://hal.science/hal-05002338",
-  "pdf": "https://hal.science/hal-05002338v3/file/GNN_AD_Sena_RJCIA_2025.pdf",
-  "hal": "https://hal.science/hal-05002338",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "ilidrissi:hal-04233915",
-  "type": "journal",
-  "themes": [
-   "evaluation-of-ai"
-  ],
-  "title": "Hoeffding decomposition of functions of random dependent variables",
-  "authors": [
-   "Marouane Il Idrissi",
-   "Nicolas Bousquet",
-   "Fabrice Gamboa",
-   "Bertrand Iooss",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "Journal of Multivariate Analysis",
-  "year": 2025,
-  "month": 4,
-  "doi": "10.1016/j.jmva.2025.105444",
-  "url": "https://doi.org/10.1016/j.jmva.2025.105444",
-  "pdf": "https://hal.science/hal-04233915v4/file/genANOVA.pdf",
-  "hal": "https://hal.science/hal-04233915",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "krco:hal-05444953",
-  "type": "conference",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning"
-  ],
-  "title": "When Mitigating Bias is Unfair: Multiplicity and Arbitrariness in Algorithmic Group Fairness",
-  "authors": [
-   "Nataša Krčo",
-   "Thibault Laugel",
-   "Vincent Grari",
-   "Jean-Michel Loubes",
-   "Marcin Detyniecki"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
-  "year": 2025,
-  "month": 4,
-  "doi": "10.1109/SaTML64287.2025.00046",
-  "url": "https://doi.org/10.1109/SaTML64287.2025.00046",
-  "pdf": "",
-  "hal": "https://hal.science/hal-05444953",
-  "arxiv": "",
   "code": "",
   "app": ""
  },
@@ -1145,6 +1283,7 @@
    true
   ],
   "venue": "arXiv",
+  "abbr": "Preprint",
   "year": 2025,
   "month": 2,
   "doi": "",
@@ -1156,44 +1295,17 @@
   "app": ""
  },
  {
-  "key": "gsariasserna2025matrixvariat",
+  "key": "delara:hal-03216124",
   "type": "journal",
   "themes": [
-   "statistics-and-data-science"
+   "optimal-transport",
+   "machine-learning"
   ],
-  "title": "Matrix‐variate risk measures under Wishart and gamma distributions",
+  "title": "Transport-based Counterfactual Models",
   "authors": [
-   "María Andrea Arias‐Serna",
-   "Francisco José Caro‐Lopera",
-   "Jean Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "Journal of Corporate Accounting & Finance",
-  "year": 2025,
-  "month": 1,
-  "doi": "",
-  "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jcaf.22734",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsshilova2025fairnessawar",
-  "type": "conference",
-  "themes": [
-   "evaluation-of-ai"
-  ],
-  "title": "Fairness-aware grouping for continuous sensitive variables: Application for debiasing face analysis with respect to skin tone",
-  "authors": [
-   "Veronika Shilova",
-   "Emmanuel Malherbe",
-   "Giovanni Palma",
+   "Lucas de Lara",
+   "Alberto González-Sanz",
+   "Nicholas Asher",
    "Laurent Risser",
    "Jean-Michel Loubes"
   ],
@@ -1204,162 +1316,14 @@
    false,
    true
   ],
-  "venue": "ECAI 2025: 28th European Conference on Artificial Intelligence 25-30 October 2025, Bologna, Italy-Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025) Proceedings",
-  "year": 2025,
+  "venue": "Journal of Machine Learning Research",
+  "abbr": "JMLR",
+  "year": 2024,
   "month": 0,
-  "doi": "",
-  "url": "https://journals.sagepub.com/doi/abs/10.3233/FAIA251472",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "bachoc:hal-04956911",
-  "type": "journal",
-  "themes": [
-   "machine-learning",
-   "statistics-and-data-science"
-  ],
-  "title": "Improved learning theory for kernel distribution regression with two-stage sampling",
-  "authors": [
-   "François Bachoc",
-   "Louis Béthune",
-   "Alberto González-Sanz",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "Annals of Statistics",
-  "year": 2025,
-  "month": 0,
-  "doi": "",
-  "url": "https://hal.science/hal-04956911",
-  "pdf": "https://hal.science/hal-04956911v1/file/Arxiv_January_2025.pdf",
-  "hal": "https://hal.science/hal-04956911",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsbachoc2024wassersteins",
-  "type": "preprint",
-  "themes": [
-   "optimal-transport",
-   "statistics-and-data-science"
-  ],
-  "title": "Wasserstein spatial depth",
-  "authors": [
-   "François Bachoc",
-   "Alberto González-Sanz",
-   "Jean-Michel Loubes",
-   "Yisha Yao"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "arXiv",
-  "year": 2024,
-  "month": 11,
-  "doi": "",
-  "url": "https://arxiv.org/abs/2411.10646",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "2411.10646",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsariasserna2024matrixvariat",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Matrix-Variate Value-at-Risk: Generalized Beta and F Distributions",
-  "authors": [
-   "María-Andrea Arias-Serna",
-   "Francisco J Caro-Lopera",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "American Journal of Mathematical and Management Sciences",
-  "year": 2024,
-  "month": 10,
-  "doi": "",
-  "url": "https://www.tandfonline.com/doi/abs/10.1080/01966324.2024.2443831",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "hadiji:hal-02957485",
-  "type": "journal",
-  "themes": [
-   "machine-learning"
-  ],
-  "title": "Diversity-Preserving K-Armed Bandits, Revisited",
-  "authors": [
-   "Hédi Hadiji",
-   "Sébastien Gerchinovitz",
-   "Jean-Michel Loubes",
-   "Gilles Stoltz"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "Transactions on Machine Learning Research",
-  "year": 2024,
-  "month": 7,
-  "doi": "",
-  "url": "https://hal.science/hal-02957485",
-  "pdf": "https://hal.science/hal-02957485v3/file/GHLS24--Diversity-preserving-HAL.pdf",
-  "hal": "https://hal.science/hal-02957485",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "tavassolikejani:hal-04537254",
-  "type": "preprint",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning"
-  ],
-  "title": "Fair Graph Neural Network with Supervised Contrastive Regularization",
-  "authors": [
-   "Mahdi Tavassoli Kejani",
-   "Fadi Dornaika",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "",
-  "year": 2024,
-  "month": 4,
-  "doi": "",
-  "url": "https://hal.science/hal-04537254",
-  "pdf": "https://hal.science/hal-04537254v1/file/paperMFJM.pdf",
-  "hal": "https://hal.science/hal-04537254",
+  "doi": "10.1145/3351095.3372845",
+  "url": "https://doi.org/10.1145/3351095.3372845",
+  "pdf": "https://hal.science/hal-03216124v3/file/delara2022transport.pdf",
+  "hal": "https://hal.science/hal-03216124",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -1383,6 +1347,7 @@
    true
   ],
   "venue": "Bernoulli",
+  "abbr": "Bernoulli",
   "year": 2024,
   "month": 2,
   "doi": "",
@@ -1412,79 +1377,13 @@
    true
   ],
   "venue": "Annales de l'Institut Henri Poincaré (B) Probabilités et Statistiques",
+  "abbr": "Ann. IHP Probab. Stat.",
   "year": 2024,
   "month": 2,
   "doi": "",
   "url": "https://hal.science/hal-03136113",
   "pdf": "https://hal.science/hal-03136113v2/file/CLT_arxiv.pdf",
   "hal": "https://hal.science/hal-03136113",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsbrotto2024debiasingmac",
-  "type": "preprint",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning"
-  ],
-  "title": "Debiasing machine learning models by using weakly supervised learning",
-  "authors": [
-   "Renan DB Brotto",
-   "Jean-Michel Loubes",
-   "Laurent Risser",
-   "Jean-Pierre Florens",
-   "Kenji Nose-Filho",
-   "João MT Romano"
-  ],
-  "me": [
-   false,
-   true,
-   false,
-   false,
-   false,
-   false
-  ],
-  "venue": "arXiv",
-  "year": 2024,
-  "month": 2,
-  "doi": "",
-  "url": "https://arxiv.org/abs/2402.15477",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "2402.15477",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "benesse:hal-03160697",
-  "type": "journal",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning",
-   "statistics-and-data-science"
-  ],
-  "title": "Fairness seen as Global Sensitivity Analysis",
-  "authors": [
-   "Clément Bénesse",
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes",
-   "Thibaut Boissin"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "Machine Learning",
-  "year": 2024,
-  "month": 0,
-  "doi": "10.1007/s10994-022-06202-y",
-  "url": "https://doi.org/10.1007/s10994-022-06202-y",
-  "pdf": "https://hal.science/hal-03160697v2/file/main.pdf",
-  "hal": "https://hal.science/hal-03160697",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -1514,6 +1413,7 @@
    true
   ],
   "venue": "Electronic Journal of Statistics",
+  "abbr": "EJS",
   "year": 2024,
   "month": 0,
   "doi": "10.1214/24-EJS2268",
@@ -1525,49 +1425,79 @@
   "app": ""
  },
  {
-  "key": "delara:hal-03216124",
+  "key": "hadiji:hal-02957485",
   "type": "journal",
   "themes": [
-   "optimal-transport",
    "machine-learning"
   ],
-  "title": "Transport-based Counterfactual Models",
+  "title": "Diversity-Preserving K-Armed Bandits, Revisited",
   "authors": [
-   "Lucas de Lara",
-   "Alberto González-Sanz",
-   "Nicholas Asher",
-   "Laurent Risser",
-   "Jean-Michel Loubes"
+   "Hédi Hadiji",
+   "Sébastien Gerchinovitz",
+   "Jean-Michel Loubes",
+   "Gilles Stoltz"
   ],
   "me": [
    false,
    false,
-   false,
-   false,
-   true
+   true,
+   false
   ],
-  "venue": "Journal of Machine Learning Research",
+  "venue": "Transactions on Machine Learning Research",
+  "abbr": "TMLR",
   "year": 2024,
-  "month": 0,
-  "doi": "10.1145/3351095.3372845",
-  "url": "https://doi.org/10.1145/3351095.3372845",
-  "pdf": "https://hal.science/hal-03216124v3/file/delara2022transport.pdf",
-  "hal": "https://hal.science/hal-03216124",
+  "month": 7,
+  "doi": "",
+  "url": "https://hal.science/hal-02957485",
+  "pdf": "https://hal.science/hal-02957485v3/file/GHLS24--Diversity-preserving-HAL.pdf",
+  "hal": "https://hal.science/hal-02957485",
   "arxiv": "",
   "code": "",
   "app": ""
  },
  {
-  "key": "gsbarrio2023attractionre",
+  "key": "benesse:hal-03160697",
   "type": "journal",
   "themes": [
    "evaluation-of-ai",
-   "machine-learning"
+   "machine-learning",
+   "statistics-and-data-science"
   ],
-  "title": "Attraction-repulsion clustering: a way of promoting diversity linked to demographic parity in fair clustering",
+  "title": "Fairness seen as Global Sensitivity Analysis",
   "authors": [
-   "Eustasio del Barrio",
-   "Hristo Inouzhe",
+   "Clément Bénesse",
+   "Fabrice Gamboa",
+   "Jean-Michel Loubes",
+   "Thibaut Boissin"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "Machine Learning",
+  "abbr": "Mach. Learn.",
+  "year": 2024,
+  "month": 0,
+  "doi": "10.1007/s10994-022-06202-y",
+  "url": "https://doi.org/10.1007/s10994-022-06202-y",
+  "pdf": "https://hal.science/hal-03160697v2/file/main.pdf",
+  "hal": "https://hal.science/hal-03160697",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsariasserna2024matrixvariat",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Matrix-Variate Value-at-Risk: Generalized Beta and F Distributions",
+  "authors": [
+   "María-Andrea Arias-Serna",
+   "Francisco J Caro-Lopera",
    "Jean-Michel Loubes"
   ],
   "me": [
@@ -1575,11 +1505,12 @@
    false,
    true
   ],
-  "venue": "Advances in Data Analysis and Classification",
-  "year": 2023,
-  "month": 12,
+  "venue": "American Journal of Mathematical and Management Sciences",
+  "abbr": "Amer. J. Math. Manag. Sci.",
+  "year": 2024,
+  "month": 10,
   "doi": "",
-  "url": "https://link.springer.com/article/10.1007/s11634-022-00516-4",
+  "url": "https://www.tandfonline.com/doi/abs/10.1080/01966324.2024.2443831",
   "pdf": "",
   "hal": "",
   "arxiv": "",
@@ -1587,93 +1518,100 @@
   "app": ""
  },
  {
-  "key": "risser:hal-04874222",
-  "type": "journal",
+  "key": "gsbachoc2024wassersteins",
+  "type": "preprint",
   "themes": [
-   "machine-learning"
-  ],
-  "title": "Detecting and Processing Unsuspected Sensitive Variables for Robust Machine Learning",
-  "authors": [
-   "Laurent Risser",
-   "Agustin Martin Picard",
-   "Lucas Hervier",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "Algorithms",
-  "year": 2023,
-  "month": 11,
-  "doi": "10.3390/a16110510",
-  "url": "https://doi.org/10.3390/a16110510",
-  "pdf": "",
-  "hal": "https://hal.science/hal-04874222",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "delara:hal-03705992",
-  "type": "journal",
-  "themes": [
-   "optimal-transport"
-  ],
-  "title": "Diffeomorphic Registration using Sinkhorn Divergences",
-  "authors": [
-   "Lucas de Lara",
-   "Alberto González-Sanz",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "SIAM Journal on Imaging Sciences",
-  "year": 2023,
-  "month": 11,
-  "doi": "",
-  "url": "https://hal.science/hal-03705992",
-  "pdf": "https://hal.science/hal-03705992v2/file/revised_preprint.pdf",
-  "hal": "https://hal.science/hal-03705992",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "ilidrissi:hal-03927476",
-  "type": "journal",
-  "themes": [
-   "evaluation-of-ai",
+   "optimal-transport",
    "statistics-and-data-science"
   ],
-  "title": "On the coalitional decomposition of parameters of interest",
+  "title": "Wasserstein spatial depth",
   "authors": [
-   "Marouane Il Idrissi",
-   "Nicolas Bousquet",
-   "Fabrice Gamboa",
-   "Bertrand Iooss",
+   "François Bachoc",
+   "Alberto González-Sanz",
+   "Jean-Michel Loubes",
+   "Yisha Yao"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "arXiv",
+  "abbr": "Preprint",
+  "year": 2024,
+  "month": 11,
+  "doi": "",
+  "url": "https://arxiv.org/abs/2411.10646",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "2411.10646",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "tavassolikejani:hal-04537254",
+  "type": "preprint",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "Fair Graph Neural Network with Supervised Contrastive Regularization",
+  "authors": [
+   "Mahdi Tavassoli Kejani",
+   "Fadi Dornaika",
    "Jean-Michel Loubes"
   ],
   "me": [
    false,
    false,
-   false,
-   false,
    true
   ],
-  "venue": "Comptes Rendus. Mathématique",
-  "year": 2023,
-  "month": 11,
-  "doi": "10.5802/crmath.521",
-  "url": "https://doi.org/10.5802/crmath.521",
-  "pdf": "https://hal.science/hal-03927476v1/file/QoIDecomp2023.pdf",
-  "hal": "https://hal.science/hal-03927476",
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2024,
+  "month": 4,
+  "doi": "",
+  "url": "https://hal.science/hal-04537254",
+  "pdf": "https://hal.science/hal-04537254v1/file/paperMFJM.pdf",
+  "hal": "https://hal.science/hal-04537254",
   "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsbrotto2024debiasingmac",
+  "type": "preprint",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "Debiasing machine learning models by using weakly supervised learning",
+  "authors": [
+   "Renan DB Brotto",
+   "Jean-Michel Loubes",
+   "Laurent Risser",
+   "Jean-Pierre Florens",
+   "Kenji Nose-Filho",
+   "João MT Romano"
+  ],
+  "me": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "venue": "arXiv",
+  "abbr": "Preprint",
+  "year": 2024,
+  "month": 2,
+  "doi": "",
+  "url": "https://arxiv.org/abs/2402.15477",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "2402.15477",
   "code": "",
   "app": ""
  },
@@ -1698,6 +1636,7 @@
    false
   ],
   "venue": "SIAM Journal on Mathematics of Data Science",
+  "abbr": "SIMODS",
   "year": 2023,
   "month": 9,
   "doi": "",
@@ -1731,6 +1670,7 @@
    false
   ],
   "venue": "Information and Inference: A Journal of the IMA",
+  "abbr": "Inf. Inference",
   "year": 2023,
   "month": 9,
   "doi": "",
@@ -1742,64 +1682,34 @@
   "app": ""
  },
  {
-  "key": "gstodo2023counterfactu",
-  "type": "conference",
-  "themes": [
-   "evaluation-of-ai"
-  ],
-  "title": "Counterfactual explanation for multivariate times series using a contrastive variational autoencoder",
-  "authors": [
-   "William Todo",
-   "Merwann Selmani",
-   "Béatrice Laurent",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
-  "year": 2023,
-  "month": 6,
-  "doi": "",
-  "url": "https://ieeexplore.ieee.org/abstract/document/10095789/",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsjourdan2023cockatielcon",
+  "key": "gsperezsuay2023fairkernelre",
   "type": "journal",
   "themes": [
    "evaluation-of-ai",
-   "machine-learning"
+   "machine-learning",
+   "statistics-and-data-science"
   ],
-  "title": "COCKATIEL: COntinuous Concept ranKed ATtribution with Interpretable ELements for explaining neural net classifiers on NLP tasks",
+  "title": "Fair kernel regression through cross-covariance operators",
   "authors": [
-   "Fanny Jourdan",
-   "Agustin Picard",
-   "Thomas Fel",
-   "Laurent Risser",
-   "Jean Michel Loubes",
-   "Nicholas Asher"
+   "Adrian Perez-Suay",
+   "Paula Gordaliza",
+   "Jean-Michel Loubes",
+   "Dino Sejdinovic",
+   "Gustau Camps-Valls"
   ],
   "me": [
    false,
    false,
-   false,
-   false,
    true,
+   false,
    false
   ],
-  "venue": "Findings of the Association for Computational Linguistics: ACL",
+  "venue": "Transactions on Machine Learning Research",
+  "abbr": "TMLR",
   "year": 2023,
-  "month": 5,
+  "month": 0,
   "doi": "",
-  "url": "https://aclanthology.org/2023.findings-acl.317/",
+  "url": "https://openreview.net/pdf?id=MyQ1e1VQQ3",
   "pdf": "",
   "hal": "",
   "arxiv": "",
@@ -1807,67 +1717,94 @@
   "app": ""
  },
  {
-  "key": "bachoc:hal-03981114",
-  "type": "conference",
+  "key": "delara:hal-03705992",
+  "type": "journal",
   "themes": [
-   "optimal-transport",
-   "machine-learning",
-   "statistics-and-data-science"
+   "optimal-transport"
   ],
-  "title": "Gaussian Processes on Distributions based on Regularized Optimal Transport",
+  "title": "Diffeomorphic Registration using Sinkhorn Divergences",
   "authors": [
-   "François Bachoc",
-   "Louis Béthune",
+   "Lucas de Lara",
    "Alberto González-Sanz",
    "Jean-Michel Loubes"
   ],
   "me": [
    false,
    false,
-   false,
    true
   ],
-  "venue": "26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)",
+  "venue": "SIAM Journal on Imaging Sciences",
+  "abbr": "SIIMS",
   "year": 2023,
-  "month": 4,
-  "doi": "10.48550/arXiv.2210.06574",
-  "url": "https://doi.org/10.48550/arXiv.2210.06574",
-  "pdf": "",
-  "hal": "https://hal.science/hal-03981114",
+  "month": 11,
+  "doi": "",
+  "url": "https://hal.science/hal-03705992",
+  "pdf": "https://hal.science/hal-03705992v2/file/revised_preprint.pdf",
+  "hal": "https://hal.science/hal-03705992",
   "arxiv": "",
   "code": "",
   "app": ""
  },
  {
-  "key": "jourdan:hal-04829589",
+  "key": "ilidrissi:hal-03927476",
   "type": "journal",
   "themes": [
-   "optimal-transport",
    "evaluation-of-ai",
-   "machine-learning"
+   "statistics-and-data-science"
   ],
-  "title": "How Optimal Transport Can Tackle Gender Biases in Multi-Class Neural Network Classifiers for Job Recommendations",
+  "title": "On the coalitional decomposition of parameters of interest",
   "authors": [
-   "Fanny Jourdan",
-   "Titon Tshiongo Kaninku",
-   "Nicholas Asher",
-   "Jean-Michel Loubes",
-   "Laurent Risser"
+   "Marouane Il Idrissi",
+   "Nicolas Bousquet",
+   "Fabrice Gamboa",
+   "Bertrand Iooss",
+   "Jean-Michel Loubes"
   ],
   "me": [
    false,
    false,
    false,
-   true,
-   false
+   false,
+   true
   ],
-  "venue": "Algorithms",
+  "venue": "Comptes Rendus. Mathématique",
+  "abbr": "C. R. Math.",
   "year": 2023,
-  "month": 3,
-  "doi": "10.3390/a16030174",
-  "url": "https://doi.org/10.3390/a16030174",
-  "pdf": "https://hal.science/hal-04829589v1/file/algorithms-16-00174-v2-1.pdf",
-  "hal": "https://hal.science/hal-04829589",
+  "month": 11,
+  "doi": "10.5802/crmath.521",
+  "url": "https://doi.org/10.5802/crmath.521",
+  "pdf": "https://hal.science/hal-03927476v1/file/QoIDecomp2023.pdf",
+  "hal": "https://hal.science/hal-03927476",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsbarrio2023attractionre",
+  "type": "journal",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "Attraction-repulsion clustering: a way of promoting diversity linked to demographic parity in fair clustering",
+  "authors": [
+   "Eustasio del Barrio",
+   "Hristo Inouzhe",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "Advances in Data Analysis and Classification",
+  "abbr": "Adv. Data Anal. Classif.",
+  "year": 2023,
+  "month": 12,
+  "doi": "",
+  "url": "https://link.springer.com/article/10.1007/s11634-022-00516-4",
+  "pdf": "",
+  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -1926,12 +1863,210 @@
    false
   ],
   "venue": "BMC Microbiology",
+  "abbr": "BMC Microbiol.",
   "year": 2023,
   "month": 1,
   "doi": "10.1186/s12866-023-02774-4",
   "url": "https://doi.org/10.1186/s12866-023-02774-4",
   "pdf": "https://hal.science/hal-04951093v1/file/Champion_2023.pdf",
   "hal": "https://hal.science/hal-04951093",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "risser:hal-04874222",
+  "type": "journal",
+  "themes": [
+   "machine-learning"
+  ],
+  "title": "Detecting and Processing Unsuspected Sensitive Variables for Robust Machine Learning",
+  "authors": [
+   "Laurent Risser",
+   "Agustin Martin Picard",
+   "Lucas Hervier",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "Algorithms",
+  "abbr": "Algorithms",
+  "year": 2023,
+  "month": 11,
+  "doi": "10.3390/a16110510",
+  "url": "https://doi.org/10.3390/a16110510",
+  "pdf": "",
+  "hal": "https://hal.science/hal-04874222",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "jourdan:hal-04829589",
+  "type": "journal",
+  "themes": [
+   "optimal-transport",
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "How Optimal Transport Can Tackle Gender Biases in Multi-Class Neural Network Classifiers for Job Recommendations",
+  "authors": [
+   "Fanny Jourdan",
+   "Titon Tshiongo Kaninku",
+   "Nicholas Asher",
+   "Jean-Michel Loubes",
+   "Laurent Risser"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "Algorithms",
+  "abbr": "Algorithms",
+  "year": 2023,
+  "month": 3,
+  "doi": "10.3390/a16030174",
+  "url": "https://doi.org/10.3390/a16030174",
+  "pdf": "https://hal.science/hal-04829589v1/file/algorithms-16-00174-v2-1.pdf",
+  "hal": "https://hal.science/hal-04829589",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsbesse2023chapitre23li",
+  "type": "journal",
+  "themes": [
+   "evaluation-of-ai"
+  ],
+  "title": "Chapitre 23-L’IA du quotidien peut-elle être éthique? Loyauté des algorithmes d'apprentissage automatique",
+  "authors": [
+   "Philippe Besse",
+   "Céline Castets-Renard",
+   "Aurélien Garivier",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "Statistique et enseignement/Statistique et société",
+  "abbr": "Stat. Soc.",
+  "year": 2023,
+  "month": 0,
+  "doi": "",
+  "url": "https://www.persee.fr/doc/staso_1950-2451_2023_ant_1_1_1423",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsjourdan2023cockatielcon",
+  "type": "journal",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "COCKATIEL: COntinuous Concept ranKed ATtribution with Interpretable ELements for explaining neural net classifiers on NLP tasks",
+  "authors": [
+   "Fanny Jourdan",
+   "Agustin Picard",
+   "Thomas Fel",
+   "Laurent Risser",
+   "Jean Michel Loubes",
+   "Nicholas Asher"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "Findings of the Association for Computational Linguistics: ACL",
+  "abbr": "ACL Findings",
+  "year": 2023,
+  "month": 5,
+  "doi": "",
+  "url": "https://aclanthology.org/2023.findings-acl.317/",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "bachoc:hal-03981114",
+  "type": "conference",
+  "themes": [
+   "optimal-transport",
+   "machine-learning",
+   "statistics-and-data-science"
+  ],
+  "title": "Gaussian Processes on Distributions based on Regularized Optimal Transport",
+  "authors": [
+   "François Bachoc",
+   "Louis Béthune",
+   "Alberto González-Sanz",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)",
+  "abbr": "AISTATS",
+  "year": 2023,
+  "month": 4,
+  "doi": "10.48550/arXiv.2210.06574",
+  "url": "https://doi.org/10.48550/arXiv.2210.06574",
+  "pdf": "",
+  "hal": "https://hal.science/hal-03981114",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gstodo2023counterfactu",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai"
+  ],
+  "title": "Counterfactual explanation for multivariate times series using a contrastive variational autoencoder",
+  "authors": [
+   "William Todo",
+   "Merwann Selmani",
+   "Béatrice Laurent",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+  "abbr": "ICASSP",
+  "year": 2023,
+  "month": 6,
+  "doi": "",
+  "url": "https://ieeexplore.ieee.org/abstract/document/10095789/",
+  "pdf": "",
+  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -1960,6 +2095,7 @@
    false
   ],
   "venue": "EWAF",
+  "abbr": "EWAF",
   "year": 2023,
   "month": 0,
   "doi": "",
@@ -1971,174 +2107,47 @@
   "app": ""
  },
  {
-  "key": "gsbesse2023chapitre23li",
+  "key": "lamweil:hal-02993462",
   "type": "journal",
   "themes": [
-   "evaluation-of-ai"
+   "statistics-and-data-science"
   ],
-  "title": "Chapitre 23-L’IA du quotidien peut-elle être éthique? Loyauté des algorithmes d'apprentissage automatique",
+  "title": "Minimax optimal goodness-of-fit testing for densities and multinomials under a local differential privacy constraint",
   "authors": [
-   "Philippe Besse",
-   "Céline Castets-Renard",
-   "Aurélien Garivier",
+   "Joseph Lam-Weil",
+   "Béatrice Laurent",
    "Jean-Michel Loubes"
   ],
   "me": [
    false,
    false,
-   false,
    true
   ],
-  "venue": "Statistique et enseignement/Statistique et société",
-  "year": 2023,
-  "month": 0,
-  "doi": "",
-  "url": "https://www.persee.fr/doc/staso_1950-2451_2023_ant_1_1_1423",
-  "pdf": "",
-  "hal": "",
+  "venue": "Bernoulli",
+  "abbr": "Bernoulli",
+  "year": 2022,
+  "month": 2,
+  "doi": "10.3150/21-BEJ1358",
+  "url": "https://doi.org/10.3150/21-BEJ1358",
+  "pdf": "https://hal.science/hal-02993462v1/file/main-both.pdf",
+  "hal": "https://hal.science/hal-02993462",
   "arxiv": "",
   "code": "",
   "app": ""
  },
  {
-  "key": "gsperezsuay2023fairkernelre",
+  "key": "gsfradi2022nonparametri",
   "type": "journal",
   "themes": [
-   "evaluation-of-ai",
    "machine-learning",
    "statistics-and-data-science"
   ],
-  "title": "Fair kernel regression through cross-covariance operators",
+  "title": "Nonparametric Bayesian regression and classification on manifolds, with applications to 3D cochlear shapes",
   "authors": [
-   "Adrian Perez-Suay",
-   "Paula Gordaliza",
-   "Jean-Michel Loubes",
-   "Dino Sejdinovic",
-   "Gustau Camps-Valls"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false,
-   false
-  ],
-  "venue": "Transactions on Machine Learning Research",
-  "year": 2023,
-  "month": 0,
-  "doi": "",
-  "url": "https://openreview.net/pdf?id=MyQ1e1VQQ3",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gscentorrino2022fairnessinma",
-  "type": "journal",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning"
-  ],
-  "title": "Fairness in machine learning and econometrics",
-  "authors": [
-   "Samuele Centorrino",
-   "Jean-Pierre Florens",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "Econometrics with machine learning",
-  "year": 2022,
-  "month": 9,
-  "doi": "",
-  "url": "https://link.springer.com/chapter/10.1007/978-3-031-15149-1_7",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsariasserna2022multivariate",
-  "type": "journal",
-  "themes": [
-   "optimal-transport",
-   "statistics-and-data-science"
-  ],
-  "title": "Multi-Variate Risk Measures under Wasserstein Barycenter",
-  "authors": [
-   "M Andrea Arias-Serna",
-   "Jean Michel Loubes",
-   "Francisco J Caro-Lopera"
-  ],
-  "me": [
-   false,
-   true,
-   false
-  ],
-  "venue": "Risks",
-  "year": 2022,
-  "month": 9,
-  "doi": "",
-  "url": "https://www.mdpi.com/2227-9091/10/9/180",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "picard:hal-03617649",
-  "type": "conference",
-  "themes": [
-   "machine-learning"
-  ],
-  "title": "Leveraging Influence Functions for Dataset Exploration and Cleaning",
-  "authors": [
-   "Agustin Martin Picard",
-   "David Vigouroux",
-   "Petr Zamolodtchikov",
-   "Quentin Vincenot",
-   "Jean-Michel Loubes",
-   "Edouard Pauwels"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "11th European Congress Embedded Real Time Systems (ERTS 2022)",
-  "year": 2022,
-  "month": 6,
-  "doi": "",
-  "url": "https://hal.science/hal-03617649",
-  "pdf": "https://hal.science/hal-03617649v1/file/Leveraging_Influence_Functions_for_Dataset_Exploration_and_Cleaning_finalV2.pdf",
-  "hal": "https://hal.science/hal-03617649",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "ilidrissi:hal-03597059",
-  "type": "conference",
-  "themes": [
-   "optimal-transport",
-   "statistics-and-data-science"
-  ],
-  "title": "Projection de mesures de probabilité sous contraintes de quantile par distance de Wasserstein et approximation monotone polynomiale",
-  "authors": [
-   "Marouane Il Idrissi",
-   "Nicolas Bousquet",
-   "Fabrice Gamboa",
-   "Bertrand Iooss",
+   "Anis Fradi",
+   "Chafik Samir",
+   "José Braga",
+   "Shantanu H Joshi",
    "Jean-Michel Loubes"
   ],
   "me": [
@@ -2148,45 +2157,12 @@
    false,
    true
   ],
-  "venue": "53èmes Journées de Statistique de la Société Française de Statistique (SFdS)",
+  "venue": "IEEE Transactions on Image Processing",
+  "abbr": "IEEE Trans. IP",
   "year": 2022,
-  "month": 6,
+  "month": 3,
   "doi": "",
-  "url": "https://hal.science/hal-03597059",
-  "pdf": "https://hal.science/hal-03597059v1/file/abstractJDS2022_MIL_preprint.pdf",
-  "hal": "https://hal.science/hal-03597059",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsbesse2022asurveyofbia",
-  "type": "journal",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning",
-   "statistics-and-data-science"
-  ],
-  "title": "A survey of bias in machine learning through the prism of statistical parity",
-  "authors": [
-   "Philippe Besse",
-   "Eustasio del Barrio",
-   "Paula Gordaliza",
-   "Jean-Michel Loubes",
-   "Laurent Risser"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "The American Statistician",
-  "year": 2022,
-  "month": 4,
-  "doi": "",
-  "url": "https://www.tandfonline.com/doi/abs/10.1080/00031305.2021.1952897",
+  "url": "https://ieeexplore.ieee.org/abstract/document/9740022/",
   "pdf": "",
   "hal": "",
   "arxiv": "",
@@ -2215,6 +2191,7 @@
    true
   ],
   "venue": "Journal of Mathematical Imaging and Vision",
+  "abbr": "J. Math. Imaging Vis.",
   "year": 2022,
   "month": 4,
   "doi": "10.1007/s10851-022-01090-2",
@@ -2257,6 +2234,7 @@
    false
   ],
   "venue": "The Journal of Infection",
+  "abbr": "J. Infect.",
   "year": 2022,
   "month": 3,
   "doi": "",
@@ -2268,18 +2246,148 @@
   "app": ""
  },
  {
-  "key": "gsfradi2022nonparametri",
+  "key": "gsbesse2022asurveyofbia",
   "type": "journal",
   "themes": [
+   "evaluation-of-ai",
    "machine-learning",
    "statistics-and-data-science"
   ],
-  "title": "Nonparametric Bayesian regression and classification on manifolds, with applications to 3D cochlear shapes",
+  "title": "A survey of bias in machine learning through the prism of statistical parity",
   "authors": [
-   "Anis Fradi",
-   "Chafik Samir",
-   "José Braga",
-   "Shantanu H Joshi",
+   "Philippe Besse",
+   "Eustasio del Barrio",
+   "Paula Gordaliza",
+   "Jean-Michel Loubes",
+   "Laurent Risser"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "The American Statistician",
+  "abbr": "Amer. Statist.",
+  "year": 2022,
+  "month": 4,
+  "doi": "",
+  "url": "https://www.tandfonline.com/doi/abs/10.1080/00031305.2021.1952897",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsariasserna2022multivariate",
+  "type": "journal",
+  "themes": [
+   "optimal-transport",
+   "statistics-and-data-science"
+  ],
+  "title": "Multi-Variate Risk Measures under Wasserstein Barycenter",
+  "authors": [
+   "M Andrea Arias-Serna",
+   "Jean Michel Loubes",
+   "Francisco J Caro-Lopera"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "Risks",
+  "abbr": "Risks",
+  "year": 2022,
+  "month": 9,
+  "doi": "",
+  "url": "https://www.mdpi.com/2227-9091/10/9/180",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gscentorrino2022fairnessinma",
+  "type": "journal",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "Fairness in machine learning and econometrics",
+  "authors": [
+   "Samuele Centorrino",
+   "Jean-Pierre Florens",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "Econometrics with machine learning",
+  "abbr": "Book chapter",
+  "year": 2022,
+  "month": 9,
+  "doi": "",
+  "url": "https://link.springer.com/chapter/10.1007/978-3-031-15149-1_7",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "picard:hal-03617649",
+  "type": "conference",
+  "themes": [
+   "machine-learning"
+  ],
+  "title": "Leveraging Influence Functions for Dataset Exploration and Cleaning",
+  "authors": [
+   "Agustin Martin Picard",
+   "David Vigouroux",
+   "Petr Zamolodtchikov",
+   "Quentin Vincenot",
+   "Jean-Michel Loubes",
+   "Edouard Pauwels"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "11th European Congress Embedded Real Time Systems (ERTS 2022)",
+  "abbr": "ERTS",
+  "year": 2022,
+  "month": 6,
+  "doi": "",
+  "url": "https://hal.science/hal-03617649",
+  "pdf": "https://hal.science/hal-03617649v1/file/Leveraging_Influence_Functions_for_Dataset_Exploration_and_Cleaning_finalV2.pdf",
+  "hal": "https://hal.science/hal-03617649",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "ilidrissi:hal-03597059",
+  "type": "conference",
+  "themes": [
+   "optimal-transport",
+   "statistics-and-data-science"
+  ],
+  "title": "Projection de mesures de probabilité sous contraintes de quantile par distance de Wasserstein et approximation monotone polynomiale",
+  "authors": [
+   "Marouane Il Idrissi",
+   "Nicolas Bousquet",
+   "Fabrice Gamboa",
+   "Bertrand Iooss",
    "Jean-Michel Loubes"
   ],
   "me": [
@@ -2289,13 +2397,14 @@
    false,
    true
   ],
-  "venue": "IEEE Transactions on Image Processing",
+  "venue": "53èmes Journées de Statistique de la Société Française de Statistique (SFdS)",
+  "abbr": "JdS",
   "year": 2022,
-  "month": 3,
+  "month": 6,
   "doi": "",
-  "url": "https://ieeexplore.ieee.org/abstract/document/9740022/",
-  "pdf": "",
-  "hal": "",
+  "url": "https://hal.science/hal-03597059",
+  "pdf": "https://hal.science/hal-03597059v1/file/abstractJDS2022_MIL_preprint.pdf",
+  "hal": "https://hal.science/hal-03597059",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -2321,6 +2430,7 @@
    true
   ],
   "venue": "",
+  "abbr": "Preprint",
   "year": 2022,
   "month": 2,
   "doi": "",
@@ -2332,29 +2442,101 @@
   "app": ""
  },
  {
-  "key": "lamweil:hal-02993462",
+  "key": "fradi:hal-02967770",
   "type": "journal",
   "themes": [
+   "machine-learning",
    "statistics-and-data-science"
   ],
-  "title": "Minimax optimal goodness-of-fit testing for densities and multinomials under a local differential privacy constraint",
+  "title": "Bayesian Regression and Classification Using Gaussian Process Priors Indexed by Probability Density Functions",
   "authors": [
-   "Joseph Lam-Weil",
-   "Béatrice Laurent",
+   "Anis Fradi",
+   "Y. Feunteun",
+   "Chafik Samir",
+   "M. Bakloul",
+   "François Bachoc",
    "Jean-Michel Loubes"
   ],
   "me": [
    false,
    false,
+   false,
+   false,
+   false,
    true
   ],
-  "venue": "Bernoulli",
-  "year": 2022,
+  "venue": "Information Sciences",
+  "abbr": "Inf. Sci.",
+  "year": 2021,
   "month": 2,
-  "doi": "10.3150/21-BEJ1358",
-  "url": "https://doi.org/10.3150/21-BEJ1358",
-  "pdf": "https://hal.science/hal-02993462v1/file/main-both.pdf",
-  "hal": "https://hal.science/hal-02993462",
+  "doi": "10.1016/j.ins.2020.09.027",
+  "url": "https://doi.org/10.1016/j.ins.2020.09.027",
+  "pdf": "https://hal.science/hal-02967770v1/file/S0020025520309373.pdf",
+  "hal": "https://hal.science/hal-02967770",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsdimeglio2021sideeffectof",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Side effect of a 6 pm curfew for preventing the spread of SARS-CoV-2: A modeling study from Toulouse, France",
+  "authors": [
+   "Chloé Dimeglio",
+   "Marcel Miedougé",
+   "Jean-Michel Loubes",
+   "Jean-Michel Mansuy",
+   "Jacques Izopet"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "venue": "Journal of Infection",
+  "abbr": "J. Infect.",
+  "year": 2021,
+  "month": 5,
+  "doi": "",
+  "url": "https://www.sciencedirect.com/science/article/pii/S016344532100044X",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsdimeglio2021quantifyingt",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Quantifying the impact of public health protection measures on the spread of SARS-CoV-2",
+  "authors": [
+   "Chloe Dimeglio",
+   "Jean-Michel Loubes",
+   "Jean-Michel Mansuy",
+   "Jacques Izopet"
+  ],
+  "me": [
+   false,
+   true,
+   false,
+   false
+  ],
+  "venue": "Journal of Infection",
+  "abbr": "J. Infect.",
+  "year": 2021,
+  "month": 3,
+  "doi": "",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0163445320306861",
+  "pdf": "",
+  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -2381,47 +2563,13 @@
    false
   ],
   "venue": "Reviews in Medical Virology",
+  "abbr": "Rev. Med. Virol.",
   "year": 2021,
   "month": 9,
   "doi": "",
   "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rmv.2224",
   "pdf": "",
   "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "serrurier:hal-03033400",
-  "type": "conference",
-  "themes": [
-   "optimal-transport",
-   "machine-learning"
-  ],
-  "title": "Achieving robustness in classification using optimal transport with hinge regularization",
-  "authors": [
-   "Mathieu Serrurier",
-   "Franck Mamalet",
-   "Alberto González-Sanz",
-   "Thibaut Boissin",
-   "Jean-Michel Loubes",
-   "Eustasio del Barrio"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "Conference on Computer Vision and Pattern Recognition",
-  "year": 2021,
-  "month": 6,
-  "doi": "10.1109/CVPR46437.2021.00057",
-  "url": "https://doi.org/10.1109/CVPR46437.2021.00057",
-  "pdf": "",
-  "hal": "https://hal.science/hal-03033400",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -2460,44 +2608,13 @@
    false
   ],
   "venue": "Viruses",
+  "abbr": "Viruses",
   "year": 2021,
   "month": 5,
   "doi": "10.3390/v13050898",
   "url": "https://doi.org/10.3390/v13050898",
   "pdf": "https://hal.inrae.fr/hal-03739146v1/file/Dimeglio_2021.pdf",
   "hal": "https://hal.inrae.fr/hal-03739146",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsdimeglio2021sideeffectof",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Side effect of a 6 pm curfew for preventing the spread of SARS-CoV-2: A modeling study from Toulouse, France",
-  "authors": [
-   "Chloé Dimeglio",
-   "Marcel Miedougé",
-   "Jean-Michel Loubes",
-   "Jean-Michel Mansuy",
-   "Jacques Izopet"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false,
-   false
-  ],
-  "venue": "Journal of Infection",
-  "year": 2021,
-  "month": 5,
-  "doi": "",
-  "url": "https://www.sciencedirect.com/science/article/pii/S016344532100044X",
-  "pdf": "",
-  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -2520,106 +2637,13 @@
    true
   ],
   "venue": "Journal of Risk",
+  "abbr": "J. Risk",
   "year": 2021,
   "month": 4,
   "doi": "",
   "url": "https://www.researchgate.net/profile/Andrea-Arias-15/publication/356174531_Risk_measures_a_generalization_from_the_univariate_to_the_matrix-variate/links/618ea1ec61f09877208b2422/Risk-measures-a-generalization-from-the-univariate-to-the-matrix-variate.pdf",
   "pdf": "",
   "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsdimeglio2021quantifyingt",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Quantifying the impact of public health protection measures on the spread of SARS-CoV-2",
-  "authors": [
-   "Chloe Dimeglio",
-   "Jean-Michel Loubes",
-   "Jean-Michel Mansuy",
-   "Jacques Izopet"
-  ],
-  "me": [
-   false,
-   true,
-   false,
-   false
-  ],
-  "venue": "Journal of Infection",
-  "year": 2021,
-  "month": 3,
-  "doi": "",
-  "url": "https://www.sciencedirect.com/science/article/pii/S0163445320306861",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "delara:hal-03142788",
-  "type": "preprint",
-  "themes": [
-   "optimal-transport",
-   "machine-learning"
-  ],
-  "title": "A Consistent Extension of Discrete Optimal Transport Maps for Machine Learning Applications",
-  "authors": [
-   "Lucas de Lara",
-   "Alberto González-Sanz",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "",
-  "year": 2021,
-  "month": 2,
-  "doi": "",
-  "url": "https://hal.science/hal-03142788",
-  "pdf": "https://hal.science/hal-03142788v1/file/OTextension.pdf",
-  "hal": "https://hal.science/hal-03142788",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "fradi:hal-02967770",
-  "type": "journal",
-  "themes": [
-   "machine-learning",
-   "statistics-and-data-science"
-  ],
-  "title": "Bayesian Regression and Classification Using Gaussian Process Priors Indexed by Probability Density Functions",
-  "authors": [
-   "Anis Fradi",
-   "Y. Feunteun",
-   "Chafik Samir",
-   "M. Bakloul",
-   "François Bachoc",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "Information Sciences",
-  "year": 2021,
-  "month": 2,
-  "doi": "10.1016/j.ins.2020.09.027",
-  "url": "https://doi.org/10.1016/j.ins.2020.09.027",
-  "pdf": "https://hal.science/hal-02967770v1/file/S0020025520309373.pdf",
-  "hal": "https://hal.science/hal-02967770",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -2646,6 +2670,7 @@
    false
   ],
   "venue": "Algorithms",
+  "abbr": "Algorithms",
   "year": 2021,
   "month": 2,
   "doi": "10.3390/a14020066",
@@ -2672,6 +2697,7 @@
    true
   ],
   "venue": "CLADAG 2021 BOOK OF ABSTRACTS AND SHORT PAPERS: 13th Scientific Meeting of the Classification and Data Analysis Group-Firenze, September 9-11, 2021",
+  "abbr": "CLADAG",
   "year": 2021,
   "month": 0,
   "doi": "",
@@ -2683,48 +2709,52 @@
   "app": ""
  },
  {
-  "key": "delbarrio:hal-02964979",
-  "type": "journal",
+  "key": "serrurier:hal-03033400",
+  "type": "conference",
   "themes": [
-   "optimal-transport"
+   "optimal-transport",
+   "machine-learning"
   ],
-  "title": "optimalFlow : Optimal-transport approach to flow cytometry gating and population matching",
+  "title": "Achieving robustness in classification using optimal transport with hinge regularization",
   "authors": [
-   "Eustasio del Barrio",
-   "Hristo Inouzhe",
+   "Mathieu Serrurier",
+   "Franck Mamalet",
+   "Alberto González-Sanz",
+   "Thibaut Boissin",
    "Jean-Michel Loubes",
-   "Carlos Matrán",
-   "Agustín Mayo-Íscar"
+   "Eustasio del Barrio"
   ],
   "me": [
    false,
    false,
-   true,
    false,
+   false,
+   true,
    false
   ],
-  "venue": "BMC Bioinformatics",
-  "year": 2020,
-  "month": 10,
-  "doi": "10.1186/s12859-020-03795-w",
-  "url": "https://doi.org/10.1186/s12859-020-03795-w",
+  "venue": "Conference on Computer Vision and Pattern Recognition",
+  "abbr": "CVPR",
+  "year": 2021,
+  "month": 6,
+  "doi": "10.1109/CVPR46437.2021.00057",
+  "url": "https://doi.org/10.1109/CVPR46437.2021.00057",
   "pdf": "",
-  "hal": "https://hal.science/hal-02964979",
+  "hal": "https://hal.science/hal-03033400",
   "arxiv": "",
   "code": "",
   "app": ""
  },
  {
-  "key": "delbarrio:hal-02964972",
+  "key": "delara:hal-03142788",
   "type": "preprint",
   "themes": [
-   "evaluation-of-ai",
+   "optimal-transport",
    "machine-learning"
   ],
-  "title": "Review of Mathematical frameworks for Fairness in Machine Learning",
+  "title": "A Consistent Extension of Discrete Optimal Transport Maps for Machine Learning Applications",
   "authors": [
-   "Eustasio del Barrio",
-   "Paula Gordaliza",
+   "Lucas de Lara",
+   "Alberto González-Sanz",
    "Jean-Michel Loubes"
   ],
   "me": [
@@ -2733,13 +2763,80 @@
    true
   ],
   "venue": "",
-  "year": 2020,
-  "month": 10,
+  "abbr": "Preprint",
+  "year": 2021,
+  "month": 2,
   "doi": "",
-  "url": "https://hal.science/hal-02964972",
+  "url": "https://hal.science/hal-03142788",
+  "pdf": "https://hal.science/hal-03142788v1/file/OTextension.pdf",
+  "hal": "https://hal.science/hal-03142788",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "bachoc:hal-01731251",
+  "type": "journal",
+  "themes": [
+   "machine-learning",
+   "statistics-and-data-science"
+  ],
+  "title": "Gaussian field on the symmetric group: Prediction and learning",
+  "authors": [
+   "François Bachoc",
+   "Baptiste Broto",
+   "Fabrice Gamboa",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "Electronic Journal of Statistics",
+  "abbr": "EJS",
+  "year": 2020,
+  "month": 0,
+  "doi": "10.1214/19-EJS1674",
+  "url": "https://doi.org/10.1214/19-EJS1674",
+  "pdf": "https://hal.science/hal-01731251v5/file/permutations_final.pdf",
+  "hal": "https://hal.science/hal-01731251",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsbachoc2020gaussianproc",
+  "type": "journal",
+  "themes": [
+   "optimal-transport",
+   "machine-learning"
+  ],
+  "title": "Gaussian processes with multidimensional distribution inputs via optimal transport and Hilbertian embedding",
+  "authors": [
+   "François Bachoc",
+   "Alexandra Suvorikova",
+   "David Ginsbourger",
+   "Jean-Michel Loubes",
+   "Vladimir Spokoiny"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "Electronic Journal of Statistics",
+  "abbr": "EJS",
+  "year": 2020,
+  "month": 0,
+  "doi": "10.1214/20-EJS1725",
+  "url": "https://doi.org/10.1214/20-EJS1725",
   "pdf": "",
-  "hal": "https://hal.science/hal-02964972",
-  "arxiv": "2001.07864",
+  "hal": "",
+  "arxiv": "",
   "code": "",
   "app": ""
  },
@@ -2766,6 +2863,7 @@
    false
   ],
   "venue": "IEEE Transactions on Big Data",
+  "abbr": "IEEE Trans. Big Data",
   "year": 2020,
   "month": 9,
   "doi": "10.1109/TBDATA.2019.2954831",
@@ -2802,6 +2900,7 @@
    false
   ],
   "venue": "Journal of Infection",
+  "abbr": "J. Infect.",
   "year": 2020,
   "month": 8,
   "doi": "",
@@ -2809,6 +2908,133 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "delbarrio:hal-02964979",
+  "type": "journal",
+  "themes": [
+   "optimal-transport"
+  ],
+  "title": "optimalFlow : Optimal-transport approach to flow cytometry gating and population matching",
+  "authors": [
+   "Eustasio del Barrio",
+   "Hristo Inouzhe",
+   "Jean-Michel Loubes",
+   "Carlos Matrán",
+   "Agustín Mayo-Íscar"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "venue": "BMC Bioinformatics",
+  "abbr": "BMC Bioinform.",
+  "year": 2020,
+  "month": 10,
+  "doi": "10.1186/s12859-020-03795-w",
+  "url": "https://doi.org/10.1186/s12859-020-03795-w",
+  "pdf": "",
+  "hal": "https://hal.science/hal-02964979",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "loubes:hal-04135100",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Rates of convergence in conditional covariance matrix with nonparametric entries estimation",
+  "authors": [
+   "Jean-Michel Loubes",
+   "Clément Marteau",
+   "Maikol Solis"
+  ],
+  "me": [
+   true,
+   false,
+   false
+  ],
+  "venue": "Communications in Statistics - Theory and Methods",
+  "abbr": "Comm. Statist.",
+  "year": 2020,
+  "month": 0,
+  "doi": "10.1080/03610926.2019.1602652",
+  "url": "https://doi.org/10.1080/03610926.2019.1602652",
+  "pdf": "",
+  "hal": "https://hal.science/hal-04135100",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "grimaldi2020profile",
+  "type": "patent",
+  "themes": [
+   "industrial-projects"
+  ],
+  "title": "Method for obtaining the profile of a surface moving in relation to the system",
+  "authors": [
+   "Bastien Grimaldi",
+   "Florian Bremond",
+   "Rémi Cote",
+   "Thierry Bosch",
+   "Francis Bony",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "Michelin, CNRS, Toulouse INP, Université de Toulouse — EP4143505B1 (also FR3109626, US 2023/0168079); filed 2020, granted 2024",
+  "abbr": "Patent",
+  "year": 2020,
+  "month": 0,
+  "doi": "",
+  "url": "https://patents.google.com/patent/US20230168079A1/en",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "delbarrio:hal-02964972",
+  "type": "preprint",
+  "themes": [
+   "evaluation-of-ai",
+   "machine-learning"
+  ],
+  "title": "Review of Mathematical frameworks for Fairness in Machine Learning",
+  "authors": [
+   "Eustasio del Barrio",
+   "Paula Gordaliza",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2020,
+  "month": 10,
+  "doi": "",
+  "url": "https://hal.science/hal-02964972",
+  "pdf": "",
+  "hal": "https://hal.science/hal-02964972",
+  "arxiv": "2001.07864",
   "code": "",
   "app": ""
  },
@@ -2829,6 +3055,7 @@
    true
   ],
   "venue": "arXiv",
+  "abbr": "Preprint",
   "year": 2020,
   "month": 6,
   "doi": "",
@@ -2859,6 +3086,7 @@
    false
   ],
   "venue": "arXiv",
+  "abbr": "Preprint",
   "year": 2020,
   "month": 5,
   "doi": "",
@@ -2891,6 +3119,7 @@
    false
   ],
   "venue": "",
+  "abbr": "Preprint",
   "year": 2020,
   "month": 4,
   "doi": "",
@@ -2902,127 +3131,29 @@
   "app": ""
  },
  {
-  "key": "bachoc:hal-01731251",
-  "type": "journal",
-  "themes": [
-   "machine-learning",
-   "statistics-and-data-science"
-  ],
-  "title": "Gaussian field on the symmetric group: Prediction and learning",
-  "authors": [
-   "François Bachoc",
-   "Baptiste Broto",
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "Electronic Journal of Statistics",
-  "year": 2020,
-  "month": 0,
-  "doi": "10.1214/19-EJS1674",
-  "url": "https://doi.org/10.1214/19-EJS1674",
-  "pdf": "https://hal.science/hal-01731251v5/file/permutations_final.pdf",
-  "hal": "https://hal.science/hal-01731251",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsbachoc2020gaussianproc",
+  "key": "delbarrio:hal-01517192",
   "type": "journal",
   "themes": [
    "optimal-transport",
-   "machine-learning"
+   "statistics-and-data-science"
   ],
-  "title": "Gaussian processes with multidimensional distribution inputs via optimal transport and Hilbertian embedding",
+  "title": "Central Limit Theorem for empirical transportation cost in general dimension",
   "authors": [
-   "François Bachoc",
-   "Alexandra Suvorikova",
-   "David Ginsbourger",
-   "Jean-Michel Loubes",
-   "Vladimir Spokoiny"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "Electronic Journal of Statistics",
-  "year": 2020,
-  "month": 0,
-  "doi": "10.1214/20-EJS1725",
-  "url": "https://doi.org/10.1214/20-EJS1725",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "grimaldi2020profile",
-  "type": "patent",
-  "themes": [
-   "industrial-projects"
-  ],
-  "title": "Method for obtaining the profile of a surface moving in relation to the system",
-  "authors": [
-   "Bastien Grimaldi",
-   "Florian Bremond",
-   "Rémi Cote",
-   "Thierry Bosch",
-   "Francis Bony",
+   "Eustasio del Barrio",
    "Jean-Michel Loubes"
   ],
   "me": [
    false,
-   false,
-   false,
-   false,
-   false,
    true
   ],
-  "venue": "Michelin, CNRS, Toulouse INP, Université de Toulouse — EP4143505B1 (also FR3109626, US 2023/0168079); filed 2020, granted 2024",
-  "year": 2020,
-  "month": 0,
-  "doi": "",
-  "url": "https://patents.google.com/patent/US20230168079A1/en",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "loubes:hal-04135100",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Rates of convergence in conditional covariance matrix with nonparametric entries estimation",
-  "authors": [
-   "Jean-Michel Loubes",
-   "Clément Marteau",
-   "Maikol Solis"
-  ],
-  "me": [
-   true,
-   false,
-   false
-  ],
-  "venue": "Communications in Statistics - Theory and Methods",
-  "year": 2020,
-  "month": 0,
-  "doi": "10.1080/03610926.2019.1602652",
-  "url": "https://doi.org/10.1080/03610926.2019.1602652",
-  "pdf": "",
-  "hal": "https://hal.science/hal-04135100",
+  "venue": "The Annals of Probability",
+  "abbr": "Ann. Probab.",
+  "year": 2019,
+  "month": 3,
+  "doi": "10.1214/18-AOP1275",
+  "url": "https://doi.org/10.1214/18-AOP1275",
+  "pdf": "https://hal.science/hal-01517192v3/file/CLTFinal-Modified.pdf",
+  "hal": "https://hal.science/hal-01517192",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -3048,285 +3179,13 @@
    true
   ],
   "venue": "Information and Inference",
+  "abbr": "Inf. Inference",
   "year": 2019,
   "month": 12,
   "doi": "10.1093/imaiai/iaz016",
   "url": "https://doi.org/10.1093/imaiai/iaz016",
   "pdf": "",
   "hal": "https://hal.science/hal-02963673",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gssamir2019learningagau",
-  "type": "journal",
-  "themes": [
-   "machine-learning"
-  ],
-  "title": "Learning a Gaussian Process Model",
-  "authors": [
-   "Chafik Samir",
-   "Jean-Michel Loubes",
-   "Anne-Françoise Yao¹"
-  ],
-  "me": [
-   false,
-   true,
-   false
-  ],
-  "venue": "PRICAI 2019: Trends in Artificial Intelligence: 16th Pacific Rim International Conference on Artificial Intelligence, Cuvu, Yanuca Island, Fiji, August 26–30, 2019, Proceedings, Part II",
-  "year": 2019,
-  "month": 8,
-  "doi": "",
-  "url": "https://books.google.com/books?hl=en&lr=&id=vMKqDwAAQBAJ&oi=fnd&pg=PA107&dq=info:daY-8S9vATsJ:scholar.google.com&ots=AsPV4PjwnV&sig=UzM_kf8TtocnszU7gSnTJmChwS0",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "samir:hal-02276949",
-  "type": "conference",
-  "themes": [
-   "machine-learning"
-  ],
-  "title": "Learning a Gaussian Process Model on the Riemannian Manifold of Non-decreasing Distribution Functions",
-  "authors": [
-   "Chafik Samir",
-   "Jean-Michel Loubes",
-   "Anne-Françoise Yao",
-   "François Bachoc"
-  ],
-  "me": [
-   false,
-   true,
-   false,
-   false
-  ],
-  "venue": "PRICAI 2019: Trends in Artificial Intelligence. Proceedings, Part II",
-  "year": 2019,
-  "month": 8,
-  "doi": "10.1007/978-3-030-29911-8\\_9",
-  "url": "https://doi.org/10.1007/978-3-030-29911-8\\_9",
-  "pdf": "https://hal.science/hal-02276949v1/file/Chafik_et_al.pdf",
-  "hal": "https://hal.science/hal-02276949",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "risser:hal-02271117",
-  "type": "preprint",
-  "themes": [
-   "optimal-transport",
-   "evaluation-of-ai",
-   "machine-learning"
-  ],
-  "title": "Using Wasserstein-2 regularization to ensure fair decisions with Neural-Network classifiers",
-  "authors": [
-   "Laurent Risser",
-   "Quentin Vincenot",
-   "Nicolas Couellan",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "",
-  "year": 2019,
-  "month": 8,
-  "doi": "",
-  "url": "https://enac.hal.science/hal-02271117",
-  "pdf": "",
-  "hal": "https://enac.hal.science/hal-02271117",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "delbarrio:hal-01806912",
-  "type": "conference",
-  "themes": [
-   "optimal-transport",
-   "evaluation-of-ai"
-  ],
-  "title": "Obtaining fairness using optimal transport theory",
-  "authors": [
-   "Eustasio del Barrio",
-   "Fabrice Gamboa",
-   "Paula Gordaliza",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "ICML 2019",
-  "year": 2019,
-  "month": 6,
-  "doi": "",
-  "url": "https://hal.science/hal-01806912",
-  "pdf": "https://hal.science/hal-01806912v1/file/OTFair_Final.pdf",
-  "hal": "https://hal.science/hal-01806912",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsbarreyre2019statisticalm",
-  "type": "journal",
-  "themes": [
-   "industrial-projects",
-   "statistics-and-data-science"
-  ],
-  "title": "Statistical methods for outlier detection in space telemetries",
-  "authors": [
-   "Clémentine Barreyre",
-   "Loic Boussouf",
-   "Bertrand Cabon",
-   "Béatrice Laurent",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "Space Operations: Inspiring Humankind's Future",
-  "year": 2019,
-  "month": 5,
-  "doi": "",
-  "url": "https://link.springer.com/chapter/10.1007/978-3-030-11536-4_20",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "delbarrio:hal-01517192",
-  "type": "journal",
-  "themes": [
-   "optimal-transport",
-   "statistics-and-data-science"
-  ],
-  "title": "Central Limit Theorem for empirical transportation cost in general dimension",
-  "authors": [
-   "Eustasio del Barrio",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   true
-  ],
-  "venue": "The Annals of Probability",
-  "year": 2019,
-  "month": 3,
-  "doi": "10.1214/18-AOP1275",
-  "url": "https://doi.org/10.1214/18-AOP1275",
-  "pdf": "https://hal.science/hal-01517192v3/file/CLTFinal-Modified.pdf",
-  "hal": "https://hal.science/hal-01517192",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "castetsrenard:hal-02190585",
-  "type": "journal",
-  "themes": [
-   "evaluation-of-ai"
-  ],
-  "title": "Encadrement des risques techniques et juridiques des activités de police prédictive",
-  "authors": [
-   "Céline Castets-Renard",
-   "Philippe Besse",
-   "Jean-Michel Loubes",
-   "Laurent Perrussel"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "Centre des Hautes Etudes du Ministère de l'Intérieur",
-  "year": 2019,
-  "month": 3,
-  "doi": "",
-  "url": "https://hal.science/hal-02190585",
-  "pdf": "https://hal.science/hal-02190585v1/file/Rapport_CHEMI_FINAL.pdf",
-  "hal": "https://hal.science/hal-02190585",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "jabbar:hal-02963677",
-  "type": "journal",
-  "themes": [
-   "machine-learning",
-   "industrial-projects"
-  ],
-  "title": "Conditional Anomaly Detection for Quality and Productivity Improvement of Electronics Manufacturing Systems",
-  "authors": [
-   "Eva Jabbar",
-   "Philippe Besse",
-   "Jean-Michel Loubes",
-   "Christophe Merle"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "Machine Learning, Optimization, and Data Science. LOD 2019",
-  "year": 2019,
-  "month": 1,
-  "doi": "10.1007/978-3-030-37599-7\\_59",
-  "url": "https://doi.org/10.1007/978-3-030-37599-7\\_59",
-  "pdf": "",
-  "hal": "https://hal.science/hal-02963677",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsbesse2019caneverydaya",
-  "type": "journal",
-  "themes": [
-   "evaluation-of-ai",
-   "machine-learning"
-  ],
-  "title": "Can everyday ai be ethical? machine learning algorithm fairness",
-  "authors": [
-   "Philippe Besse",
-   "Céline Castets-Renard",
-   "Aurélien Garivier",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "Machine Learning Algorithm Fairness (May 20, 2018). Statistiques et Société",
-  "year": 2019,
-  "month": 0,
-  "doi": "",
-  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3391288",
-  "pdf": "",
-  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -3352,6 +3211,7 @@
    true
   ],
   "venue": "Journal of Multivariate Analysis",
+  "abbr": "JMVA",
   "year": 2019,
   "month": 0,
   "doi": "10.1016/j.jmva.2018.09.014",
@@ -3394,6 +3254,7 @@
    false
   ],
   "venue": "Scientific Reports",
+  "abbr": "Sci. Rep.",
   "year": 2019,
   "month": 0,
   "doi": "10.1038/s41598-019-47433-9",
@@ -3405,30 +3266,222 @@
   "app": ""
  },
  {
-  "key": "gsserrurier2019fairnesswith",
-  "type": "preprint",
+  "key": "gsbesse2019caneverydaya",
+  "type": "journal",
   "themes": [
-   "optimal-transport",
-   "evaluation-of-ai"
+   "evaluation-of-ai",
+   "machine-learning"
   ],
-  "title": "Fairness with wasserstein adversarial networks",
+  "title": "Can everyday ai be ethical? machine learning algorithm fairness",
   "authors": [
-   "Mathieu Serrurier",
+   "Philippe Besse",
+   "Céline Castets-Renard",
+   "Aurélien Garivier",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "Machine Learning Algorithm Fairness (May 20, 2018). Statistiques et Société",
+  "abbr": "Stat. Soc.",
+  "year": 2019,
+  "month": 0,
+  "doi": "",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3391288",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gssamir2019learningagau",
+  "type": "journal",
+  "themes": [
+   "machine-learning"
+  ],
+  "title": "Learning a Gaussian Process Model",
+  "authors": [
+   "Chafik Samir",
    "Jean-Michel Loubes",
-   "Edouard Pauwels"
+   "Anne-Françoise Yao¹"
   ],
   "me": [
    false,
    true,
    false
   ],
-  "venue": "",
+  "venue": "PRICAI 2019: Trends in Artificial Intelligence: 16th Pacific Rim International Conference on Artificial Intelligence, Cuvu, Yanuca Island, Fiji, August 26–30, 2019, Proceedings, Part II",
+  "abbr": "PRICAI",
   "year": 2019,
-  "month": 0,
+  "month": 8,
   "doi": "",
-  "url": "https://www.researchgate.net/profile/Jean-Michel-Loubes/publication/335110410_Fairness_with_Wasserstein_Adversarial_Networks/links/5d512f084585153e594eab60/Fairness-with-Wasserstein-Adversarial-Networks.pdf",
+  "url": "https://books.google.com/books?hl=en&lr=&id=vMKqDwAAQBAJ&oi=fnd&pg=PA107&dq=info:daY-8S9vATsJ:scholar.google.com&ots=AsPV4PjwnV&sig=UzM_kf8TtocnszU7gSnTJmChwS0",
   "pdf": "",
   "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "jabbar:hal-02963677",
+  "type": "journal",
+  "themes": [
+   "machine-learning",
+   "industrial-projects"
+  ],
+  "title": "Conditional Anomaly Detection for Quality and Productivity Improvement of Electronics Manufacturing Systems",
+  "authors": [
+   "Eva Jabbar",
+   "Philippe Besse",
+   "Jean-Michel Loubes",
+   "Christophe Merle"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "Machine Learning, Optimization, and Data Science. LOD 2019",
+  "abbr": "LOD",
+  "year": 2019,
+  "month": 1,
+  "doi": "10.1007/978-3-030-37599-7\\_59",
+  "url": "https://doi.org/10.1007/978-3-030-37599-7\\_59",
+  "pdf": "",
+  "hal": "https://hal.science/hal-02963677",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "castetsrenard:hal-02190585",
+  "type": "journal",
+  "themes": [
+   "evaluation-of-ai"
+  ],
+  "title": "Encadrement des risques techniques et juridiques des activités de police prédictive",
+  "authors": [
+   "Céline Castets-Renard",
+   "Philippe Besse",
+   "Jean-Michel Loubes",
+   "Laurent Perrussel"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "Centre des Hautes Etudes du Ministère de l'Intérieur",
+  "abbr": "CHEMI",
+  "year": 2019,
+  "month": 3,
+  "doi": "",
+  "url": "https://hal.science/hal-02190585",
+  "pdf": "https://hal.science/hal-02190585v1/file/Rapport_CHEMI_FINAL.pdf",
+  "hal": "https://hal.science/hal-02190585",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsbarreyre2019statisticalm",
+  "type": "journal",
+  "themes": [
+   "industrial-projects",
+   "statistics-and-data-science"
+  ],
+  "title": "Statistical methods for outlier detection in space telemetries",
+  "authors": [
+   "Clémentine Barreyre",
+   "Loic Boussouf",
+   "Bertrand Cabon",
+   "Béatrice Laurent",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "Space Operations: Inspiring Humankind's Future",
+  "abbr": "Space Operations",
+  "year": 2019,
+  "month": 5,
+  "doi": "",
+  "url": "https://link.springer.com/chapter/10.1007/978-3-030-11536-4_20",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "delbarrio:hal-01806912",
+  "type": "conference",
+  "themes": [
+   "optimal-transport",
+   "evaluation-of-ai"
+  ],
+  "title": "Obtaining fairness using optimal transport theory",
+  "authors": [
+   "Eustasio del Barrio",
+   "Fabrice Gamboa",
+   "Paula Gordaliza",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "ICML 2019",
+  "abbr": "ICML",
+  "year": 2019,
+  "month": 6,
+  "doi": "",
+  "url": "https://hal.science/hal-01806912",
+  "pdf": "https://hal.science/hal-01806912v1/file/OTFair_Final.pdf",
+  "hal": "https://hal.science/hal-01806912",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "samir:hal-02276949",
+  "type": "conference",
+  "themes": [
+   "machine-learning"
+  ],
+  "title": "Learning a Gaussian Process Model on the Riemannian Manifold of Non-decreasing Distribution Functions",
+  "authors": [
+   "Chafik Samir",
+   "Jean-Michel Loubes",
+   "Anne-Françoise Yao",
+   "François Bachoc"
+  ],
+  "me": [
+   false,
+   true,
+   false,
+   false
+  ],
+  "venue": "PRICAI 2019: Trends in Artificial Intelligence. Proceedings, Part II",
+  "abbr": "PRICAI",
+  "year": 2019,
+  "month": 8,
+  "doi": "10.1007/978-3-030-29911-8\\_9",
+  "url": "https://doi.org/10.1007/978-3-030-29911-8\\_9",
+  "pdf": "https://hal.science/hal-02276949v1/file/Chafik_et_al.pdf",
+  "hal": "https://hal.science/hal-02276949",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -3458,6 +3511,7 @@
    false
   ],
   "venue": "Institut de Mathématiques de Toulouse, CNRS, ANITI – CNRS Innovation Award 2019",
+  "abbr": "Software",
   "year": 2019,
   "month": 0,
   "doi": "",
@@ -3469,17 +3523,18 @@
   "app": "https://gems-amies-apps.apps.math.cnrs.fr/"
  },
  {
-  "key": "besse:hal-01886699",
-  "type": "journal",
+  "key": "risser:hal-02271117",
+  "type": "preprint",
   "themes": [
+   "optimal-transport",
    "evaluation-of-ai",
    "machine-learning"
   ],
-  "title": "L'IA du Quotidien peut elle être Éthique ?",
+  "title": "Using Wasserstein-2 regularization to ensure fair decisions with Neural-Network classifiers",
   "authors": [
-   "Philippe Besse",
-   "Céline Castets-Renard",
-   "Aurélien Garivier",
+   "Laurent Risser",
+   "Quentin Vincenot",
+   "Nicolas Couellan",
    "Jean-Michel Loubes"
   ],
   "me": [
@@ -3488,48 +3543,76 @@
    false,
    true
   ],
-  "venue": "Statistique et Société",
-  "year": 2018,
-  "month": 10,
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2019,
+  "month": 8,
   "doi": "",
-  "url": "https://hal.science/hal-01886699",
-  "pdf": "https://hal.science/hal-01886699v2/file/IAethiqueStatSociete-V4.pdf",
-  "hal": "https://hal.science/hal-01886699",
+  "url": "https://enac.hal.science/hal-02271117",
+  "pdf": "",
+  "hal": "https://enac.hal.science/hal-02271117",
   "arxiv": "",
   "code": "",
   "app": ""
  },
  {
-  "key": "gsjabbar2018supervisedle",
-  "type": "conference",
+  "key": "gsserrurier2019fairnesswith",
+  "type": "preprint",
+  "themes": [
+   "optimal-transport",
+   "evaluation-of-ai"
+  ],
+  "title": "Fairness with wasserstein adversarial networks",
+  "authors": [
+   "Mathieu Serrurier",
+   "Jean-Michel Loubes",
+   "Edouard Pauwels"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2019,
+  "month": 0,
+  "doi": "",
+  "url": "https://www.researchgate.net/profile/Jean-Michel-Loubes/publication/335110410_Fairness_with_Wasserstein_Adversarial_Networks/links/5d512f084585153e594eab60/Fairness-with-Wasserstein-Adversarial-Networks.pdf",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "bachoc:hal-01450002",
+  "type": "journal",
   "themes": [
    "machine-learning",
-   "industrial-projects"
+   "statistics-and-data-science"
   ],
-  "title": "Supervised learning approach for surface-mount device production",
+  "title": "A Gaussian Process Regression Model for Distribution Inputs",
   "authors": [
-   "Eva Jabbar",
-   "Philippe Besse",
+   "François Bachoc",
+   "Fabrice Gamboa",
    "Jean-Michel Loubes",
-   "Nathalie Barbosa Roa",
-   "Christophe Merle",
-   "Rémi Dettai"
+   "Nil Venet"
   ],
   "me": [
    false,
    false,
    true,
-   false,
-   false,
    false
   ],
-  "venue": "International conference on machine learning, optimization, and data science",
+  "venue": "IEEE Transactions on Information Theory",
+  "abbr": "IEEE Trans. IT",
   "year": 2018,
-  "month": 9,
+  "month": 0,
   "doi": "",
-  "url": "https://link.springer.com/chapter/10.1007/978-3-030-13709-0_21",
-  "pdf": "",
-  "hal": "",
+  "url": "https://hal.science/hal-01450002",
+  "pdf": "https://hal.science/hal-01450002v2/file/Final_Bachoc_Gamboa_Loubes_Venet%20%281%29.pdf",
+  "hal": "https://hal.science/hal-01450002",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -3556,101 +3639,13 @@
    false
   ],
   "venue": "Canadian Journal of Statistics",
+  "abbr": "Canad. J. Statist.",
   "year": 2018,
   "month": 6,
   "doi": "",
   "url": "https://hal.science/hal-01824022",
   "pdf": "https://hal.science/hal-01824022v1/file/DistributionRegressionModelwithRKHSapproach.pdf",
   "hal": "https://hal.science/hal-01824022",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "loubes:hal-01824461",
-  "type": "preprint",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "RISK MEASURES AND CREDIT RISK UNDER THE BETA-KOTZ DISTRIBUTION",
-  "authors": [
-   "Jean-Michel Loubes",
-   "M Andrea Arias-Serna",
-   "Francisco J Caro-Lopera"
-  ],
-  "me": [
-   true,
-   false,
-   false
-  ],
-  "venue": "",
-  "year": 2018,
-  "month": 6,
-  "doi": "",
-  "url": "https://hal.science/hal-01824461",
-  "pdf": "https://hal.science/hal-01824461v1/file/RISK%20MEASURES%20AND%20CREDIT%20RISK%20UNDER%20THE%20BETA-KOTZ%20DISTRIBUTIONF.pdf",
-  "hal": "https://hal.science/hal-01824461",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "champion:hal-01799117",
-  "type": "preprint",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "COREclust: a new package for a robust and scalable analysis of complex data",
-  "authors": [
-   "Camille Champion",
-   "Anne-Claire Brunet",
-   "Jean-Michel Loubes",
-   "Laurent Risser"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "",
-  "year": 2018,
-  "month": 5,
-  "doi": "",
-  "url": "https://hal.science/hal-01799117",
-  "pdf": "https://hal.science/hal-01799117v1/file/ChampionEtAl2018_HAL.pdf",
-  "hal": "https://hal.science/hal-01799117",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "bachoc:hal-01450002",
-  "type": "journal",
-  "themes": [
-   "machine-learning",
-   "statistics-and-data-science"
-  ],
-  "title": "A Gaussian Process Regression Model for Distribution Inputs",
-  "authors": [
-   "François Bachoc",
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes",
-   "Nil Venet"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "IEEE Transactions on Information Theory",
-  "year": 2018,
-  "month": 0,
-  "doi": "",
-  "url": "https://hal.science/hal-01450002",
-  "pdf": "https://hal.science/hal-01450002v2/file/Final_Bachoc_Gamboa_Loubes_Venet%20%281%29.pdf",
-  "hal": "https://hal.science/hal-01450002",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -3705,6 +3700,7 @@
    false
   ],
   "venue": "Journal of Dentistry",
+  "abbr": "J. Dent.",
   "year": 2018,
   "month": 0,
   "doi": "10.1016/j.jdent.2018.10.001",
@@ -3716,28 +3712,67 @@
   "app": ""
  },
  {
-  "key": "gsbarrio2017aninversepro",
+  "key": "besse:hal-01886699",
   "type": "journal",
   "themes": [
-   "optimal-transport",
-   "statistics-and-data-science"
+   "evaluation-of-ai",
+   "machine-learning"
   ],
-  "title": "An inverse problem: recovery of a distribution using Wasserstein Barycenter",
+  "title": "L'IA du Quotidien peut elle être Éthique ?",
   "authors": [
-   "Eustasio Del Barrio",
-   "Jean-Michel Loubes",
-   "Bruno Pelletier"
+   "Philippe Besse",
+   "Céline Castets-Renard",
+   "Aurélien Garivier",
+   "Jean-Michel Loubes"
   ],
   "me": [
    false,
+   false,
+   false,
+   true
+  ],
+  "venue": "Statistique et Société",
+  "abbr": "Stat. Soc.",
+  "year": 2018,
+  "month": 10,
+  "doi": "",
+  "url": "https://hal.science/hal-01886699",
+  "pdf": "https://hal.science/hal-01886699v2/file/IAethiqueStatSociete-V4.pdf",
+  "hal": "https://hal.science/hal-01886699",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsjabbar2018supervisedle",
+  "type": "conference",
+  "themes": [
+   "machine-learning",
+   "industrial-projects"
+  ],
+  "title": "Supervised learning approach for surface-mount device production",
+  "authors": [
+   "Eva Jabbar",
+   "Philippe Besse",
+   "Jean-Michel Loubes",
+   "Nathalie Barbosa Roa",
+   "Christophe Merle",
+   "Rémi Dettai"
+  ],
+  "me": [
+   false,
+   false,
    true,
+   false,
+   false,
    false
   ],
-  "venue": "Annals of Economics and Statistics/Annales d'Économie et de Statistique",
-  "year": 2017,
-  "month": 12,
+  "venue": "International conference on machine learning, optimization, and data science",
+  "abbr": "LOD",
+  "year": 2018,
+  "month": 9,
   "doi": "",
-  "url": "https://www.jstor.org/stable/10.15609/annaeconstat2009.128.0229",
+  "url": "https://link.springer.com/chapter/10.1007/978-3-030-13709-0_21",
   "pdf": "",
   "hal": "",
   "arxiv": "",
@@ -3745,33 +3780,149 @@
   "app": ""
  },
  {
-  "key": "barreyre:hal-01651191",
+  "key": "loubes:hal-01824461",
   "type": "preprint",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "Multiple testing for outlier detection in functional data",
+  "title": "RISK MEASURES AND CREDIT RISK UNDER THE BETA-KOTZ DISTRIBUTION",
   "authors": [
-   "Clémentine Barreyre",
-   "Béatrice Laurent",
    "Jean-Michel Loubes",
-   "Bertrand Cabon",
-   "Loïc Boussouf"
+   "M Andrea Arias-Serna",
+   "Francisco J Caro-Lopera"
   ],
   "me": [
-   false,
-   false,
    true,
    false,
    false
   ],
   "venue": "",
-  "year": 2017,
-  "month": 12,
+  "abbr": "Preprint",
+  "year": 2018,
+  "month": 6,
   "doi": "",
-  "url": "https://hal.science/hal-01651191",
-  "pdf": "https://hal.science/hal-01651191v1/file/Article_Template.pdf",
-  "hal": "https://hal.science/hal-01651191",
+  "url": "https://hal.science/hal-01824461",
+  "pdf": "https://hal.science/hal-01824461v1/file/RISK%20MEASURES%20AND%20CREDIT%20RISK%20UNDER%20THE%20BETA-KOTZ%20DISTRIBUTIONF.pdf",
+  "hal": "https://hal.science/hal-01824461",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "champion:hal-01799117",
+  "type": "preprint",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "COREclust: a new package for a robust and scalable analysis of complex data",
+  "authors": [
+   "Camille Champion",
+   "Anne-Claire Brunet",
+   "Jean-Michel Loubes",
+   "Laurent Risser"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2018,
+  "month": 5,
+  "doi": "",
+  "url": "https://hal.science/hal-01799117",
+  "pdf": "https://hal.science/hal-01799117v1/file/ChampionEtAl2018_HAL.pdf",
+  "hal": "https://hal.science/hal-01799117",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "legouic:hal-01163262",
+  "type": "journal",
+  "themes": [
+   "optimal-transport"
+  ],
+  "title": "Existence and Consistency of Wasserstein Barycenters",
+  "authors": [
+   "Thibaut Le Gouic",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   true
+  ],
+  "venue": "Probability Theory and Related Fields",
+  "abbr": "PTRF",
+  "year": 2017,
+  "month": 8,
+  "doi": "10.1007/s00440-016-0727-z",
+  "url": "https://doi.org/10.1007/s00440-016-0727-z",
+  "pdf": "https://hal.science/hal-01163262v2/file/DepthWasser.pdf",
+  "hal": "https://hal.science/hal-01163262",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "velandia:hal-01597076",
+  "type": "journal",
+  "themes": [
+   "machine-learning",
+   "statistics-and-data-science"
+  ],
+  "title": "Maximum likelihood estimation for a bivariate Gaussian process under fixed domain asymptotics",
+  "authors": [
+   "Daira Velandia",
+   "Moreno Bevilacqua",
+   "François Bachoc",
+   "Xavier Gendre",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "Electronic Journal of Statistics",
+  "abbr": "EJS",
+  "year": 2017,
+  "month": 0,
+  "doi": "10.1214/17-EJS1298",
+  "url": "https://doi.org/10.1214/17-EJS1298",
+  "pdf": "https://hal.science/hal-01597076v1/file/Velandia_22769.pdf",
+  "hal": "https://hal.science/hal-01597076",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "loubes:hal-01299554",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Prediction by quantization of a conditional distribution",
+  "authors": [
+   "Jean-Michel Loubes",
+   "Bruno Pelletier"
+  ],
+  "me": [
+   true,
+   false
+  ],
+  "venue": "Electronic Journal of Statistics",
+  "abbr": "EJS",
+  "year": 2017,
+  "month": 0,
+  "doi": "10.1214/17-EJS1296",
+  "url": "https://doi.org/10.1214/17-EJS1296",
+  "pdf": "https://hal.science/hal-01299554v2/file/condkm-hal-rev.pdf",
+  "hal": "https://hal.science/hal-01299554",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -3797,126 +3948,13 @@
    false
   ],
   "venue": "IEEE Transactions on Intelligent Transportation Systems",
+  "abbr": "IEEE Trans. ITS",
   "year": 2017,
   "month": 10,
   "doi": "10.1109/TITS.2017.2749413",
   "url": "https://doi.org/10.1109/TITS.2017.2749413",
   "pdf": "https://hal.science/hal-01309337v1/file/Destination_Prediction_by_Trajectory_Distribution_Based_Model%20%282%29.pdf",
   "hal": "https://hal.science/hal-01309337",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "epelbaum:hal-01598905",
-  "type": "preprint",
-  "themes": [
-   "machine-learning",
-   "industrial-projects"
-  ],
-  "title": "Deep Learning applied to Road Traffic Speed forecasting",
-  "authors": [
-   "Thomas Epelbaum",
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes",
-   "Jessica Martin"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "",
-  "year": 2017,
-  "month": 9,
-  "doi": "",
-  "url": "https://hal.science/hal-01598905",
-  "pdf": "https://hal.science/hal-01598905v1/file/DL_Road_Traffic.pdf",
-  "hal": "https://hal.science/hal-01598905",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "legouic:hal-01163262",
-  "type": "journal",
-  "themes": [
-   "optimal-transport"
-  ],
-  "title": "Existence and Consistency of Wasserstein Barycenters",
-  "authors": [
-   "Thibaut Le Gouic",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   true
-  ],
-  "venue": "Probability Theory and Related Fields",
-  "year": 2017,
-  "month": 8,
-  "doi": "10.1007/s00440-016-0727-z",
-  "url": "https://doi.org/10.1007/s00440-016-0727-z",
-  "pdf": "https://hal.science/hal-01163262v2/file/DepthWasser.pdf",
-  "hal": "https://hal.science/hal-01163262",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "antolin:hal-01437147",
-  "type": "preprint",
-  "themes": [
-   "machine-learning"
-  ],
-  "title": "A data driven trimming procedure for robust classification",
-  "authors": [
-   "Marina Agulló Antolín",
-   "Eustasio del Barrio",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "",
-  "year": 2017,
-  "month": 1,
-  "doi": "",
-  "url": "https://hal.science/hal-01437147",
-  "pdf": "https://hal.science/hal-01437147v1/file/TrimRobustLearning_Final.pdf",
-  "hal": "https://hal.science/hal-01437147",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "besse:hal-01350099",
-  "type": "journal",
-  "themes": [
-   "machine-learning",
-   "statistics-and-data-science"
-  ],
-  "title": "Apprentissage sur Données Massives; trois cas d'usage avec R, Python et Spark.",
-  "authors": [
-   "Philippe Besse",
-   "Brendan Guillouet",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "Apprentissage Statistique et Données Massives",
-  "year": 2017,
-  "month": 0,
-  "doi": "",
-  "url": "https://hal.science/hal-01350099",
-  "pdf": "https://hal.science/hal-01350099v3/file/Hal-Apprent_Massif-BGL-06-16.pdf",
-  "hal": "https://hal.science/hal-01350099",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -3951,12 +3989,43 @@
    false
   ],
   "venue": "Comptes Rendus. Palevol",
+  "abbr": "C. R. Palevol",
   "year": 2017,
   "month": 0,
   "doi": "10.1016/j.crpv.2017.02.003",
   "url": "https://doi.org/10.1016/j.crpv.2017.02.003",
   "pdf": "https://hal.science/hal-01754860v1/file/braga_19798.pdf",
   "hal": "https://hal.science/hal-01754860",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsbarrio2017aninversepro",
+  "type": "journal",
+  "themes": [
+   "optimal-transport",
+   "statistics-and-data-science"
+  ],
+  "title": "An inverse problem: recovery of a distribution using Wasserstein Barycenter",
+  "authors": [
+   "Eustasio Del Barrio",
+   "Jean-Michel Loubes",
+   "Bruno Pelletier"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "Annals of Economics and Statistics/Annales d'Économie et de Statistique",
+  "abbr": "Ann. Econ. Stat.",
+  "year": 2017,
+  "month": 12,
+  "doi": "",
+  "url": "https://www.jstor.org/stable/10.15609/annaeconstat2009.128.0229",
+  "pdf": "",
+  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -3979,6 +4048,7 @@
    false
   ],
   "venue": "Communications in Statistics - Theory and Methods",
+  "abbr": "Comm. Statist.",
   "year": 2017,
   "month": 0,
   "doi": "10.1080/03610926.2015.1083109",
@@ -3990,71 +4060,13 @@
   "app": ""
  },
  {
-  "key": "velandia:hal-01597076",
+  "key": "besse:hal-01350099",
   "type": "journal",
   "themes": [
    "machine-learning",
    "statistics-and-data-science"
   ],
-  "title": "Maximum likelihood estimation for a bivariate Gaussian process under fixed domain asymptotics",
-  "authors": [
-   "Daira Velandia",
-   "Moreno Bevilacqua",
-   "François Bachoc",
-   "Xavier Gendre",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "Electronic Journal of Statistics",
-  "year": 2017,
-  "month": 0,
-  "doi": "10.1214/17-EJS1298",
-  "url": "https://doi.org/10.1214/17-EJS1298",
-  "pdf": "https://hal.science/hal-01597076v1/file/Velandia_22769.pdf",
-  "hal": "https://hal.science/hal-01597076",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "loubes:hal-01299554",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Prediction by quantization of a conditional distribution",
-  "authors": [
-   "Jean-Michel Loubes",
-   "Bruno Pelletier"
-  ],
-  "me": [
-   true,
-   false
-  ],
-  "venue": "Electronic Journal of Statistics",
-  "year": 2017,
-  "month": 0,
-  "doi": "10.1214/17-EJS1296",
-  "url": "https://doi.org/10.1214/17-EJS1296",
-  "pdf": "https://hal.science/hal-01299554v2/file/condkm-hal-rev.pdf",
-  "hal": "https://hal.science/hal-01299554",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsbesse2016bigdataanaly",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Big data analytics. Three use cases with R, Python and Spark",
+  "title": "Apprentissage sur Données Massives; trois cas d'usage avec R, Python et Spark.",
   "authors": [
    "Philippe Besse",
    "Brendan Guillouet",
@@ -4065,30 +4077,31 @@
    false,
    true
   ],
-  "venue": "",
-  "year": 2016,
-  "month": 9,
+  "venue": "Apprentissage Statistique et Données Massives",
+  "abbr": "Book chapter",
+  "year": 2017,
+  "month": 0,
   "doi": "",
-  "url": "https://arxiv.org/abs/1609.09619",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "1609.09619",
+  "url": "https://hal.science/hal-01350099",
+  "pdf": "https://hal.science/hal-01350099v3/file/Hal-Apprent_Massif-BGL-06-16.pdf",
+  "hal": "https://hal.science/hal-01350099",
+  "arxiv": "",
   "code": "",
   "app": ""
  },
  {
-  "key": "brunet:hal-01341529",
+  "key": "barreyre:hal-01651191",
   "type": "preprint",
   "themes": [
-   "machine-learning"
+   "statistics-and-data-science"
   ],
-  "title": "A new gene co-expression network analysis based on Core Structure Detection (CSD)",
+  "title": "Multiple testing for outlier detection in functional data",
   "authors": [
-   "Anne-Claire Brunet",
-   "Jean-Marc Azaïs",
+   "Clémentine Barreyre",
+   "Béatrice Laurent",
    "Jean-Michel Loubes",
-   "J Amar",
-   "R Burcelin"
+   "Bertrand Cabon",
+   "Loïc Boussouf"
   ],
   "me": [
    false,
@@ -4098,12 +4111,74 @@
    false
   ],
   "venue": "",
-  "year": 2016,
-  "month": 7,
+  "abbr": "Preprint",
+  "year": 2017,
+  "month": 12,
   "doi": "",
-  "url": "https://hal.science/hal-01341529",
-  "pdf": "https://hal.science/hal-01341529v1/file/article_Vfinal2016.pdf",
-  "hal": "https://hal.science/hal-01341529",
+  "url": "https://hal.science/hal-01651191",
+  "pdf": "https://hal.science/hal-01651191v1/file/Article_Template.pdf",
+  "hal": "https://hal.science/hal-01651191",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "epelbaum:hal-01598905",
+  "type": "preprint",
+  "themes": [
+   "machine-learning",
+   "industrial-projects"
+  ],
+  "title": "Deep Learning applied to Road Traffic Speed forecasting",
+  "authors": [
+   "Thomas Epelbaum",
+   "Fabrice Gamboa",
+   "Jean-Michel Loubes",
+   "Jessica Martin"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2017,
+  "month": 9,
+  "doi": "",
+  "url": "https://hal.science/hal-01598905",
+  "pdf": "https://hal.science/hal-01598905v1/file/DL_Road_Traffic.pdf",
+  "hal": "https://hal.science/hal-01598905",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "antolin:hal-01437147",
+  "type": "preprint",
+  "themes": [
+   "machine-learning"
+  ],
+  "title": "A data driven trimming procedure for robust classification",
+  "authors": [
+   "Marina Agulló Antolín",
+   "Eustasio del Barrio",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2017,
+  "month": 1,
+  "doi": "",
+  "url": "https://hal.science/hal-01437147",
+  "pdf": "https://hal.science/hal-01437147v1/file/TrimRobustLearning_Final.pdf",
+  "hal": "https://hal.science/hal-01437147",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -4130,6 +4205,7 @@
    false
   ],
   "venue": "IEEE Transactions on Intelligent Transportation Systems",
+  "abbr": "IEEE Trans. ITS",
   "year": 2016,
   "month": 5,
   "doi": "10.1109/TITS.2016.2547641",
@@ -4156,44 +4232,13 @@
    true
   ],
   "venue": "Statistical Inference for Stochastic Processes",
+  "abbr": "Stat. Inference Stoch. Process.",
   "year": 2016,
   "month": 0,
   "doi": "10.1007/s11203-015-9128-7",
   "url": "https://doi.org/10.1007/s11203-015-9128-7",
   "pdf": "https://hal.science/hal-01014022v1/file/kriging_6.pdf",
   "hal": "https://hal.science/hal-01014022",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsbarreyre2016detectiondev",
-  "type": "conference",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Détection d’événements atypiques dans des données fonctionnelles",
-  "authors": [
-   "C Barreyre",
-   "B Laurent",
-   "JM Loubes",
-   "B Cabon",
-   "I Toulouse"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false,
-   false
-  ],
-  "venue": "Les journées de la Statistique",
-  "year": 2016,
-  "month": 0,
-  "doi": "",
-  "url": "",
-  "pdf": "",
-  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -4232,6 +4277,7 @@
    false
   ],
   "venue": "IRIT : Institut de Recherche en Informatique de Toulouse",
+  "abbr": "IRIT",
   "year": 2016,
   "month": 0,
   "doi": "",
@@ -4243,28 +4289,186 @@
   "app": ""
  },
  {
-  "key": "legouic:hal-01291307",
+  "key": "gsbesse2016bigdataanaly",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Big data analytics. Three use cases with R, Python and Spark",
+  "authors": [
+   "Philippe Besse",
+   "Brendan Guillouet",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "",
+  "abbr": "Journal",
+  "year": 2016,
+  "month": 9,
+  "doi": "",
+  "url": "https://arxiv.org/abs/1609.09619",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "1609.09619",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsbarreyre2016detectiondev",
   "type": "conference",
   "themes": [
-   "optimal-transport",
-   "industrial-projects"
+   "statistics-and-data-science"
   ],
-  "title": "Barycenter in Wasserstein space existence and consistency",
+  "title": "Détection d’événements atypiques dans des données fonctionnelles",
   "authors": [
+   "C Barreyre",
+   "B Laurent",
+   "JM Loubes",
+   "B Cabon",
+   "I Toulouse"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "venue": "Les journées de la Statistique",
+  "abbr": "JdS",
+  "year": 2016,
+  "month": 0,
+  "doi": "",
+  "url": "",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "brunet:hal-01341529",
+  "type": "preprint",
+  "themes": [
+   "machine-learning"
+  ],
+  "title": "A new gene co-expression network analysis based on Core Structure Detection (CSD)",
+  "authors": [
+   "Anne-Claire Brunet",
+   "Jean-Marc Azaïs",
+   "Jean-Michel Loubes",
+   "J Amar",
+   "R Burcelin"
+  ],
+  "me": [
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2016,
+  "month": 7,
+  "doi": "",
+  "url": "https://hal.science/hal-01341529",
+  "pdf": "https://hal.science/hal-01341529v1/file/article_Vfinal2016.pdf",
+  "hal": "https://hal.science/hal-01341529",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "boissard:hal-01291302",
+  "type": "journal",
+  "themes": [
+   "optimal-transport",
+   "statistics-and-data-science"
+  ],
+  "title": "Distribution's template estimate with Wasserstein metrics",
+  "authors": [
+   "Emmanuel Boissard",
    "Thibaut Le Gouic",
    "Jean-Michel Loubes"
   ],
   "me": [
    false,
+   false,
    true
   ],
-  "venue": "Geometric Science of Information Second International Conference, GSI 2015, Palaiseau, France, October 28–30, 2015, Proceedings",
+  "venue": "Bernoulli",
+  "abbr": "Bernoulli",
   "year": 2015,
-  "month": 10,
-  "doi": "10.1007/978-3-319-25040-3\\_12",
-  "url": "https://doi.org/10.1007/978-3-319-25040-3\\_12",
-  "pdf": "https://hal.science/hal-01291307v1/file/72-ThibautLeGouic.pdf",
-  "hal": "https://hal.science/hal-01291307",
+  "month": 0,
+  "doi": "10.3150/13-BEJ585",
+  "url": "https://doi.org/10.3150/13-BEJ585",
+  "pdf": "https://hal.science/hal-01291302v1/file/1111.5927.pdf",
+  "hal": "https://hal.science/hal-01291302",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsfraysse2015arobbinsmonr",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "A ROBBINS MONRO PROCEDURE FOR THE ESTIMATION OF PARAMETRIC DEFORMATIONS ON RANDOM VARIABLES",
+  "authors": [
+   "P Fraysse",
+   "H Lescornel",
+   "JM Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "Statistica Sinica, 631-654",
+  "abbr": "Statistica Sinica",
+  "year": 2015,
+  "month": 0,
+  "doi": "",
+  "url": "",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsagulloantolin2015aparametricr",
+  "type": "journal",
+  "themes": [
+   "optimal-transport"
+  ],
+  "title": "A parametric registration model for warped distributions with Wasserstein’s distance",
+  "authors": [
+   "M Agullo-Antolin",
+   "JA Cuesta-Albertos",
+   "H Lescornel",
+   "JM Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "Journal of Multivariate Analysis",
+  "abbr": "JMVA",
+  "year": 2015,
+  "month": 0,
+  "doi": "",
+  "url": "",
+  "pdf": "",
+  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -4303,6 +4507,7 @@
    false
   ],
   "venue": "PLoS ONE",
+  "abbr": "PLoS ONE",
   "year": 2015,
   "month": 6,
   "doi": "10.1371/journal.pone.0127780",
@@ -4314,74 +4519,43 @@
   "app": ""
  },
  {
-  "key": "gsagulloantolin2015aparametricr",
-  "type": "journal",
-  "themes": [
-   "optimal-transport"
-  ],
-  "title": "A parametric registration model for warped distributions with Wasserstein’s distance",
-  "authors": [
-   "M Agullo-Antolin",
-   "JA Cuesta-Albertos",
-   "H Lescornel",
-   "JM Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "Journal of Multivariate Analysis",
-  "year": 2015,
-  "month": 0,
-  "doi": "",
-  "url": "",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsfraysse2015arobbinsmonr",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "A ROBBINS MONRO PROCEDURE FOR THE ESTIMATION OF PARAMETRIC DEFORMATIONS ON RANDOM VARIABLES",
-  "authors": [
-   "P Fraysse",
-   "H Lescornel",
-   "JM Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "Statistica Sinica, 631-654",
-  "year": 2015,
-  "month": 0,
-  "doi": "",
-  "url": "",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "boissard:hal-01291302",
-  "type": "journal",
+  "key": "legouic:hal-01291307",
+  "type": "conference",
   "themes": [
    "optimal-transport",
+   "industrial-projects"
+  ],
+  "title": "Barycenter in Wasserstein space existence and consistency",
+  "authors": [
+   "Thibaut Le Gouic",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   true
+  ],
+  "venue": "Geometric Science of Information Second International Conference, GSI 2015, Palaiseau, France, October 28–30, 2015, Proceedings",
+  "abbr": "GSI",
+  "year": 2015,
+  "month": 10,
+  "doi": "10.1007/978-3-319-25040-3\\_12",
+  "url": "https://doi.org/10.1007/978-3-319-25040-3\\_12",
+  "pdf": "https://hal.science/hal-01291307v1/file/72-ThibautLeGouic.pdf",
+  "hal": "https://hal.science/hal-01291307",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "espinasse:hal-01980655",
+  "type": "journal",
+  "themes": [
    "statistics-and-data-science"
   ],
-  "title": "Distribution's template estimate with Wasserstein metrics",
+  "title": "Parametric estimation for Gaussian fields indexed by graphs",
   "authors": [
-   "Emmanuel Boissard",
-   "Thibaut Le Gouic",
+   "Thibault Espinasse",
+   "Fabrice Gamboa",
    "Jean-Michel Loubes"
   ],
   "me": [
@@ -4389,13 +4563,43 @@
    false,
    true
   ],
-  "venue": "Bernoulli",
-  "year": 2015,
+  "venue": "Probability Theory and Related Fields",
+  "abbr": "PTRF",
+  "year": 2014,
+  "month": 6,
+  "doi": "",
+  "url": "https://hal.science/hal-01980655",
+  "pdf": "",
+  "hal": "https://hal.science/hal-01980655",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "blazere:hal-01980634",
+  "type": "journal",
+  "themes": [
+   "machine-learning"
+  ],
+  "title": "Oracle Inequalities for a Group Lasso Procedure Applied to Generalized Linear Models in High Dimension",
+  "authors": [
+   "Mélanie Blazère",
+   "Jean-Michel Loubes",
+   "Fabrice Gamboa"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "IEEE Transactions on Information Theory",
+  "abbr": "IEEE Trans. IT",
+  "year": 2014,
   "month": 0,
-  "doi": "10.3150/13-BEJ585",
-  "url": "https://doi.org/10.3150/13-BEJ585",
-  "pdf": "https://hal.science/hal-01291302v1/file/1111.5927.pdf",
-  "hal": "https://hal.science/hal-01291302",
+  "doi": "10.1109/TIT.2014.2303121",
+  "url": "https://doi.org/10.1109/TIT.2014.2303121",
+  "pdf": "https://hal.science/hal-01980634v1/file/gp-lasso-glm-final-v.pdf",
+  "hal": "https://hal.science/hal-01980634",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -4419,151 +4623,13 @@
    false
   ],
   "venue": "ESAIM: Probability and Statistics",
+  "abbr": "ESAIM P&S",
   "year": 2014,
   "month": 12,
   "doi": "",
   "url": "https://hal.science/hal-00653892",
   "pdf": "https://hal.science/hal-00653892v1/file/article1bis.pdf",
   "hal": "https://hal.science/hal-00653892",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gallon:hal-01980674",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Functional calibration estimation by the maximum entropy on the mean principle",
-  "authors": [
-   "S. Gallón",
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "Statistics",
-  "year": 2014,
-  "month": 10,
-  "doi": "",
-  "url": "https://hal.science/hal-01980674",
-  "pdf": "",
-  "hal": "https://hal.science/hal-01980674",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "espinasse:hal-01980655",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Parametric estimation for Gaussian fields indexed by graphs",
-  "authors": [
-   "Thibault Espinasse",
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "Probability Theory and Related Fields",
-  "year": 2014,
-  "month": 6,
-  "doi": "",
-  "url": "https://hal.science/hal-01980655",
-  "pdf": "",
-  "hal": "https://hal.science/hal-01980655",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "hebiri:hal-00994717",
-  "type": "preprint",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Aggregation for Linear Inverse Problems",
-  "authors": [
-   "Mohamed Hebiri",
-   "Jean-Michel Loubes",
-   "Paul Rochet"
-  ],
-  "me": [
-   false,
-   true,
-   false
-  ],
-  "venue": "",
-  "year": 2014,
-  "month": 5,
-  "doi": "",
-  "url": "https://hal.science/hal-00994717",
-  "pdf": "https://hal.science/hal-00994717v1/file/Agg_ell1.pdf",
-  "hal": "https://hal.science/hal-00994717",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "blazere:hal-00995049",
-  "type": "preprint",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "PLS: a new statistical insight through the prism of orthogonal polynomials",
-  "authors": [
-   "Mélanie Blazère",
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "",
-  "year": 2014,
-  "month": 5,
-  "doi": "",
-  "url": "https://hal.science/hal-00995049",
-  "pdf": "https://hal.science/hal-00995049v1/file/PLS.pdf",
-  "hal": "https://hal.science/hal-00995049",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "lescornel:hal-00749519",
-  "type": "conference",
-  "themes": [
-   "optimal-transport",
-   "statistics-and-data-science"
-  ],
-  "title": "Estimation of deformations between distributions by minimal Wasserstein distance",
-  "authors": [
-   "Hélène Lescornel",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   true
-  ],
-  "venue": "NeurIPS Workshop",
-  "year": 2014,
-  "month": 3,
-  "doi": "",
-  "url": "https://hal.science/hal-00749519",
-  "pdf": "https://hal.science/hal-00749519v2/file/lesco_soumis.pdf",
-  "hal": "https://hal.science/hal-00749519",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -4588,6 +4654,7 @@
    false
   ],
   "venue": "Computational Statistics and Data Analysis",
+  "abbr": "CSDA",
   "year": 2014,
   "month": 0,
   "doi": "10.1016/j.csda.2013.09.030",
@@ -4599,23 +4666,53 @@
   "app": ""
  },
  {
-  "key": "gsblazre2014aunifiedfram",
-  "type": "conference",
+  "key": "loubes:hal-00949508",
+  "type": "journal",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "A unified framework to study the properties of the PLS vector of regression coefficients",
+  "title": "Goodness-of-fit testing strategies from indirect observations",
   "authors": [
-   "M Blazère",
-   "F Gamboa",
-   "JM Loubes"
+   "Jean-Michel Loubes",
+   "Clément Marteau"
+  ],
+  "me": [
+   true,
+   false
+  ],
+  "venue": "Journal of Nonparametric Statistics",
+  "abbr": "J. Nonparametr. Stat.",
+  "year": 2014,
+  "month": 0,
+  "doi": "",
+  "url": "https://hal.science/hal-00949508",
+  "pdf": "https://hal.science/hal-00949508v1/file/VersionF_Web.pdf",
+  "hal": "https://hal.science/hal-00949508",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gslirio2014estimationof",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Estimation of covariance functions by a fully data-driven model selection procedure and its application to Kriging spatial interpolation of real rainfall data",
+  "authors": [
+   "R Biscay Lirio",
+   "DG Camejo",
+   "JM Loubes",
+   "L Muñiz Alvarez"
   ],
   "me": [
    false,
    false,
-   true
+   true,
+   false
   ],
-  "venue": "International Conference on Partial Least Squares and Related Methods, 227-237",
+  "venue": "Statistical Methods & Applications",
+  "abbr": "Stat. Methods Appl.",
   "year": 2014,
   "month": 0,
   "doi": "",
@@ -4644,6 +4741,7 @@
    true
   ],
   "venue": "Revue des Sciences et Technologies de l'Information - Série ISI : Ingénierie des Systèmes d'Information",
+  "abbr": "RSTI-ISI",
   "year": 2014,
   "month": 0,
   "doi": "10.3166/isi.19.3.93-105",
@@ -4655,57 +4753,87 @@
   "app": ""
  },
  {
-  "key": "gslirio2014estimationof",
+  "key": "gallon:hal-01980674",
   "type": "journal",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "Estimation of covariance functions by a fully data-driven model selection procedure and its application to Kriging spatial interpolation of real rainfall data",
+  "title": "Functional calibration estimation by the maximum entropy on the mean principle",
   "authors": [
-   "R Biscay Lirio",
-   "DG Camejo",
-   "JM Loubes",
-   "L Muñiz Alvarez"
+   "S. Gallón",
+   "Fabrice Gamboa",
+   "Jean-Michel Loubes"
   ],
   "me": [
    false,
    false,
-   true,
-   false
+   true
   ],
-  "venue": "Statistical Methods & Applications",
+  "venue": "Statistics",
+  "abbr": "Stat.",
+  "year": 2014,
+  "month": 10,
+  "doi": "",
+  "url": "https://hal.science/hal-01980674",
+  "pdf": "",
+  "hal": "https://hal.science/hal-01980674",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "lescornel:hal-00749519",
+  "type": "conference",
+  "themes": [
+   "optimal-transport",
+   "statistics-and-data-science"
+  ],
+  "title": "Estimation of deformations between distributions by minimal Wasserstein distance",
+  "authors": [
+   "Hélène Lescornel",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   true
+  ],
+  "venue": "NeurIPS Workshop",
+  "abbr": "NeurIPS",
+  "year": 2014,
+  "month": 3,
+  "doi": "",
+  "url": "https://hal.science/hal-00749519",
+  "pdf": "https://hal.science/hal-00749519v2/file/lesco_soumis.pdf",
+  "hal": "https://hal.science/hal-00749519",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsblazre2014aunifiedfram",
+  "type": "conference",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "A unified framework to study the properties of the PLS vector of regression coefficients",
+  "authors": [
+   "M Blazère",
+   "F Gamboa",
+   "JM Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "International Conference on Partial Least Squares and Related Methods, 227-237",
+  "abbr": "PLS",
   "year": 2014,
   "month": 0,
   "doi": "",
   "url": "",
   "pdf": "",
   "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "loubes:hal-00949508",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Goodness-of-fit testing strategies from indirect observations",
-  "authors": [
-   "Jean-Michel Loubes",
-   "Clément Marteau"
-  ],
-  "me": [
-   true,
-   false
-  ],
-  "venue": "Journal of Nonparametric Statistics",
-  "year": 2014,
-  "month": 0,
-  "doi": "",
-  "url": "https://hal.science/hal-00949508",
-  "pdf": "https://hal.science/hal-00949508v1/file/VersionF_Web.pdf",
-  "hal": "https://hal.science/hal-00949508",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -4730,6 +4858,7 @@
    false
   ],
   "venue": "Vaiomer, CNRS, Université Toulouse III — US 2017/0154151; filed 2014, published 2017",
+  "abbr": "Patent",
   "year": 2014,
   "month": 0,
   "doi": "",
@@ -4741,57 +4870,90 @@
   "app": ""
  },
  {
-  "key": "blazere:hal-01980634",
-  "type": "journal",
+  "key": "hebiri:hal-00994717",
+  "type": "preprint",
   "themes": [
-   "machine-learning"
+   "statistics-and-data-science"
   ],
-  "title": "Oracle Inequalities for a Group Lasso Procedure Applied to Generalized Linear Models in High Dimension",
+  "title": "Aggregation for Linear Inverse Problems",
   "authors": [
-   "Mélanie Blazère",
+   "Mohamed Hebiri",
    "Jean-Michel Loubes",
-   "Fabrice Gamboa"
+   "Paul Rochet"
   ],
   "me": [
    false,
    true,
    false
   ],
-  "venue": "IEEE Transactions on Information Theory",
+  "venue": "",
+  "abbr": "Preprint",
   "year": 2014,
-  "month": 0,
-  "doi": "10.1109/TIT.2014.2303121",
-  "url": "https://doi.org/10.1109/TIT.2014.2303121",
-  "pdf": "https://hal.science/hal-01980634v1/file/gp-lasso-glm-final-v.pdf",
-  "hal": "https://hal.science/hal-01980634",
+  "month": 5,
+  "doi": "",
+  "url": "https://hal.science/hal-00994717",
+  "pdf": "https://hal.science/hal-00994717v1/file/Agg_ell1.pdf",
+  "hal": "https://hal.science/hal-00994717",
   "arxiv": "",
   "code": "",
   "app": ""
  },
  {
-  "key": "gallon:hal-01135106",
+  "key": "blazere:hal-00995049",
+  "type": "preprint",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "PLS: a new statistical insight through the prism of orthogonal polynomials",
+  "authors": [
+   "Mélanie Blazère",
+   "Fabrice Gamboa",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   true
+  ],
+  "venue": "",
+  "abbr": "Preprint",
+  "year": 2014,
+  "month": 5,
+  "doi": "",
+  "url": "https://hal.science/hal-00995049",
+  "pdf": "https://hal.science/hal-00995049v1/file/PLS.pdf",
+  "hal": "https://hal.science/hal-00995049",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "cohen:hal-00638121",
   "type": "journal",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "Statistical properties of the quantile normalization method for density curve alignment",
+  "title": "LAN property for some fractional type Brownian motion",
   "authors": [
-   "Santiago Gallón",
-   "Jean-Michel Loubes",
-   "Elie Maza"
+   "Serge Cohen",
+   "Fabrice Gamboa",
+   "Céline Lacaux",
+   "Jean-Michel Loubes"
   ],
   "me": [
    false,
-   true,
-   false
+   false,
+   false,
+   true
   ],
-  "venue": "Mathematical Biosciences",
+  "venue": "ALEA : Latin American Journal of Probability and Mathematical Statistics",
+  "abbr": "ALEA",
   "year": 2013,
-  "month": 4,
-  "doi": "10.1016/j.mbs.2012.12.007",
-  "url": "https://doi.org/10.1016/j.mbs.2012.12.007",
-  "pdf": "https://hal.science/hal-01135106v1/file/Gallon_13737.pdf",
-  "hal": "https://hal.science/hal-01135106",
+  "month": 0,
+  "doi": "10.48550/arXiv.1111.1077",
+  "url": "https://doi.org/10.48550/arXiv.1111.1077",
+  "pdf": "https://hal.science/hal-00638121v1/file/LAN_Final_2011.pdf",
+  "hal": "https://hal.science/hal-00638121",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -4820,12 +4982,42 @@
    false
   ],
   "venue": "Journal of human evolution",
+  "abbr": "J. Hum. Evol.",
   "year": 2013,
   "month": 0,
   "doi": "",
   "url": "",
   "pdf": "",
   "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gallon:hal-01135106",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Statistical properties of the quantile normalization method for density curve alignment",
+  "authors": [
+   "Santiago Gallón",
+   "Jean-Michel Loubes",
+   "Elie Maza"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "Mathematical Biosciences",
+  "abbr": "Math. Biosci.",
+  "year": 2013,
+  "month": 4,
+  "doi": "10.1016/j.mbs.2012.12.007",
+  "url": "https://doi.org/10.1016/j.mbs.2012.12.007",
+  "pdf": "https://hal.science/hal-01135106v1/file/Gallon_13737.pdf",
+  "hal": "https://hal.science/hal-01135106",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -4847,6 +5039,7 @@
    false
   ],
   "venue": "International Journal of Applied Mathematics and statistics",
+  "abbr": "Int. J. Appl. Math. Stat.",
   "year": 2013,
   "month": 0,
   "doi": "",
@@ -4858,31 +5051,173 @@
   "app": ""
  },
  {
-  "key": "cohen:hal-00638121",
+  "key": "bigot:hal-00777107",
   "type": "journal",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "LAN property for some fractional type Brownian motion",
+  "title": "Semiparametric estimation of shifts on compact Lie groups for image registration",
   "authors": [
-   "Serge Cohen",
-   "Fabrice Gamboa",
-   "Céline Lacaux",
+   "Jérémie Bigot",
+   "Jean-Michel Loubes",
+   "Myriam Vimond"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "Probability Theory and Related Fields",
+  "abbr": "PTRF",
+  "year": 2012,
+  "month": 0,
+  "doi": "10.1007/s00440-010-0327-2",
+  "url": "https://doi.org/10.1007/s00440-010-0327-2",
+  "pdf": "",
+  "hal": "https://hal.science/hal-00777107",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "laurent:hal-00440825",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Non asymptotic minimax rates of testing in signal detection with heterogeneous variances",
+  "authors": [
+   "Béatrice Laurent",
+   "Jean-Michel Loubes",
+   "Clément Marteau"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "Electronic Journal of Statistics",
+  "abbr": "EJS",
+  "year": 2012,
+  "month": 0,
+  "doi": "",
+  "url": "https://hal.science/hal-00440825",
+  "pdf": "https://hal.science/hal-00440825v2/file/Version2.pdf",
+  "hal": "https://hal.science/hal-00440825",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "loubes:hal-00938779",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Approximate maximum entropy on the mean for instrumental variable regression",
+  "authors": [
+   "Jean-Michel Loubes",
+   "Paul Rochet"
+  ],
+  "me": [
+   true,
+   false
+  ],
+  "venue": "Statistics & Probability Letters",
+  "abbr": "Stat. Probab. Lett.",
+  "year": 2012,
+  "month": 0,
+  "doi": "10.1016/j.spl.2012.02.006",
+  "url": "https://doi.org/10.1016/j.spl.2012.02.006",
+  "pdf": "",
+  "hal": "https://hal.science/hal-00938779",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "biscay:hal-00675273",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Adaptive Covariance Estimation with model selection.",
+  "authors": [
+   "Rolando Biscay",
+   "Hélène Lescornel",
    "Jean-Michel Loubes"
   ],
   "me": [
    false,
    false,
-   false,
    true
   ],
-  "venue": "ALEA : Latin American Journal of Probability and Mathematical Statistics",
-  "year": 2013,
+  "venue": "Mathematical Methods of Statistics",
+  "abbr": "Math. Methods Statist.",
+  "year": 2012,
   "month": 0,
-  "doi": "10.48550/arXiv.1111.1077",
-  "url": "https://doi.org/10.48550/arXiv.1111.1077",
-  "pdf": "https://hal.science/hal-00638121v1/file/LAN_Final_2011.pdf",
-  "hal": "https://hal.science/hal-00638121",
+  "doi": "10.3103/S1066530712040023",
+  "url": "https://doi.org/10.3103/S1066530712040023",
+  "pdf": "https://hal.science/hal-00675273v1/file/Adaptive_cov.pdf",
+  "hal": "https://hal.science/hal-00675273",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "loubes:hal-00934906",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Adaptive estimation for an inverse regression model with unknown operator",
+  "authors": [
+   "Jean-Michel Loubes",
+   "Clément Marteau"
+  ],
+  "me": [
+   true,
+   false
+  ],
+  "venue": "Statistics & Risk Modeling with Applications in Finance and Insurance",
+  "abbr": "Stat. Risk Model.",
+  "year": 2012,
+  "month": 0,
+  "doi": "10.1524/strm.2012.1044",
+  "url": "https://doi.org/10.1524/strm.2012.1044",
+  "pdf": "",
+  "hal": "https://hal.science/hal-00934906",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "loubes2012traveltime",
+  "type": "patent",
+  "themes": [
+   "industrial-projects"
+  ],
+  "title": "Method for estimating a travel time of a vehicle in a road network",
+  "authors": [
+   "Jean-Michel Loubes",
+   "Fabrice Gamboa",
+   "Jean-Noël Kien",
+   "Guillaume Allain"
+  ],
+  "me": [
+   true,
+   false,
+   false,
+   false
+  ],
+  "venue": "Mediamobile — FR2992060B1 (also WO2013190233, EP2861937); filed 2012, granted 2015",
+  "abbr": "Patent",
+  "year": 2012,
+  "month": 0,
+  "doi": "",
+  "url": "https://patents.google.com/patent/FR2992060B1/en",
+  "pdf": "",
+  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -4910,178 +5245,13 @@
    true
   ],
   "venue": "",
+  "abbr": "Preprint",
   "year": 2012,
   "month": 10,
   "doi": "",
   "url": "https://hal.science/hal-00739585",
   "pdf": "https://hal.science/hal-00739585v2/file/ModelingWeatherConditionsConsequencesOnRoadTraffickingBehaviors.pdf",
   "hal": "https://hal.science/hal-00739585",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "biscay:hal-00675273",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Adaptive Covariance Estimation with model selection.",
-  "authors": [
-   "Rolando Biscay",
-   "Hélène Lescornel",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "Mathematical Methods of Statistics",
-  "year": 2012,
-  "month": 0,
-  "doi": "10.3103/S1066530712040023",
-  "url": "https://doi.org/10.3103/S1066530712040023",
-  "pdf": "https://hal.science/hal-00675273v1/file/Adaptive_cov.pdf",
-  "hal": "https://hal.science/hal-00675273",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "loubes:hal-00934906",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Adaptive estimation for an inverse regression model with unknown operator",
-  "authors": [
-   "Jean-Michel Loubes",
-   "Clément Marteau"
-  ],
-  "me": [
-   true,
-   false
-  ],
-  "venue": "Statistics & Risk Modeling with Applications in Finance and Insurance",
-  "year": 2012,
-  "month": 0,
-  "doi": "10.1524/strm.2012.1044",
-  "url": "https://doi.org/10.1524/strm.2012.1044",
-  "pdf": "",
-  "hal": "https://hal.science/hal-00934906",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "loubes:hal-00938779",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Approximate maximum entropy on the mean for instrumental variable regression",
-  "authors": [
-   "Jean-Michel Loubes",
-   "Paul Rochet"
-  ],
-  "me": [
-   true,
-   false
-  ],
-  "venue": "Statistics & Probability Letters",
-  "year": 2012,
-  "month": 0,
-  "doi": "10.1016/j.spl.2012.02.006",
-  "url": "https://doi.org/10.1016/j.spl.2012.02.006",
-  "pdf": "",
-  "hal": "https://hal.science/hal-00938779",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "loubes2012traveltime",
-  "type": "patent",
-  "themes": [
-   "industrial-projects"
-  ],
-  "title": "Method for estimating a travel time of a vehicle in a road network",
-  "authors": [
-   "Jean-Michel Loubes",
-   "Fabrice Gamboa",
-   "Jean-Noël Kien",
-   "Guillaume Allain"
-  ],
-  "me": [
-   true,
-   false,
-   false,
-   false
-  ],
-  "venue": "Mediamobile — FR2992060B1 (also WO2013190233, EP2861937); filed 2012, granted 2015",
-  "year": 2012,
-  "month": 0,
-  "doi": "",
-  "url": "https://patents.google.com/patent/FR2992060B1/en",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "laurent:hal-00440825",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Non asymptotic minimax rates of testing in signal detection with heterogeneous variances",
-  "authors": [
-   "Béatrice Laurent",
-   "Jean-Michel Loubes",
-   "Clément Marteau"
-  ],
-  "me": [
-   false,
-   true,
-   false
-  ],
-  "venue": "Electronic Journal of Statistics",
-  "year": 2012,
-  "month": 0,
-  "doi": "",
-  "url": "https://hal.science/hal-00440825",
-  "pdf": "https://hal.science/hal-00440825v2/file/Version2.pdf",
-  "hal": "https://hal.science/hal-00440825",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "bigot:hal-00777107",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Semiparametric estimation of shifts on compact Lie groups for image registration",
-  "authors": [
-   "Jérémie Bigot",
-   "Jean-Michel Loubes",
-   "Myriam Vimond"
-  ],
-  "me": [
-   false,
-   true,
-   false
-  ],
-  "venue": "Probability Theory and Related Fields",
-  "year": 2012,
-  "month": 0,
-  "doi": "10.1007/s00440-010-0327-2",
-  "url": "https://doi.org/10.1007/s00440-010-0327-2",
-  "pdf": "",
-  "hal": "https://hal.science/hal-00777107",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5107,12 +5277,127 @@
    false
   ],
   "venue": "Journal of Machine Learning Research",
+  "abbr": "JMLR",
   "year": 2011,
   "month": 10,
   "doi": "",
   "url": "https://hal.science/hal-00524387",
   "pdf": "https://hal.science/hal-00524387v2/file/GroupLassoFinal.pdf",
   "hal": "https://hal.science/hal-00524387",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsloubes2011localasympto",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Local asymptotic normality property for lacunar wavelet series multifractal model",
+  "authors": [
+   "Jean-Michel Loubes",
+   "Davy Paindaveine"
+  ],
+  "me": [
+   true,
+   false
+  ],
+  "venue": "ESAIM: Probability and Statistics",
+  "abbr": "ESAIM P&S",
+  "year": 2011,
+  "month": 0,
+  "doi": "10.1051/ps/2009005",
+  "url": "https://doi.org/10.1051/ps/2009005",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "dupuy:hal-01186532",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Non parametric estimation of the structural expectation of a stochastic increasing function",
+  "authors": [
+   "Jean-François Dupuy",
+   "Jean-Michel Loubes",
+   "Elie Maza"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "Statistics and Computing",
+  "abbr": "Stat. Comput.",
+  "year": 2011,
+  "month": 1,
+  "doi": "10.1007/s11222-009-9152-9",
+  "url": "https://doi.org/10.1007/s11222-009-9152-9",
+  "pdf": "https://hal.science/hal-01186532v1/file/dupuy_13754.pdf",
+  "hal": "https://hal.science/hal-01186532",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gamboa:hal-00631071",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Maximum entropy estimation for survey sampling",
+  "authors": [
+   "Fabrice Gamboa",
+   "Jean-Michel Loubes",
+   "Paul Rochet"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "Journal of Statistical Planning and Inference",
+  "abbr": "JSPI",
+  "year": 2011,
+  "month": 0,
+  "doi": "10.1016/j.jspi.2010.06.002",
+  "url": "https://doi.org/10.1016/j.jspi.2010.06.002",
+  "pdf": "",
+  "hal": "https://hal.science/hal-00631071",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "laurent:hal-00528909",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Testing Inverse Problems : a direct or an indirect problem ?",
+  "authors": [
+   "Béatrice Laurent",
+   "Jean-Michel Loubes",
+   "Clément Marteau"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "Journal of Statistical Planning and Inference",
+  "abbr": "JSPI",
+  "year": 2011,
+  "month": 0,
+  "doi": "",
+  "url": "https://hal.science/hal-00528909",
+  "pdf": "https://hal.science/hal-00528909v1/file/Article6.pdf",
+  "hal": "https://hal.science/hal-00528909",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5135,6 +5420,7 @@
    true
   ],
   "venue": "Mathematical Methods of Statistics",
+  "abbr": "Math. Methods Statist.",
   "year": 2011,
   "month": 7,
   "doi": "",
@@ -5163,94 +5449,13 @@
    false
   ],
   "venue": "",
+  "abbr": "Preprint",
   "year": 2011,
   "month": 4,
   "doi": "",
   "url": "https://hal.science/hal-00593180",
   "pdf": "https://hal.science/hal-00593180v2/file/ManiWarp.pdf",
   "hal": "https://hal.science/hal-00593180",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "dupuy:hal-01186532",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Non parametric estimation of the structural expectation of a stochastic increasing function",
-  "authors": [
-   "Jean-François Dupuy",
-   "Jean-Michel Loubes",
-   "Elie Maza"
-  ],
-  "me": [
-   false,
-   true,
-   false
-  ],
-  "venue": "Statistics and Computing",
-  "year": 2011,
-  "month": 1,
-  "doi": "10.1007/s11222-009-9152-9",
-  "url": "https://doi.org/10.1007/s11222-009-9152-9",
-  "pdf": "https://hal.science/hal-01186532v1/file/dupuy_13754.pdf",
-  "hal": "https://hal.science/hal-01186532",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsloubes2011localasympto",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Local asymptotic normality property for lacunar wavelet series multifractal model",
-  "authors": [
-   "Jean-Michel Loubes",
-   "Davy Paindaveine"
-  ],
-  "me": [
-   true,
-   false
-  ],
-  "venue": "ESAIM: Probability and Statistics",
-  "year": 2011,
-  "month": 0,
-  "doi": "10.1051/ps/2009005",
-  "url": "https://doi.org/10.1051/ps/2009005",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gamboa:hal-00631071",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Maximum entropy estimation for survey sampling",
-  "authors": [
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes",
-   "Paul Rochet"
-  ],
-  "me": [
-   false,
-   true,
-   false
-  ],
-  "venue": "Journal of Statistical Planning and Inference",
-  "year": 2011,
-  "month": 0,
-  "doi": "10.1016/j.jspi.2010.06.002",
-  "url": "https://doi.org/10.1016/j.jspi.2010.06.002",
-  "pdf": "",
-  "hal": "https://hal.science/hal-00631071",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5269,6 +5474,7 @@
    true
   ],
   "venue": "Université Toulouse III",
+  "abbr": "Preprint",
   "year": 2011,
   "month": 0,
   "doi": "",
@@ -5280,29 +5486,32 @@
   "app": ""
  },
  {
-  "key": "laurent:hal-00528909",
+  "key": "bigot:hal-00629299",
   "type": "journal",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "Testing Inverse Problems : a direct or an indirect problem ?",
+  "title": "Nonparametric estimation of covariance functions by model selection",
   "authors": [
-   "Béatrice Laurent",
+   "Jérémie Bigot",
+   "Rolando Biscay",
    "Jean-Michel Loubes",
-   "Clément Marteau"
+   "Muniz-Alvarez Lilian"
   ],
   "me": [
+   false,
    false,
    true,
    false
   ],
-  "venue": "Journal of Statistical Planning and Inference",
-  "year": 2011,
+  "venue": "Electronic Journal of Statistics",
+  "abbr": "EJS",
+  "year": 2010,
   "month": 0,
-  "doi": "",
-  "url": "https://hal.science/hal-00528909",
-  "pdf": "https://hal.science/hal-00528909v1/file/Article6.pdf",
-  "hal": "https://hal.science/hal-00528909",
+  "doi": "10.1214/09-EJS493",
+  "url": "https://doi.org/10.1214/09-EJS493",
+  "pdf": "",
+  "hal": "https://hal.science/hal-00629299",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5323,6 +5532,7 @@
    false
   ],
   "venue": "ESAIM: Probability and Statistics",
+  "abbr": "ESAIM P&S",
   "year": 2010,
   "month": 7,
   "doi": "10.1051/ps:2008024",
@@ -5334,17 +5544,17 @@
   "app": ""
  },
  {
-  "key": "bigot:hal-00440424",
-  "type": "preprint",
+  "key": "autin:hal-00259253",
+  "type": "journal",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "Adaptive estimation of spectral densities via wavelet thresholding and information projection",
+  "title": "Maxisets for Model Selection",
   "authors": [
-   "Jérémie Bigot",
-   "Rolando Biscay Lirio",
+   "Florent Autin",
+   "Erwan Le Pennec",
    "Jean-Michel Loubes",
-   "Lilian Muniz Alvarez"
+   "Vincent Rivoirard"
   ],
   "me": [
    false,
@@ -5352,13 +5562,14 @@
    true,
    false
   ],
-  "venue": "",
+  "venue": "Constructive Approximation",
+  "abbr": "Constr. Approx.",
   "year": 2010,
-  "month": 5,
-  "doi": "",
-  "url": "https://hal.science/hal-00440424",
-  "pdf": "https://hal.science/hal-00440424v4/file/specdens3.pdf",
-  "hal": "https://hal.science/hal-00440424",
+  "month": 0,
+  "doi": "10.1007/s00365-009-9062-2",
+  "url": "https://doi.org/10.1007/s00365-009-9062-2",
+  "pdf": "https://hal.science/hal-00259253v3/file/ModelMaxiFinal.pdf",
+  "hal": "https://hal.science/hal-00259253",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5381,6 +5592,7 @@
    true
   ],
   "venue": "42èmes Journées de Statistique",
+  "abbr": "JdS",
   "year": 2010,
   "month": 0,
   "doi": "",
@@ -5407,6 +5619,7 @@
    true
   ],
   "venue": "42èmes Journées de Statistique",
+  "abbr": "JdS",
   "year": 2010,
   "month": 0,
   "doi": "",
@@ -5418,47 +5631,17 @@
   "app": ""
  },
  {
-  "key": "autin:hal-00259253",
-  "type": "journal",
+  "key": "bigot:hal-00440424",
+  "type": "preprint",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "Maxisets for Model Selection",
-  "authors": [
-   "Florent Autin",
-   "Erwan Le Pennec",
-   "Jean-Michel Loubes",
-   "Vincent Rivoirard"
-  ],
-  "me": [
-   false,
-   false,
-   true,
-   false
-  ],
-  "venue": "Constructive Approximation",
-  "year": 2010,
-  "month": 0,
-  "doi": "10.1007/s00365-009-9062-2",
-  "url": "https://doi.org/10.1007/s00365-009-9062-2",
-  "pdf": "https://hal.science/hal-00259253v3/file/ModelMaxiFinal.pdf",
-  "hal": "https://hal.science/hal-00259253",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "bigot:hal-00629299",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Nonparametric estimation of covariance functions by model selection",
+  "title": "Adaptive estimation of spectral densities via wavelet thresholding and information projection",
   "authors": [
    "Jérémie Bigot",
-   "Rolando Biscay",
+   "Rolando Biscay Lirio",
    "Jean-Michel Loubes",
-   "Muniz-Alvarez Lilian"
+   "Lilian Muniz Alvarez"
   ],
   "me": [
    false,
@@ -5466,39 +5649,14 @@
    true,
    false
   ],
-  "venue": "Electronic Journal of Statistics",
+  "venue": "",
+  "abbr": "Preprint",
   "year": 2010,
-  "month": 0,
-  "doi": "10.1214/09-EJS493",
-  "url": "https://doi.org/10.1214/09-EJS493",
-  "pdf": "",
-  "hal": "https://hal.science/hal-00629299",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "castillo:hal-00347826",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Estimation of the distribution of random shifts deformation",
-  "authors": [
-   "Ismael Castillo",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   true
-  ],
-  "venue": "Mathematical Methods of Statistics",
-  "year": 2009,
-  "month": 12,
+  "month": 5,
   "doi": "",
-  "url": "https://hal.science/hal-00347826",
-  "pdf": "https://hal.science/hal-00347826v1/file/RandShifts.pdf",
-  "hal": "https://hal.science/hal-00347826",
+  "url": "https://hal.science/hal-00440424",
+  "pdf": "https://hal.science/hal-00440424v4/file/specdens3.pdf",
+  "hal": "https://hal.science/hal-00440424",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5519,6 +5677,7 @@
    false
   ],
   "venue": "ESAIM: Probability and Statistics",
+  "abbr": "ESAIM P&S",
   "year": 2009,
   "month": 3,
   "doi": "",
@@ -5530,27 +5689,57 @@
   "app": ""
  },
  {
-  "key": "loubes:hal-00356428",
-  "type": "preprint",
+  "key": "gsbigot2009statisticalm",
+  "type": "journal",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "Oracle Inequality for Instrumental Variable Regression",
+  "title": "Statistical M-estimation and consistency in large deformable models for image warping",
   "authors": [
-   "Jean-Michel Loubes",
-   "Clément Marteau"
+   "J Bigot",
+   "S Gadat",
+   "JM Loubes"
   ],
   "me": [
-   true,
-   false
+   false,
+   false,
+   true
   ],
-  "venue": "",
+  "venue": "Journal of Mathematical Imaging and Vision",
+  "abbr": "J. Math. Imaging Vis.",
   "year": 2009,
-  "month": 1,
+  "month": 0,
   "doi": "",
-  "url": "https://hal.science/hal-00356428",
-  "pdf": "https://hal.science/hal-00356428v1/file/AdaptIV.pdf",
-  "hal": "https://hal.science/hal-00356428",
+  "url": "",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "castillo:hal-00347826",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Estimation of the distribution of random shifts deformation",
+  "authors": [
+   "Ismael Castillo",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   true
+  ],
+  "venue": "Mathematical Methods of Statistics",
+  "abbr": "Math. Methods Statist.",
+  "year": 2009,
+  "month": 12,
+  "doi": "",
+  "url": "https://hal.science/hal-00347826",
+  "pdf": "https://hal.science/hal-00347826v1/file/RandShifts.pdf",
+  "hal": "https://hal.science/hal-00347826",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5582,12 +5771,67 @@
    false
   ],
   "venue": "Seminars in Orthodontics",
+  "abbr": "Semin. Orthod.",
   "year": 2009,
   "month": 0,
   "doi": "",
   "url": "",
   "pdf": "",
   "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsloubes2009penalizedmax",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Penalized maximum likelihood estimation with l1 penalty",
+  "authors": [
+   "JM Loubes",
+   "Y Yan"
+  ],
+  "me": [
+   true,
+   false
+  ],
+  "venue": "International Journal of Applied Mathematics & Statistics",
+  "abbr": "Int. J. Appl. Math. Stat.",
+  "year": 2009,
+  "month": 0,
+  "doi": "",
+  "url": "",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "loubes:hal-00634393",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Review of rates of convergence and regularity conditions for inverse problems",
+  "authors": [
+   "Jean-Michel Loubes",
+   "Vincent Rivoirard"
+  ],
+  "me": [
+   true,
+   false
+  ],
+  "venue": "International Journal of Tomography and Statistics",
+  "abbr": "Int. J. Tomogr. Stat.",
+  "year": 2009,
+  "month": 0,
+  "doi": "",
+  "url": "https://hal.science/hal-00634393",
+  "pdf": "",
+  "hal": "https://hal.science/hal-00634393",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5616,6 +5860,7 @@
    false
   ],
   "venue": "16th ITS World Congress and Exhibition on Intelligent Transport Systems and",
+  "abbr": "ITS World Congress",
   "year": 2009,
   "month": 0,
   "doi": "",
@@ -5627,109 +5872,28 @@
   "app": ""
  },
  {
-  "key": "gsloubes2009penalizedmax",
-  "type": "journal",
+  "key": "loubes:hal-00356428",
+  "type": "preprint",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "Penalized maximum likelihood estimation with l1 penalty",
-  "authors": [
-   "JM Loubes",
-   "Y Yan"
-  ],
-  "me": [
-   true,
-   false
-  ],
-  "venue": "International Journal of Applied Mathematics & Statistics",
-  "year": 2009,
-  "month": 0,
-  "doi": "",
-  "url": "",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "loubes:hal-00634393",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Review of rates of convergence and regularity conditions for inverse problems",
+  "title": "Oracle Inequality for Instrumental Variable Regression",
   "authors": [
    "Jean-Michel Loubes",
-   "Vincent Rivoirard"
+   "Clément Marteau"
   ],
   "me": [
    true,
    false
   ],
-  "venue": "International Journal of Tomography and Statistics",
+  "venue": "",
+  "abbr": "Preprint",
   "year": 2009,
-  "month": 0,
+  "month": 1,
   "doi": "",
-  "url": "https://hal.science/hal-00634393",
-  "pdf": "",
-  "hal": "https://hal.science/hal-00634393",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsbigot2009statisticalm",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Statistical M-estimation and consistency in large deformable models for image warping",
-  "authors": [
-   "J Bigot",
-   "S Gadat",
-   "JM Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   true
-  ],
-  "venue": "Journal of Mathematical Imaging and Vision",
-  "year": 2009,
-  "month": 0,
-  "doi": "",
-  "url": "",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "bigot:inria-00632877",
-  "type": "conference",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Semiparametric estimation of rigid transformations on compact Lie groups",
-  "authors": [
-   "Jérémie Bigot",
-   "Jean-Michel Loubes",
-   "Myriam Vimond"
-  ],
-  "me": [
-   false,
-   true,
-   false
-  ],
-  "venue": "2nd MICCAI Workshop on Mathematical Foundations of Computational Anatomy",
-  "year": 2008,
-  "month": 10,
-  "doi": "",
-  "url": "https://inria.hal.science/inria-00632877",
-  "pdf": "https://inria.hal.science/inria-00632877v1/file/mfca08_3_3.pdf",
-  "hal": "https://inria.hal.science/inria-00632877",
+  "url": "https://hal.science/hal-00356428",
+  "pdf": "https://hal.science/hal-00356428v1/file/AdaptIV.pdf",
+  "hal": "https://hal.science/hal-00356428",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5750,12 +5914,40 @@
    false
   ],
   "venue": "Electronic Journal of Statistics",
+  "abbr": "EJS",
   "year": 2008,
   "month": 7,
   "doi": "",
   "url": "https://hal.science/hal-00347815",
   "pdf": "",
   "hal": "https://hal.science/hal-00347815",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "loubes:hal-00459984",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Maximum entropy solution to ill-posed inverse problems with approximately known operator",
+  "authors": [
+   "Jean-Michel Loubes",
+   "Bruno Pelletier"
+  ],
+  "me": [
+   true,
+   false
+  ],
+  "venue": "Journal of Mathematical Analysis and Applications",
+  "abbr": "J. Math. Anal. Appl.",
+  "year": 2008,
+  "month": 0,
+  "doi": "",
+  "url": "https://hal.science/hal-00459984",
+  "pdf": "https://hal.science/hal-00459984v1/file/amem.pdf",
+  "hal": "https://hal.science/hal-00459984",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5777,6 +5969,7 @@
    false
   ],
   "venue": "Statistics and Decisions",
+  "abbr": "Stat. Decis.",
   "year": 2008,
   "month": 0,
   "doi": "10.1524/stnd.2008.0911",
@@ -5801,6 +5994,7 @@
    true
   ],
   "venue": "Communications in Statistics - Theory and Methods",
+  "abbr": "Comm. Statist.",
   "year": 2008,
   "month": 0,
   "doi": "10.1080/03610920701826013",
@@ -5812,27 +6006,59 @@
   "app": ""
  },
  {
-  "key": "loubes:hal-00459984",
+  "key": "bigot:inria-00632877",
+  "type": "conference",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Semiparametric estimation of rigid transformations on compact Lie groups",
+  "authors": [
+   "Jérémie Bigot",
+   "Jean-Michel Loubes",
+   "Myriam Vimond"
+  ],
+  "me": [
+   false,
+   true,
+   false
+  ],
+  "venue": "2nd MICCAI Workshop on Mathematical Foundations of Computational Anatomy",
+  "abbr": "MICCAI",
+  "year": 2008,
+  "month": 10,
+  "doi": "",
+  "url": "https://inria.hal.science/inria-00632877",
+  "pdf": "https://inria.hal.science/inria-00632877v1/file/mfca08_3_3.pdf",
+  "hal": "https://inria.hal.science/inria-00632877",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gamboa:hal-00635716",
   "type": "journal",
   "themes": [
    "statistics-and-data-science"
   ],
-  "title": "Maximum entropy solution to ill-posed inverse problems with approximately known operator",
+  "title": "Semi-parametric estimation of shifts",
   "authors": [
+   "Fabrice Gamboa",
    "Jean-Michel Loubes",
-   "Bruno Pelletier"
+   "Elie Maza"
   ],
   "me": [
+   false,
    true,
    false
   ],
-  "venue": "Journal of Mathematical Analysis and Applications",
-  "year": 2008,
+  "venue": "Electronic Journal of Statistics",
+  "abbr": "EJS",
+  "year": 2007,
   "month": 0,
-  "doi": "",
-  "url": "https://hal.science/hal-00459984",
-  "pdf": "https://hal.science/hal-00459984v1/file/amem.pdf",
-  "hal": "https://hal.science/hal-00459984",
+  "doi": "10.1214/07-EJS026",
+  "url": "https://doi.org/10.1214/07-EJS026",
+  "pdf": "https://hal.science/hal-00635716v1/file/2007_Gamboa_Electronic%20Journal%20of%20Statistics_1.pdf",
+  "hal": "https://hal.science/hal-00635716",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5853,6 +6079,7 @@
    true
   ],
   "venue": "Test",
+  "abbr": "TEST",
   "year": 2007,
   "month": 0,
   "doi": "10.1007/s11749-006-0015-9",
@@ -5879,12 +6106,38 @@
    true
   ],
   "venue": "ALEA : Latin American Journal of Probability and Mathematical Statistics",
+  "abbr": "ALEA",
   "year": 2007,
   "month": 0,
   "doi": "",
   "url": "https://hal.science/hal-00095451",
   "pdf": "https://hal.science/hal-00095451v2/file/Hurst_CLJML-0702.pdf",
   "hal": "https://hal.science/hal-00095451",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsloubes2007sparsityanda",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "sparsity and applications in estimation",
+  "authors": [
+   "JM Loubes"
+  ],
+  "me": [
+   true
+  ],
+  "venue": "Comptes rendus. Mathématique",
+  "abbr": "C. R. Math.",
+  "year": 2007,
+  "month": 0,
+  "doi": "",
+  "url": "",
+  "pdf": "",
+  "hal": "",
   "arxiv": "",
   "code": "",
   "app": ""
@@ -5908,113 +6161,8 @@
    false
   ],
   "venue": "",
+  "abbr": "Preprint",
   "year": 2007,
-  "month": 0,
-  "doi": "",
-  "url": "",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gamboa:hal-00635716",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Semi-parametric estimation of shifts",
-  "authors": [
-   "Fabrice Gamboa",
-   "Jean-Michel Loubes",
-   "Elie Maza"
-  ],
-  "me": [
-   false,
-   true,
-   false
-  ],
-  "venue": "Electronic Journal of Statistics",
-  "year": 2007,
-  "month": 0,
-  "doi": "10.1214/07-EJS026",
-  "url": "https://doi.org/10.1214/07-EJS026",
-  "pdf": "https://hal.science/hal-00635716v1/file/2007_Gamboa_Electronic%20Journal%20of%20Statistics_1.pdf",
-  "hal": "https://hal.science/hal-00635716",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsloubes2007sparsityanda",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "sparsity and applications in estimation",
-  "authors": [
-   "JM Loubes"
-  ],
-  "me": [
-   true
-  ],
-  "venue": "Comptes rendus. Mathématique",
-  "year": 2007,
-  "month": 0,
-  "doi": "",
-  "url": "",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "chafai:hal-00003341",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "On nonparametric maximum likelihood for a class of stochastic inverse problems",
-  "authors": [
-   "Djalil Chafai",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   true
-  ],
-  "venue": "Statistics & Probability Letters",
-  "year": 2006,
-  "month": 7,
-  "doi": "10.1016/j.spl.2005.12.019",
-  "url": "https://doi.org/10.1016/j.spl.2005.12.019",
-  "pdf": "https://hal.science/hal-00003341v1/file/DC-JML-2004-4HAL.pdf",
-  "hal": "https://hal.science/hal-00003341",
-  "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gsfermin2006bayesianmeth",
-  "type": "journal",
-  "themes": [
-   "statistics-and-data-science"
-  ],
-  "title": "Bayesian methods for a particular inverse problem: seismic tomography",
-  "authors": [
-   "A FERMIN",
-   "JM LOUBES",
-   "C Ludeña"
-  ],
-  "me": [
-   false,
-   false,
-   false
-  ],
-  "venue": "Internat. J. Tomogr. Statist",
-  "year": 2006,
   "month": 0,
   "doi": "",
   "url": "",
@@ -6046,6 +6194,63 @@
    false
   ],
   "venue": "Canadian Journal of Statistics",
+  "abbr": "Canad. J. Statist.",
+  "year": 2006,
+  "month": 0,
+  "doi": "",
+  "url": "",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "chafai:hal-00003341",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "On nonparametric maximum likelihood for a class of stochastic inverse problems",
+  "authors": [
+   "Djalil Chafai",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   true
+  ],
+  "venue": "Statistics & Probability Letters",
+  "abbr": "Stat. Probab. Lett.",
+  "year": 2006,
+  "month": 7,
+  "doi": "10.1016/j.spl.2005.12.019",
+  "url": "https://doi.org/10.1016/j.spl.2005.12.019",
+  "pdf": "https://hal.science/hal-00003341v1/file/DC-JML-2004-4HAL.pdf",
+  "hal": "https://hal.science/hal-00003341",
+  "arxiv": "",
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gsfermin2006bayesianmeth",
+  "type": "journal",
+  "themes": [
+   "statistics-and-data-science"
+  ],
+  "title": "Bayesian methods for a particular inverse problem: seismic tomography",
+  "authors": [
+   "A FERMIN",
+   "JM LOUBES",
+   "C Ludeña"
+  ],
+  "me": [
+   false,
+   false,
+   false
+  ],
+  "venue": "Internat. J. Tomogr. Statist",
+  "abbr": "Int. J. Tomogr. Stat.",
   "year": 2006,
   "month": 0,
   "doi": "",
@@ -6072,6 +6277,7 @@
    true
   ],
   "venue": "Bernoulli",
+  "abbr": "Bernoulli",
   "year": 2005,
   "month": 0,
   "doi": "",
@@ -6096,6 +6302,7 @@
    true
   ],
   "venue": "The Annals of Statistics",
+  "abbr": "Ann. Statist.",
   "year": 2004,
   "month": 0,
   "doi": "",
@@ -6123,6 +6330,7 @@
    true
   ],
   "venue": "Econometric Society 2004 North American Summer Meetings",
+  "abbr": "Econometric Soc. Meeting",
   "year": 2004,
   "month": 0,
   "doi": "",
@@ -6149,6 +6357,7 @@
    false
   ],
   "venue": "Statistica Neerlandica",
+  "abbr": "Statistica Neerl.",
   "year": 2002,
   "month": 0,
   "doi": "",
@@ -6175,6 +6384,7 @@
    false
   ],
   "venue": "Université de Paris-Sud. Département de Mathématique",
+  "abbr": "Preprint",
   "year": 2002,
   "month": 0,
   "doi": "",

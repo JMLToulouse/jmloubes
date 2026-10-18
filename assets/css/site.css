@@ -434,10 +434,9 @@ body {
   background: var(--pub-bg);
   color: var(--pub-color);
   font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 0.7em;
+  font-size: 0.75em;
   font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .pub__title {
