@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 BIB_DIR = ROOT / "_bibliography"
 THEMES_FILE = ROOT / "_data" / "research_themes.yml"
 OUT_FILE = ROOT / "_data" / "publications.json"
+TIMELINE_FILE = ROOT / "_data" / "theme_timeline.json"
 
 HIGHLIGHT_AUTHOR = "Loubes"
 
@@ -37,6 +38,29 @@ PREPRINT_VENUE = re.compile(r"arxiv|preprint|submitted|working paper|hal\b", re.
 # --------------------------------------------------------------------------
 # Themes
 # --------------------------------------------------------------------------
+
+def theme_names():
+    """Theme slugs and names in display order."""
+    names, slug = [], None
+    for line in THEMES_FILE.read_text(encoding="utf-8").splitlines():
+        m = re.match(r"\s*-?\s*(name|slug):\s*(.+?)\s*$", line)
+        if m and m.group(1) == "name":
+            names.append([None, m.group(2).strip("\"'")])
+        elif m and m.group(1) == "slug":
+            names[-1][0] = m.group(2).strip("\"'")
+    return names
+
+
+def timeline(pubs):
+    """Publications per theme and per year, for the chart on the Publications page."""
+    years = [p["year"] for p in pubs if p["year"] > 0]
+    span = list(range(min(years), max(years) + 1))
+    themes = []
+    for slug, name in theme_names():
+        counts = [sum(1 for p in pubs if p["year"] == y and slug in p["themes"]) for y in span]
+        themes.append({"slug": slug, "name": name, "counts": counts, "total": sum(counts)})
+    return {"years": span, "themes": themes}
+
 
 def load_themes():
     """Read name/slug pairs from the themes YAML (flat list, no PyYAML needed)."""
@@ -268,6 +292,7 @@ def main():
                 pubs.append(p)
     pubs.sort(key=lambda p: (-p["year"], -p["month"], p["title"].lower()))
     OUT_FILE.write_text(json.dumps(pubs, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    TIMELINE_FILE.write_text(json.dumps(timeline(pubs), ensure_ascii=False) + "\n", encoding="utf-8")
     counts = {k: sum(p["type"] == k for p in pubs) for k in ("journal", "conference", "preprint", "patent")}
     print(f"{len(pubs)} publications from {len(files)} file(s) -> {OUT_FILE.relative_to(ROOT)} {counts}")
 

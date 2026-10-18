@@ -24,13 +24,13 @@ jobs:
       with:
         python-version: '3.12'
 
-    - name: Build _data/publications.json
+    - name: Build _data/publications.json and _data/theme_timeline.json
       run: python3 scripts/build_publications.py
 
     - name: Commit changes
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add _data/publications.json
+        git add _data/publications.json _data/theme_timeline.json
         git commit -m "Automated update of publication list" || echo "No changes to commit"
         git push

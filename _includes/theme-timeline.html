@@ -1,0 +1,135 @@
+{% comment %}
+  Publications per research theme and per year (one small chart per theme,
+  same scale). Data: _data/theme_timeline.json, built by scripts/build_publications.py.
+  Clicking a theme filters the publication list below (through the URL hash).
+{% endcomment %}
+
+{% assign tl = site.data.theme_timeline %}
+
+<figure class="timeline" id="theme-timeline">
+  <figcaption class="timeline__caption">
+    <strong>Research themes over the years</strong>
+    <span>Number of publications per year in each theme (a publication can belong to several themes). Click a theme to see its publications.</span>
+  </figcaption>
+  <div class="timeline__chart" role="img" aria-label="Publications per year for each research theme, {{ tl.years | first }} to {{ tl.years | last }}"></div>
+  <div class="timeline__tooltip" hidden></div>
+
+  <details class="timeline__table">
+    <summary>Show the data as a table</summary>
+    <div class="timeline__table-scroll">
+      <table>
+        <thead>
+          <tr><th scope="col">Theme</th>{% for y in tl.years %}<th scope="col">{{ y }}</th>{% endfor %}<th scope="col">Total</th></tr>
+        </thead>
+        <tbody>
+          {% for t in tl.themes %}
+            <tr><th scope="row">{{ t.name }}</th>{% for c in t.counts %}<td>{{ c }}</td>{% endfor %}<td>{{ t.total }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </details>
+</figure>
+
+<script>
+(function () {
+  var data = {{ tl | jsonify }};
+  var root = document.getElementById('theme-timeline');
+  var host = root.querySelector('.timeline__chart');
+  var tip = root.querySelector('.timeline__tooltip');
+  var NS = 'http://www.w3.org/2000/svg';
+
+  var years = data.years, themes = data.themes;
+  var ymax = Math.max.apply(null, themes.map(function (t) { return Math.max.apply(null, t.counts); }));
+
+  function el(name, attrs, parent) {
+    var e = document.createElementNS(NS, name);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+
+  function draw() {
+    host.innerHTML = '';
+    var W = Math.max(host.clientWidth, 320);
+    var narrow = W < 600;
+    var labelW = narrow ? 0 : 190;
+    var rowH = 58, labelH = narrow ? 18 : 0, gap = 10, axisH = 22;
+    var plotW = W - labelW - 8;
+    var band = plotW / years.length;
+    var barW = Math.max(2, band - 2);              // 2px gap between columns
+    var H = themes.length * (rowH + labelH + gap) + axisH;
+    var svg = el('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H }, host);
+
+    themes.forEach(function (t, i) {
+      var top = i * (rowH + labelH + gap);
+      var g = el('g', { 'class': 'timeline__row', 'data-theme': t.slug, tabindex: 0, role: 'link',
+                        'aria-label': t.name + ': ' + t.total + ' publications. Show them.' }, svg);
+      el('rect', { x: 0, y: top, width: W, height: rowH + labelH + gap, 'class': 'timeline__hit' }, g);
+
+      var name = el('text', { x: 0, y: narrow ? top + 13 : top + rowH / 2, 'class': 'timeline__name' }, g);
+      name.textContent = t.name;
+      var total = el('text', narrow ? { x: W, y: top + 13, 'text-anchor': 'end', 'class': 'timeline__total' }
+                                    : { x: 0, y: top + rowH / 2 + 17, 'class': 'timeline__total' }, g);
+      total.textContent = t.total + ' publications';
+
+      var x0 = labelW, base = top + labelH + rowH;
+      el('line', { x1: x0, x2: x0 + plotW, y1: base, y2: base, 'class': 'timeline__base' }, g);
+
+      var peak = t.counts.indexOf(Math.max.apply(null, t.counts));
+      t.counts.forEach(function (c, j) {
+        var x = x0 + j * band + 1;
+        if (c > 0) {
+          var h = Math.max(2, (c / ymax) * (rowH - 14));
+          var r = Math.min(2, barW / 2, h);
+          var y = base - h;
+          el('path', { d: 'M' + x + ',' + base + 'V' + (y + r) + 'Q' + x + ',' + y + ' ' + (x + r) + ',' + y +
+                          'H' + (x + barW - r) + 'Q' + (x + barW) + ',' + y + ' ' + (x + barW) + ',' + (y + r) + 'V' + base + 'Z',
+                       'class': 'timeline__bar' }, g);
+          if (j === peak) {
+            var lab = el('text', { x: x + barW / 2, y: y - 3, 'text-anchor': 'middle', 'class': 'timeline__peak' }, g);
+            lab.textContent = c;
+          }
+        }
+        // Hover target: the full column of the row, wider than the bar
+        var hit = el('rect', { x: x0 + j * band, y: top + labelH, width: band, height: rowH, 'class': 'timeline__col' }, g);
+        hit.addEventListener('mouseenter', function (e) { show(e, t, j, c); });
+        hit.addEventListener('mousemove', move);
+        hit.addEventListener('mouseleave', hide);
+      });
+
+      g.addEventListener('click', function () { location.hash = t.slug; });
+      g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); location.hash = t.slug; } });
+    });
+
+    // Shared year axis
+    var axisY = H - axisH + 15;
+    var step = narrow ? 5 : (band < 28 ? 2 : 1);
+    years.forEach(function (y, j) {
+      if ((y % step) !== 0 && j !== 0) return;
+      var tx = el('text', { x: labelW + j * band + band / 2, y: axisY, 'text-anchor': 'middle', 'class': 'timeline__year' }, svg);
+      tx.textContent = y;
+    });
+  }
+
+  function show(e, t, j, c) {
+    tip.innerHTML = '<strong>' + years[j] + '</strong> · ' + t.name + '<br>' + c + (c === 1 ? ' publication' : ' publications');
+    tip.hidden = false;
+    move(e);
+  }
+  function move(e) {
+    var box = root.getBoundingClientRect();
+    var x = e.clientX - box.left + 12, y = e.clientY - box.top + 12;
+    x = Math.min(x, box.width - tip.offsetWidth - 4);
+    tip.style.left = x + 'px';
+    tip.style.top = y + 'px';
+  }
+  function hide() { tip.hidden = true; }
+
+  draw();
+  var w = host.clientWidth;
+  window.addEventListener('resize', function () {
+    if (host.clientWidth !== w) { w = host.clientWidth; draw(); }
+  });
+})();
+</script>

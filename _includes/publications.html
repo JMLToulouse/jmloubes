@@ -120,7 +120,7 @@
     state.theme = a.dataset.theme;
     history.replaceState(null, '', state.theme === 'all' ? '#publications' : '#' + state.theme);
     render();
-    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    section.querySelector('.research').scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 
   toggles.forEach(function (b) {
@@ -135,7 +135,7 @@
     if (isTheme(h) && h !== 'all') {
       state.theme = h;
       render();
-      section.scrollIntoView();
+      section.querySelector('.research').scrollIntoView();
     } else if (h === 'publications') {
       state.theme = 'all';
       render();

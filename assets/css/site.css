@@ -515,3 +515,140 @@ body {
   margin-top: 1.2em;
   font-weight: bold;
 }
+
+/* Research themes over the years (Publications page)
+   ========================================================================== */
+
+.timeline {
+  position: relative;
+  margin: 0 0 2.5em;
+  padding: 1em 1.2em 0.8em;
+  background: #fcfcfb;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.timeline__caption {
+  margin-bottom: 0.8em;
+  line-height: 1.5;
+}
+
+.timeline__caption strong {
+  display: block;
+  color: var(--accent);
+  font-size: 1.15em;
+}
+
+.timeline__caption span {
+  color: var(--text-light);
+  font-size: 0.9em;
+}
+
+.timeline__chart svg {
+  display: block;
+  overflow: visible;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.timeline__hit {
+  fill: transparent;
+}
+
+.timeline__row {
+  cursor: pointer;
+  outline: none;
+}
+
+.timeline__row:hover .timeline__hit,
+.timeline__row:focus-visible .timeline__hit {
+  fill: var(--accent-soft);
+}
+
+.timeline__row:focus-visible .timeline__name {
+  text-decoration: underline;
+}
+
+.timeline__name {
+  fill: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.timeline__total,
+.timeline__year {
+  fill: #898781;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline__peak {
+  fill: #52514e;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline__base {
+  stroke: #c3c2b7;
+  stroke-width: 1;
+}
+
+.timeline__bar {
+  fill: var(--accent);
+}
+
+.timeline__col {
+  fill: transparent;
+}
+
+.timeline__col:hover {
+  fill: rgba(27, 46, 129, 0.06);
+}
+
+.timeline__tooltip {
+  position: absolute;
+  z-index: 2;
+  padding: 0.4em 0.7em;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.82em;
+  line-height: 1.4;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.timeline__table {
+  margin-top: 0.6em;
+  font-size: 0.85em;
+}
+
+.timeline__table summary {
+  color: var(--link);
+  cursor: pointer;
+}
+
+.timeline__table-scroll {
+  overflow-x: auto;
+}
+
+.timeline__table table {
+  border-collapse: collapse;
+  margin-top: 0.5em;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline__table th,
+.timeline__table td {
+  padding: 0.2em 0.45em;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.timeline__table th[scope="row"] {
+  text-align: left;
+}
