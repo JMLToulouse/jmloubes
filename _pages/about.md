@@ -21,15 +21,18 @@ redirect_from:
 
 <div class="presentation">
   <img src="{{ '/images/jmloubes.jpg' | relative_url }}" alt="Jean-Michel Loubes" width="200">
-  <p>
-    Research Director @ <a href="https://www.inria.fr/en" target="_blank" rel="noopener noreferrer">Inria</a>, head of the team Regalia (Regulation of AI),
-    on leave from Professor of Mathematics (Exceptional Class) at the <a href="https://www.univ-tlse3.fr/home" target="_blank" rel="noopener noreferrer">University of Toulouse</a>,
-    <a href="https://www.math.univ-toulouse.fr/en/" target="_blank" rel="noopener noreferrer">Institut de Mathématiques de Toulouse</a>.<br>
-    Scientific Director of the French AI Safety Institute (<a href="https://www.sgdsn.gouv.fr/notre-organisation/composantes/institut-national-pour-levaluation-et-la-securite-de-lintelligence" target="_blank" rel="noopener noreferrer">INESIA</a>) and Director of the national program on AI evaluation.<br>
-    Principal Investigator, Chair TRIAL (Trustworthy AI &amp; Machine Learning) @ <a href="https://aniti.univ-toulouse.fr/" target="_blank" rel="noopener noreferrer">ANITI</a>.<br>
-    My work focuses on Mathematical Statistics, Machine Learning, Optimal Transport, and the Evaluation, Fairness, Robustness and Explainability of Artificial Intelligence.<br><br>
-    <strong>Contact:</strong><br>✉ jean-michel.loubes@inria.fr
-  </p>
+  <div class="presentation__text">
+    <ul>
+      <li>Research Director @ <a href="https://www.inria.fr/en" target="_blank" rel="noopener noreferrer">Inria</a>,
+        on leave from Professor of Mathematics (Exceptional Class) at the <a href="https://www.univ-tlse3.fr/home" target="_blank" rel="noopener noreferrer">University of Toulouse</a>,
+        <a href="https://www.math.univ-toulouse.fr/en/" target="_blank" rel="noopener noreferrer">Institut de Mathématiques de Toulouse</a>.</li>
+      <li>Head of the <a href="https://team.inria.fr/regaliasite/" target="_blank" rel="noopener noreferrer">Regalia</a> Lab (Regulation of AI).</li>
+      <li>Principal Investigator, Chair <a href="https://aniti.univ-toulouse.fr/en/hybridizing-ai-and-large-scale-simulations-for-engineering-design-2/" target="_blank" rel="noopener noreferrer">TRIAL</a> (Trustworthy AI &amp; Machine Learning) @ <a href="https://aniti.univ-toulouse.fr/" target="_blank" rel="noopener noreferrer">ANITI</a>.</li>
+      <li>Scientific Direction at the French AI Safety Institute (<a href="https://www.sgdsn.gouv.fr/notre-organisation/composantes/institut-national-pour-levaluation-et-la-securite-de-lintelligence" target="_blank" rel="noopener noreferrer">INESIA</a>) and Director of the national program on AI evaluation.</li>
+    </ul>
+    <p><strong>Expertise:</strong> Mathematical Statistics, Machine Learning, Optimal Transport, Evaluation of Artificial Intelligence, Trustworthy AI (Fairness, Robustness, Reliability and Explainability).</p>
+    <p><strong>Contact:</strong><br>✉ jean-michel.loubes@inria.fr</p>
+  </div>
 </div>
 
 <div class="section" id="news">
@@ -69,18 +72,21 @@ redirect_from:
 
 <div class="section" id="curriculum">
   <h2>Curriculum</h2>
-  <ul>
-    {% for c in site.data.curriculum %}
-      <li><strong>{{ c.years }}:</strong> {{ c.text }}
-        {% if c.items %}
-          <ul>
-            {% for i in c.items %}
-              <li><strong>{{ i.years }}:</strong> {{ i.text }}</li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+  {% for group in site.data.curriculum %}
+    <h3 class="cv-heading">{{ group.section }}</h3>
+    <ul>
+      {% for c in group.items %}
+        <li><strong>{{ c.years }}:</strong> {{ c.text }}
+          {% if c.items %}
+            <ul>
+              {% for i in c.items %}
+                <li><strong>{{ i.years }}:</strong> {{ i.text }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
   <p>A detailed CV is available <a href="{{ '/cv/' | relative_url }}">here</a>.</p>
 </div>

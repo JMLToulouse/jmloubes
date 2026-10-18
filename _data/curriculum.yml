@@ -1,47 +1,70 @@
-# Curriculum, newest first. `text` is HTML; `items` are optional sub-items.
-- years: 2024–today
-  text: >-
-    Research Director at <a href="https://www.inria.fr/en">Inria</a>, head of the team
-    <strong>Regalia</strong> (Regulation of AI), on leave from the University of Toulouse
+# Curriculum on the home page, in sections shown in this order.
+# Each item: `years` and `text` (HTML); optional `items` for sub-items.
+
+- section: Education
+  items:
+    - years: 2006
+      text: Habilitation à Diriger des Recherches (HDR), University of Montpellier II
+    - years: 2001
+      text: >-
+        PhD in Applied Mathematics (Statistics), University Toulouse III &amp; Leiden University, supervised by
+        <a href="https://scholar.google.com/citations?user=W8_hHDcAAAAJ">Sara van de Geer</a>
+    - years: 1998
+      text: <a href="https://fr.wikipedia.org/wiki/Agr%C3%A9gation_de_math%C3%A9matiques">Agrégation</a> of Mathematics
+    - years: 1995–1998
+      text: >-
+        <a href="https://ens-paris-saclay.fr/">École Normale Supérieure de Cachan</a> (now ENS Paris-Saclay);
+        Master in Mathematics, University Paris VII
+
+- section: Appointments
   items:
     - years: 2025–today
       text: >-
-        Scientific Director of the French AI Safety Institute
+        Scientific Direction at the French AI Safety Institute
         (<a href="https://www.sgdsn.gouv.fr/notre-organisation/composantes/institut-national-pour-levaluation-et-la-securite-de-lintelligence">INESIA</a>)
         and Director of the national program on AI evaluation
-    - years: 2024–2025
-      text: Representative of Inria at the CEN-CENELEC committee on AI standards
-- years: 2019–today
-  text: >-
-    Principal Investigator, Chair TRIAL (Trustworthy AI &amp; Machine Learning) at
-    <a href="https://aniti.univ-toulouse.fr/">ANITI</a>, renewed 2023–2027
-- years: 2007–2024
-  text: >-
-    Professor of Applied Mathematics at the <a href="https://www.univ-tlse3.fr/home">University of Toulouse</a>,
-    <a href="https://www.math.univ-toulouse.fr/en/">Institut de Mathématiques de Toulouse</a>
-  items:
-    - years: 2019
-      text: Promoted to Exceptional Class (First Class in 2013)
-    - years: 2019–2023
-      text: Deputy President of Université Toulouse III, in charge of innovation for industry
+    - years: 2025–today
+      text: >-
+        Head of the <a href="https://team.inria.fr/regaliasite/">Regalia</a> Lab (Regulation of AI), Inria
+    - years: 2024–today
+      text: >-
+        Research Director at <a href="https://www.inria.fr/en">Inria</a>, on leave from the University of Toulouse
+    - years: 2019–today
+      text: >-
+        Principal Investigator, Chair
+        <a href="https://aniti.univ-toulouse.fr/en/hybridizing-ai-and-large-scale-simulations-for-engineering-design-2/">TRIAL</a>
+        (Trustworthy AI &amp; Machine Learning) at <a href="https://aniti.univ-toulouse.fr/">ANITI</a>, renewed 2023–2027
     - years: 2018–2020
-      text: Scientific Director of the DEEL project — certifiable and explainable AI for safety-critical systems
+      text: >-
+        Scientific Director of the DEEL team (Dependable, Explainable and Embeddable Learning),
+        <a href="https://www.irt-saintexupery.com/">IRT Saint Exupéry</a>
+    - years: 2007–2024
+      text: >-
+        Professor of Applied Mathematics at the <a href="https://www.univ-tlse3.fr/home">University of Toulouse</a>,
+        <a href="https://www.math.univ-toulouse.fr/en/">Institut de Mathématiques de Toulouse</a>
+        (First Class 2013, Exceptional Class 2019)
+    - years: 2005–2007
+      text: CNRS Researcher in Mathematics, University Montpellier II
+    - years: 2002–2005
+      text: CNRS Researcher in Mathematics, University Paris XI Orsay (now Paris-Saclay)
+
+- section: Honours
+  items:
+    - years: 2024–today
+      text: Member of the AFNOR / CEN-CENELEC committee on AI standards; representative of Inria (2024–2025)
+    - years: 2020–2024
+      text: Member of the Scientific Council of CNRS Mathematics (INSMI)
+    - years: 2019–2023
+      text: Deputy President of the University of Toulouse, in charge of innovation for industry
+    - years: 2019
+      text: CNRS Innovation Award, for the development of explainable machine learning tools
+    - years: 2016–2020
+      text: Member of the National Council of Universities (CNU)
+    - years: 2016–2020
+      text: Member of the Scientific Council of the University of Toulouse
+    - years: 2011
+      text: >-
+        Co-creation and direction of <a href="https://www.agence-maths-entreprises.fr/">AMIES</a>,
+        the French agency for mathematics in interaction with industry and society
     - years: 2008–today
-      text: Research Excellence Award (PEDR)
-- years: 2005–2007
-  text: CNRS Researcher in Mathematics, University Montpellier II
-  items:
-    - years: 2006
-      text: Habilitation à Diriger des Recherches, University of Montpellier
-- years: 2002–2005
-  text: CNRS Researcher in Mathematics, University Paris XI Orsay (now Paris-Saclay)
-- years: 1998–2001
-  text: >-
-    PhD in Applied Mathematics, University Toulouse III &amp; Leiden University, supervised by
-    <a href="https://scholar.google.com/citations?user=W8_hHDcAAAAJ">Sara van de Geer</a>
-- years: 1995–1998
-  text: >-
-    <a href="https://ens-paris-saclay.fr/">ENS Cachan</a> (now ENS Paris-Saclay); Master in Mathematics, University Paris VII
-  items:
-    - years: 1998
-      text: <a href="https://fr.wikipedia.org/wiki/Agr%C3%A9gation_de_math%C3%A9matiques">Agrégation</a> of Mathematics
+      text: Research Excellence Award (PEDR), renewed every four years
