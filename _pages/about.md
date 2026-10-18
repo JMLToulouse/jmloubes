@@ -44,6 +44,27 @@ redirect_from:
   </ul>
 </div>
 
+<div class="section" id="curriculum">
+  <h2>Curriculum</h2>
+  {% for group in site.data.curriculum %}
+    <h3 class="cv-heading">{{ group.section }}</h3>
+    <ul>
+      {% for c in group.items %}
+        <li><strong>{{ c.years }}:</strong> {{ c.text }}
+          {% if c.items %}
+            <ul>
+              {% for i in c.items %}
+                <li><strong>{{ i.years }}:</strong> {{ i.text }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+  <p>A detailed CV is available <a href="{{ '/cv/' | relative_url }}">here</a>.</p>
+</div>
+
 <div class="section" id="selected">
   <h2>Selected publications</h2>
   {% for topic in site.data.selected_publications %}
@@ -68,25 +89,25 @@ redirect_from:
       <li><strong>{{ t.title }}:</strong> {{ t.text }}</li>
     {% endfor %}
   </ul>
-</div>
+  {% assign current = site.data.phd_students | where: "status", "current" %}
+  {% assign former = site.data.phd_students | where: "status", "former" %}
+  <h3 class="cv-heading">PhD students</h3>
+  <p><strong>Current:</strong>
+    {% for st in current %}{{ st.name }}{% if st.context != "" %} ({{ st.context }}){% endif %}{% unless forloop.last %}; {% endunless %}{% endfor %}.</p>
+  <p><strong>Former ({{ former | size }}):</strong>
+    {% for st in former %}{{ st.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>
+  <p class="more-link"><a href="{{ '/students/' | relative_url }}">→ Full list with thesis titles, dates and current positions</a></p>
 
-<div class="section" id="curriculum">
-  <h2>Curriculum</h2>
-  {% for group in site.data.curriculum %}
-    <h3 class="cv-heading">{{ group.section }}</h3>
-    <ul>
-      {% for c in group.items %}
-        <li><strong>{{ c.years }}:</strong> {{ c.text }}
-          {% if c.items %}
-            <ul>
-              {% for i in c.items %}
-                <li><strong>{{ i.years }}:</strong> {{ i.text }}</li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
-  <p>A detailed CV is available <a href="{{ '/cv/' | relative_url }}">here</a>.</p>
+  <h3 class="cv-heading">Resources</h3>
+  <ul>
+    {% for r in site.data.resources %}
+      <li><a href="{{ r.url }}" target="_blank" rel="noopener noreferrer">{{ r.title }}</a> — {{ r.source }}</li>
+    {% endfor %}
+  </ul>
+  <h3 class="cv-heading">In the press</h3>
+  <ul>
+    {% for r in site.data.press %}
+      <li><a href="{{ r.url }}" target="_blank" rel="noopener noreferrer">{{ r.title }}</a> — <em>{{ r.source }}</em>{% if r.date %}, {{ r.date }}{% endif %}</li>
+    {% endfor %}
+  </ul>
 </div>

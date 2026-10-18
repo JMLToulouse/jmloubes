@@ -1,0 +1,37 @@
+# In the press, newest first. `date` may be left empty when unknown.
+- title: "Le chercheur : les mathématiques, l’IA et l’éthique"
+  source: "Boudu"
+  date: 2025
+  url: https://www.boudulemag.com/post/le-chercheur-les-math%C3%A9matiques-l-ia-et-l-%C3%A9thique
+- title: "Stéréotypes, inégalités et « généralisation » : pourquoi les intelligences artificielles génératives sont-elles sexistes ?"
+  source: "franceinfo (radio)"
+  date: 2025
+  url: https://www.radiofrance.fr/franceinfo/podcasts/le-choix-de-franceinfo/stereotypes-inegalites-et-generalisation-pourquoi-les-intelligences-artificielles-generatives-sont-elles-sexistes-5652337
+- title: "« Il faut que l’humanité soit prête à vivre avec l’intelligence artificielle », explique un expert"
+  source: "La Dépêche du Midi"
+  date: 2023
+  url: https://www.ladepeche.fr/2023/04/07/entretien-il-faut-que-lhumanite-soit-prete-a-vivre-avec-lintelligence-artificielle-explique-un-expert-11115956.php
+- title: "Toulouse : des chercheurs traquent les failles de l’intelligence artificielle afin d’éviter qu’elle déraille"
+  source: "La Dépêche du Midi"
+  date: 2023
+  url: https://www.ladepeche.fr/2023/02/05/toulouse-des-chercheurs-traquent-les-failles-de-lintelligence-artificielle-afin-deviter-quelle-deraille-et-provoque-des-catastrophes-10972181.php
+- title: "Les bugs de l’intelligence artificielle"
+  source: "Le Monde"
+  date: 2019
+  url: https://www.lemonde.fr/sciences/article/2019/02/25/les-bugs-de-l-intelligence-artificielle_5428168_1650684.html
+- title: "La fin de la science ?"
+  source: "Le Monde"
+  date: 2014
+  url: https://www.lemonde.fr/sciences/article/2014/01/27/la-fin-de-la-science_4355220_1650684.html
+- title: "Jean-Michel Loubes : « L’IA est le reflet de notre humanité »"
+  source: "Sciences en Occitanie"
+  date:
+  url: https://www.sciences-en-occitanie.fr/articles/jean-michel-loubes-l-ia-est-le-reflet-de-notre-humanite
+- title: "Jean-Michel Loubes, le mathématicien qui enseigne aux machines"
+  source: "Exploreur, Université de Toulouse"
+  date:
+  url: https://exploreur.univ-toulouse.fr/jean-michel-loubes-le-mathematicien-qui-enseigne-aux-machines
+- title: "Innovation et réglementation, entre stabilité juridique et dynamisme technologique (podcast)"
+  source: "Data Ring — Les Causeries Data"
+  date:
+  url: https://www.data-ring.net/citoyens-de-la-data/les-causeries-data-1/27-innovation-et-reglementation-entre-stabilite-juridique-et-dynamisme-technologique-1-1-1-1

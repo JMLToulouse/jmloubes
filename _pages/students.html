@@ -1,0 +1,58 @@
+---
+layout: onepage
+title: PhD students
+permalink: /students/
+---
+
+{% comment %} Built from _data/phd_students.yml. {% endcomment %}
+{% assign current = site.data.phd_students | where: "status", "current" %}
+{% assign former = site.data.phd_students | where: "status", "former" %}
+
+<div class="section" id="students">
+  <h2>PhD students</h2>
+  <p class="disclaimer">
+    {{ current | size }} current and {{ former | size }} former PhD students.
+    Thesis titles and dates come from <a href="https://theses.fr/078527015" target="_blank" rel="noopener noreferrer">theses.fr</a>;
+    current positions were last checked in October 2026.
+  </p>
+
+  {% assign groups = "current:Current PhD students,former:Former PhD students" | split: "," %}
+  {% for g in groups %}
+    {% assign parts = g | split: ":" %}
+    {% assign list = site.data.phd_students | where: "status", parts[0] %}
+    <h3 class="cv-heading">{{ parts[1] }}</h3>
+    <div class="students-scroll">
+      <table class="students">
+        <thead>
+          <tr>
+            <th scope="col">Student</th>
+            <th scope="col">{% if parts[0] == "current" %}Started{% else %}Period{% endif %}</th>
+            <th scope="col">Thesis</th>
+            {% if parts[0] == "former" %}<th scope="col">Current position</th>{% endif %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for s in list %}
+            <tr>
+              <th scope="row">{{ s.name }}</th>
+              <td class="students__dates">
+                {% if parts[0] == "current" %}{{ s.start | default: "—" }}
+                {% else %}{% if s.start != "" %}{{ s.start }}–{% endif %}{% if s.end != "" %}{{ s.end | split: "/" | last }}{% else %}—{% endif %}{% endif %}
+              </td>
+              <td>
+                {% if s.title != "" %}
+                  {% if s.url != "" %}<a href="{{ s.url }}" target="_blank" rel="noopener noreferrer">{{ s.title }}</a>{% else %}{{ s.title }}{% endif %}
+                {% else %}<span class="students__missing">Title to be completed</span>{% endif %}
+                <div class="students__meta">
+                  {% if s.with.size > 0 %}With {{ s.with | join: ", " }}{% endif %}{% if s.with.size > 0 and s.context != "" %} · {% endif %}{{ s.context }}
+                  {% if parts[0] == "former" and s.end contains "/" %}<br>Defended {{ s.end }}{% endif %}
+                </div>
+              </td>
+              {% if parts[0] == "former" %}<td>{{ s.position | default: "—" }}</td>{% endif %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endfor %}
+</div>
