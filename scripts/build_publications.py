@@ -6,7 +6,7 @@ _data/research_themes.yml, separated by commas or semicolons:
 
     theme = {Optimal Transport; Machine Learning},
 
-The publication type (preprint / journal / conference / patent) is inferred
+The publication type (preprint / journal / conference / patent / software) is inferred
 from the entry type, and can be forced with `pubtype = {preprint}`.
 
 Only the Python standard library is used, so the script runs as is:
@@ -209,10 +209,10 @@ def format_author(name):
 
 def pub_type(etype, f):
     forced = f.get("pubtype", "").strip().lower()
-    if forced in ("preprint", "journal", "conference", "patent"):
+    if forced in ("preprint", "journal", "conference", "patent", "software"):
         return forced
-    if etype == "patent":
-        return "patent"
+    if etype in ("patent", "software"):
+        return etype
     if etype in ("inproceedings", "conference", "proceedings"):
         return "conference"
     if etype in ("article", "incollection", "inbook", "book"):
@@ -225,6 +225,8 @@ def pub_type(etype, f):
 def venue(etype, kind, f):
     if kind == "patent":
         return latex_to_text(" — ".join(x for x in (f.get("holder", ""), f.get("number", "")) if x))
+    if kind == "software":
+        return latex_to_text(f.get("organization", "") or f.get("note", ""))
     v = f.get("journal") or f.get("booktitle") or ""
     if not v and kind == "preprint":
         v = f.get("institution") or ("arXiv" if f.get("eprint") or "arxiv" in f.get("url", "").lower() else "")
@@ -273,6 +275,7 @@ def convert(entry, themes, source):
         "hal": url if "hal." in url else "",
         "arxiv": arxiv.group(1) if arxiv else "",
         "code": f.get("code", "").strip(),
+        "app": f.get("app", "").strip(),
     }
 
 
@@ -293,7 +296,7 @@ def main():
     pubs.sort(key=lambda p: (-p["year"], -p["month"], p["title"].lower()))
     OUT_FILE.write_text(json.dumps(pubs, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     TIMELINE_FILE.write_text(json.dumps(timeline(pubs), ensure_ascii=False) + "\n", encoding="utf-8")
-    counts = {k: sum(p["type"] == k for p in pubs) for k in ("journal", "conference", "preprint", "patent")}
+    counts = {k: sum(p["type"] == k for p in pubs) for k in ("journal", "conference", "preprint", "patent", "software")}
     print(f"{len(pubs)} publications from {len(files)} file(s) -> {OUT_FILE.relative_to(ROOT)} {counts}")
 
 

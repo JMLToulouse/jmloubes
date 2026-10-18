@@ -1,6 +1,13 @@
 # News, newest first. `date` is free text (e.g. "September 2026");
 # `text` is HTML. Only the first `site.news_shown` items appear on the home page.
 
+- date: October 2026
+  text: >-
+    <a href="https://www.trackllm.net/index.html">TrackLLM</a> is online: it continuously monitors LLM APIs to detect
+    undisclosed changes of the models behind them, building on our ICML 2026 paper
+    <a href="https://arxiv.org/abs/2602.11083">Token-Efficient Change Detection in LLM APIs</a> and its black-box
+    detection of model changes from border inputs.
+
 - date: September 2026
   text: >-
     <a href="https://lnkd.in/p/eqaeehRG">Kick-off of the national program on evaluation of AI</a>
@@ -29,6 +36,11 @@
     (with Adriana Laurindo Monteiro) and
     <a href="https://arxiv.org/abs/2604.02342">Homophily-aware Supervised Contrastive Counterfactual Augmented Fair Graph Neural Network</a>
     (with Mahdi Tavassoli Kejani, Fadi Dornaika and Charlotte Laclau).
+
+- date: December 2025
+  text: >-
+    Talk "When majority rules, minority loses" at the <a href="https://eurips.cc/">EurIPS 2025</a> workshop
+    <a href="https://sites.google.com/view/towards-a-unified-view">Unifying Perspectives on Learning Biases</a>, Copenhagen.
 
 - date: 2025
   text: >-

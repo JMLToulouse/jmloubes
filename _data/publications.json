@@ -25,7 +25,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2503.18831",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbarrio2025distribution",
@@ -55,7 +56,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2505.19104",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsgonzalezsanz2022weaklimitsof",
@@ -82,7 +84,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2207.07427",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "lalanne:hal-05638043",
@@ -113,7 +116,8 @@
   "pdf": "https://hal.science/hal-05638043v1/file/main.pdf",
   "hal": "https://hal.science/hal-05638043",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "etienne:hal-05725815",
@@ -142,7 +146,8 @@
   "pdf": "https://hal.science/hal-05725815v1/file/icmi26-61.pdf",
   "hal": "https://hal.science/hal-05725815",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "lezane:hal-05775266",
@@ -171,7 +176,8 @@
   "pdf": "https://hal.science/hal-05775266v1/file/HAL.pdf",
   "hal": "https://hal.science/hal-05775266",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "ozgunay:hal-05712708",
@@ -202,7 +208,8 @@
   "pdf": "https://hal.science/hal-05712708v2/file/An%20Explainable%20GNN%20Framework%20for%20Component-Level%20Anomaly%20Diagnosis.pdf",
   "hal": "https://hal.science/hal-05712708",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsmisrai2026auditingwhat",
@@ -233,7 +240,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsshilova2026discoveringg",
@@ -266,7 +274,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "lafargue:hal-05374858",
@@ -298,7 +307,8 @@
   "pdf": "https://ut-toulouseinp.hal.science/hal-05374858v2/file/full_paper.pdf",
   "hal": "https://ut-toulouseinp.hal.science/hal-05374858",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsferrere2026minimaxaddit",
@@ -325,7 +335,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2609.39212",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsmisrai2026usingambient",
@@ -354,7 +365,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "shilova:hal-05706876",
@@ -389,7 +401,8 @@
   "pdf": "https://hal.science/hal-05706876v1/file/Fair_Forests_preprint.pdf",
   "hal": "https://hal.science/hal-05706876",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "chauvin:hal-05506096",
@@ -423,7 +436,8 @@
   "pdf": "https://hal.science/hal-05506096v2/file/main.pdf",
   "hal": "https://hal.science/hal-05506096",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "prunkl:hal-05700650",
@@ -460,7 +474,8 @@
   "pdf": "https://hal.science/hal-05700650v1/file/main%202.pdf",
   "hal": "https://hal.science/hal-05700650",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-05642033",
@@ -493,7 +508,8 @@
   "pdf": "https://hal.science/hal-05642033v1/file/Bias_Regalia.pdf",
   "hal": "https://hal.science/hal-05642033",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "rodriguezvitores:hal-04923829",
@@ -521,7 +537,8 @@
   "pdf": "https://hal.science/hal-04923829v3/file/main_TMLR_FINAL.pdf",
   "hal": "https://hal.science/hal-04923829",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "mai:hal-05637345",
@@ -546,7 +563,8 @@
   "pdf": "https://hal.science/hal-05637345v1/file/Fairness_in_High_Dimensions-5.pdf",
   "hal": "https://hal.science/hal-05637345",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsferrere2026generalizedf",
@@ -576,7 +594,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2605.18422",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "champion:hal-03095805",
@@ -607,7 +626,34 @@
   "pdf": "https://hal.science/hal-03095805v4/file/l1_spectralclustering.pdf",
   "hal": "https://hal.science/hal-03095805",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "eynard2026souverainete",
+  "type": "journal",
+  "themes": [
+   "evaluation-of-ai"
+  ],
+  "title": "Souveraineté numérique et intelligence artificielle",
+  "authors": [
+   "Jessica Eynard",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   true
+  ],
+  "venue": "Dalloz IP/IT",
+  "year": 2026,
+  "month": 4,
+  "doi": "",
+  "url": "https://picsel.finances.gouv.fr/Default/doc/SYRACUSE_INTERNET/1228526/souverainete-numerique-et-intelligence-artificielle",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "",
+  "app": ""
  },
  {
   "key": "monteiro:hal-05519642",
@@ -633,7 +679,8 @@
   "pdf": "https://hal.science/hal-05519642v1/file/satml_cameraready.pdf",
   "hal": "https://hal.science/hal-05519642",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "ferrere:hal-05531600",
@@ -666,7 +713,8 @@
   "pdf": "https://hal.science/hal-05531600v1/file/main_paper.pdf",
   "hal": "https://hal.science/hal-05531600",
   "arxiv": "2603.02673",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gslafargue2026probingcultu",
@@ -697,7 +745,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2603.16749",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "ozgunay:hal-05521184",
@@ -729,7 +778,8 @@
   "pdf": "https://hal.science/hal-05521184v1/file/Poster_ANITIDAYS_SENA_OZGUNAY.pdf",
   "hal": "https://hal.science/hal-05521184",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "ferrere:hal-05301780",
@@ -761,7 +811,8 @@
   "pdf": "https://hal.science/hal-05301780v4/file/main.pdf",
   "hal": "https://hal.science/hal-05301780",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gskejani2026homophilyawa",
@@ -791,7 +842,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2604.02342",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bachoc:hal-05072199",
@@ -821,7 +873,8 @@
   "pdf": "https://hal.science/hal-05072199v3/file/HAL_Sept_2026.pdf",
   "hal": "https://hal.science/hal-05072199",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "claeys:hal-05374841",
@@ -848,7 +901,8 @@
   "pdf": "https://ut-toulouseinp.hal.science/hal-05374841v1/file/Claeys_2025.pdf",
   "hal": "https://ut-toulouseinp.hal.science/hal-05374841",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gskejani2025modelagnosti",
@@ -876,7 +930,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2512.03074",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsferrere2025multivariate",
@@ -908,7 +963,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "lafargue:hal-05374875",
@@ -936,7 +992,8 @@
   "pdf": "https://ut-toulouseinp.hal.science/hal-05374875v2/file/978-3-032-06129-4-364-380.pdf",
   "hal": "https://ut-toulouseinp.hal.science/hal-05374875",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "lalanne:hal-04923578",
@@ -967,7 +1024,8 @@
   "pdf": "https://hal.science/hal-04923578v1/file/main.pdf",
   "hal": "https://hal.science/hal-04923578",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "ozgunay:hal-05002338",
@@ -997,7 +1055,8 @@
   "pdf": "https://hal.science/hal-05002338v3/file/GNN_AD_Sena_RJCIA_2025.pdf",
   "hal": "https://hal.science/hal-05002338",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "ilidrissi:hal-04233915",
@@ -1028,7 +1087,8 @@
   "pdf": "https://hal.science/hal-04233915v4/file/genANOVA.pdf",
   "hal": "https://hal.science/hal-04233915",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "krco:hal-05444953",
@@ -1060,7 +1120,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-05444953",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsdediego2025plsbasedappr",
@@ -1091,7 +1152,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2502.16263",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsariasserna2025matrixvariat",
@@ -1118,7 +1180,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsshilova2025fairnessawar",
@@ -1149,7 +1212,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bachoc:hal-04956911",
@@ -1179,7 +1243,8 @@
   "pdf": "https://hal.science/hal-04956911v1/file/Arxiv_January_2025.pdf",
   "hal": "https://hal.science/hal-04956911",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbachoc2024wassersteins",
@@ -1209,7 +1274,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2411.10646",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsariasserna2024matrixvariat",
@@ -1236,7 +1302,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "hadiji:hal-02957485",
@@ -1265,7 +1332,8 @@
   "pdf": "https://hal.science/hal-02957485v3/file/GHLS24--Diversity-preserving-HAL.pdf",
   "hal": "https://hal.science/hal-02957485",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "tavassolikejani:hal-04537254",
@@ -1293,7 +1361,8 @@
   "pdf": "https://hal.science/hal-04537254v1/file/paperMFJM.pdf",
   "hal": "https://hal.science/hal-04537254",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delbarrio:hal-03232450",
@@ -1321,7 +1390,8 @@
   "pdf": "https://hal.science/hal-03232450v3/file/semidiscrete%20%2820%29.pdf",
   "hal": "https://hal.science/hal-03232450",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delbarrio:hal-03136113",
@@ -1349,7 +1419,8 @@
   "pdf": "https://hal.science/hal-03136113v2/file/CLT_arxiv.pdf",
   "hal": "https://hal.science/hal-03136113",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbrotto2024debiasingmac",
@@ -1383,7 +1454,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2402.15477",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "benesse:hal-03160697",
@@ -1414,7 +1486,8 @@
   "pdf": "https://hal.science/hal-03160697v2/file/main.pdf",
   "hal": "https://hal.science/hal-03160697",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "ilidrissi:hal-03784768",
@@ -1448,7 +1521,8 @@
   "pdf": "https://hal.science/hal-03784768v2/file/qcWassProj-HAL.pdf",
   "hal": "https://hal.science/hal-03784768",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delara:hal-03216124",
@@ -1480,7 +1554,8 @@
   "pdf": "https://hal.science/hal-03216124v3/file/delara2022transport.pdf",
   "hal": "https://hal.science/hal-03216124",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbarrio2023attractionre",
@@ -1508,7 +1583,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "risser:hal-04874222",
@@ -1537,7 +1613,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-04874222",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delara:hal-03705992",
@@ -1564,7 +1641,8 @@
   "pdf": "https://hal.science/hal-03705992v2/file/revised_preprint.pdf",
   "hal": "https://hal.science/hal-03705992",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "ilidrissi:hal-03927476",
@@ -1596,7 +1674,8 @@
   "pdf": "https://hal.science/hal-03927476v1/file/QoIDecomp2023.pdf",
   "hal": "https://hal.science/hal-03927476",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbarrio2023animprovedce",
@@ -1626,7 +1705,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbachoc2023explainingma",
@@ -1658,7 +1738,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gstodo2023counterfactu",
@@ -1687,7 +1768,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsjourdan2023cockatielcon",
@@ -1721,7 +1803,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bachoc:hal-03981114",
@@ -1752,7 +1835,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-03981114",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "jourdan:hal-04829589",
@@ -1785,7 +1869,8 @@
   "pdf": "https://hal.science/hal-04829589v1/file/algorithms-16-00174-v2-1.pdf",
   "hal": "https://hal.science/hal-04829589",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "champion:hal-04951093",
@@ -1848,7 +1933,8 @@
   "pdf": "https://hal.science/hal-04951093v1/file/Champion_2023.pdf",
   "hal": "https://hal.science/hal-04951093",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsjourdan2023breakingbias",
@@ -1881,7 +1967,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbesse2023chapitre23li",
@@ -1910,7 +1997,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsperezsuay2023fairkernelre",
@@ -1943,7 +2031,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gscentorrino2022fairnessinma",
@@ -1971,7 +2060,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsariasserna2022multivariate",
@@ -1999,7 +2089,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "picard:hal-03617649",
@@ -2032,7 +2123,8 @@
   "pdf": "https://hal.science/hal-03617649v1/file/Leveraging_Influence_Functions_for_Dataset_Exploration_and_Cleaning_finalV2.pdf",
   "hal": "https://hal.science/hal-03617649",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "ilidrissi:hal-03597059",
@@ -2064,7 +2156,8 @@
   "pdf": "https://hal.science/hal-03597059v1/file/abstractJDS2022_MIL_preprint.pdf",
   "hal": "https://hal.science/hal-03597059",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbesse2022asurveyofbia",
@@ -2097,7 +2190,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "risser:hal-03324550",
@@ -2128,7 +2222,8 @@
   "pdf": "",
   "hal": "https://laas.hal.science/hal-03324550",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsdimeglio2022influenceofv",
@@ -2169,7 +2264,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsfradi2022nonparametri",
@@ -2201,7 +2297,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gonzalezsanz:hal-03575178",
@@ -2231,7 +2328,8 @@
   "pdf": "https://hal.science/hal-03575178v1/file/text.pdf",
   "hal": "https://hal.science/hal-03575178",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "lamweil:hal-02993462",
@@ -2258,7 +2356,8 @@
   "pdf": "https://hal.science/hal-02993462v1/file/main-both.pdf",
   "hal": "https://hal.science/hal-02993462",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsdimeglio2021estimatingth",
@@ -2289,7 +2388,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "serrurier:hal-03033400",
@@ -2323,7 +2423,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-03033400",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "dimeglio:hal-03739146",
@@ -2366,7 +2467,8 @@
   "pdf": "https://hal.inrae.fr/hal-03739146v1/file/Dimeglio_2021.pdf",
   "hal": "https://hal.inrae.fr/hal-03739146",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsdimeglio2021sideeffectof",
@@ -2397,7 +2499,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsariasserna2021riskmeasures",
@@ -2424,7 +2527,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsdimeglio2021quantifyingt",
@@ -2453,7 +2557,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delara:hal-03142788",
@@ -2481,7 +2586,8 @@
   "pdf": "https://hal.science/hal-03142788v1/file/OTextension.pdf",
   "hal": "https://hal.science/hal-03142788",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "fradi:hal-02967770",
@@ -2515,7 +2621,8 @@
   "pdf": "https://hal.science/hal-02967770v1/file/S0020025520309373.pdf",
   "hal": "https://hal.science/hal-02967770",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "champion:hal-03151634",
@@ -2546,7 +2653,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-03151634",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsloubes2021optimaltrans",
@@ -2571,7 +2679,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delbarrio:hal-02964979",
@@ -2602,7 +2711,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-02964979",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delbarrio:hal-02964972",
@@ -2630,7 +2740,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-02964972",
   "arxiv": "2001.07864",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "barreyre:hal-02963672",
@@ -2662,7 +2773,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-02963672",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsdimeglio2020thesarscov2s",
@@ -2697,7 +2809,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbarrio2020thestatistic",
@@ -2723,7 +2836,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2006.05199",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsgouic2020projectionto",
@@ -2752,7 +2866,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "2005.11720",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "champion:hal-02535595",
@@ -2783,7 +2898,8 @@
   "pdf": "https://hal.science/hal-02535595v1/file/paper_hal.pdf",
   "hal": "https://hal.science/hal-02535595",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bachoc:hal-01731251",
@@ -2813,7 +2929,8 @@
   "pdf": "https://hal.science/hal-01731251v5/file/permutations_final.pdf",
   "hal": "https://hal.science/hal-01731251",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbachoc2020gaussianproc",
@@ -2845,7 +2962,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "grimaldi2020profile",
@@ -2878,7 +2996,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-04135100",
@@ -2905,7 +3024,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-04135100",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delbarrio:hal-02963673",
@@ -2935,7 +3055,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-02963673",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gssamir2019learningagau",
@@ -2962,7 +3083,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "samir:hal-02276949",
@@ -2991,7 +3113,8 @@
   "pdf": "https://hal.science/hal-02276949v1/file/Chafik_et_al.pdf",
   "hal": "https://hal.science/hal-02276949",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "risser:hal-02271117",
@@ -3022,7 +3145,8 @@
   "pdf": "",
   "hal": "https://enac.hal.science/hal-02271117",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delbarrio:hal-01806912",
@@ -3052,7 +3176,8 @@
   "pdf": "https://hal.science/hal-01806912v1/file/OTFair_Final.pdf",
   "hal": "https://hal.science/hal-01806912",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbarreyre2019statisticalm",
@@ -3084,7 +3209,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delbarrio:hal-01517192",
@@ -3110,7 +3236,8 @@
   "pdf": "https://hal.science/hal-01517192v3/file/CLTFinal-Modified.pdf",
   "hal": "https://hal.science/hal-01517192",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "castetsrenard:hal-02190585",
@@ -3139,7 +3266,8 @@
   "pdf": "https://hal.science/hal-02190585v1/file/Rapport_CHEMI_FINAL.pdf",
   "hal": "https://hal.science/hal-02190585",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "jabbar:hal-02963677",
@@ -3169,7 +3297,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-02963677",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbesse2019caneverydaya",
@@ -3199,7 +3328,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "delbarrio:hal-01269785",
@@ -3229,7 +3359,8 @@
   "pdf": "https://hal.science/hal-01269785v4/file/NewCLTBootstrapWasserteinDeformation.pdf",
   "hal": "https://hal.science/hal-01269785",
   "arxiv": "1508.06465",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "braga:hal-04790127",
@@ -3270,7 +3401,8 @@
   "pdf": "https://hal.science/hal-04790127v1/file/Braga%20et%20al.%202019%20Sci%20Rep.pdf",
   "hal": "https://hal.science/hal-04790127",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsserrurier2019fairnesswith",
@@ -3298,7 +3430,43 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
+ },
+ {
+  "key": "gems2019",
+  "type": "software",
+  "themes": [
+   "industrial-projects",
+   "evaluation-of-ai"
+  ],
+  "title": "GEMS-AI: explaining and auditing machine learning decisions by stress testing",
+  "authors": [
+   "François Bachoc",
+   "Fabrice Gamboa",
+   "Max Halford",
+   "Vincent Lefoulon",
+   "Jean-Michel Loubes",
+   "Laurent Risser"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "venue": "Institut de Mathématiques de Toulouse, CNRS, ANITI – CNRS Innovation Award 2019",
+  "year": 2019,
+  "month": 0,
+  "doi": "",
+  "url": "https://gems-ai.aniti.fr/",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "",
+  "code": "https://github.com/XAI-ANITI/ethik",
+  "app": "https://gems-amies-apps.apps.math.cnrs.fr/"
  },
  {
   "key": "besse:hal-01886699",
@@ -3328,7 +3496,8 @@
   "pdf": "https://hal.science/hal-01886699v2/file/IAethiqueStatSociete-V4.pdf",
   "hal": "https://hal.science/hal-01886699",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsjabbar2018supervisedle",
@@ -3362,7 +3531,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bui:hal-01824022",
@@ -3393,7 +3563,8 @@
   "pdf": "https://hal.science/hal-01824022v1/file/DistributionRegressionModelwithRKHSapproach.pdf",
   "hal": "https://hal.science/hal-01824022",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-01824461",
@@ -3420,7 +3591,8 @@
   "pdf": "https://hal.science/hal-01824461v1/file/RISK%20MEASURES%20AND%20CREDIT%20RISK%20UNDER%20THE%20BETA-KOTZ%20DISTRIBUTIONF.pdf",
   "hal": "https://hal.science/hal-01824461",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "champion:hal-01799117",
@@ -3449,7 +3621,8 @@
   "pdf": "https://hal.science/hal-01799117v1/file/ChampionEtAl2018_HAL.pdf",
   "hal": "https://hal.science/hal-01799117",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bachoc:hal-01450002",
@@ -3479,7 +3652,8 @@
   "pdf": "https://hal.science/hal-01450002v2/file/Final_Bachoc_Gamboa_Loubes_Venet%20%281%29.pdf",
   "hal": "https://hal.science/hal-01450002",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "minty:hal-02624123",
@@ -3538,7 +3712,8 @@
   "pdf": "",
   "hal": "https://hal.inrae.fr/hal-02624123",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbarrio2017aninversepro",
@@ -3566,7 +3741,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "barreyre:hal-01651191",
@@ -3597,7 +3773,8 @@
   "pdf": "https://hal.science/hal-01651191v1/file/Article_Template.pdf",
   "hal": "https://hal.science/hal-01651191",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "guillouet:hal-01309337",
@@ -3627,7 +3804,8 @@
   "pdf": "https://hal.science/hal-01309337v1/file/Destination_Prediction_by_Trajectory_Distribution_Based_Model%20%282%29.pdf",
   "hal": "https://hal.science/hal-01309337",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "epelbaum:hal-01598905",
@@ -3657,7 +3835,8 @@
   "pdf": "https://hal.science/hal-01598905v1/file/DL_Road_Traffic.pdf",
   "hal": "https://hal.science/hal-01598905",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "legouic:hal-01163262",
@@ -3682,7 +3861,8 @@
   "pdf": "https://hal.science/hal-01163262v2/file/DepthWasser.pdf",
   "hal": "https://hal.science/hal-01163262",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "antolin:hal-01437147",
@@ -3709,7 +3889,8 @@
   "pdf": "https://hal.science/hal-01437147v1/file/TrimRobustLearning_Final.pdf",
   "hal": "https://hal.science/hal-01437147",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "besse:hal-01350099",
@@ -3737,7 +3918,8 @@
   "pdf": "https://hal.science/hal-01350099v3/file/Hal-Apprent_Massif-BGL-06-16.pdf",
   "hal": "https://hal.science/hal-01350099",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "braga:hal-01754860",
@@ -3776,7 +3958,8 @@
   "pdf": "https://hal.science/hal-01754860v1/file/braga_19798.pdf",
   "hal": "https://hal.science/hal-01754860",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "daveiga:hal-01564965",
@@ -3803,7 +3986,8 @@
   "pdf": "",
   "hal": "https://ifp.hal.science/hal-01564965",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "velandia:hal-01597076",
@@ -3835,7 +4019,8 @@
   "pdf": "https://hal.science/hal-01597076v1/file/Velandia_22769.pdf",
   "hal": "https://hal.science/hal-01597076",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-01299554",
@@ -3860,7 +4045,8 @@
   "pdf": "https://hal.science/hal-01299554v2/file/condkm-hal-rev.pdf",
   "hal": "https://hal.science/hal-01299554",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbesse2016bigdataanaly",
@@ -3887,7 +4073,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "1609.09619",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "brunet:hal-01341529",
@@ -3918,7 +4105,8 @@
   "pdf": "https://hal.science/hal-01341529v1/file/article_Vfinal2016.pdf",
   "hal": "https://hal.science/hal-01341529",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "besse:hal-01305993",
@@ -3949,7 +4137,8 @@
   "pdf": "https://hal.science/hal-01305993v1/file/bare_jrnl.pdf",
   "hal": "https://hal.science/hal-01305993",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "espinasse:hal-01014022",
@@ -3974,7 +4163,8 @@
   "pdf": "https://hal.science/hal-01014022v1/file/kriging_6.pdf",
   "hal": "https://hal.science/hal-01014022",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbarreyre2016detectiondev",
@@ -4005,7 +4195,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "afantenos:hal-03155046",
@@ -4048,7 +4239,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-03155046",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "legouic:hal-01291307",
@@ -4074,7 +4266,8 @@
   "pdf": "https://hal.science/hal-01291307v1/file/72-ThibautLeGouic.pdf",
   "hal": "https://hal.science/hal-01291307",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "braga:hal-03039279",
@@ -4117,7 +4310,8 @@
   "pdf": "https://hal.science/hal-03039279v1/file/220cc56b728577db0afc6b9ae1c21e1f.pdf",
   "hal": "https://hal.science/hal-03039279",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsagulloantolin2015aparametricr",
@@ -4146,7 +4340,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsfraysse2015arobbinsmonr",
@@ -4173,7 +4368,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "boissard:hal-01291302",
@@ -4201,7 +4397,8 @@
   "pdf": "https://hal.science/hal-01291302v1/file/1111.5927.pdf",
   "hal": "https://hal.science/hal-01291302",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "lescornel:hal-00653892",
@@ -4229,7 +4426,8 @@
   "pdf": "https://hal.science/hal-00653892v1/file/article1bis.pdf",
   "hal": "https://hal.science/hal-00653892",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gallon:hal-01980674",
@@ -4256,7 +4454,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-01980674",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "espinasse:hal-01980655",
@@ -4283,7 +4482,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-01980655",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "hebiri:hal-00994717",
@@ -4310,7 +4510,8 @@
   "pdf": "https://hal.science/hal-00994717v1/file/Agg_ell1.pdf",
   "hal": "https://hal.science/hal-00994717",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "blazere:hal-00995049",
@@ -4337,7 +4538,8 @@
   "pdf": "https://hal.science/hal-00995049v1/file/PLS.pdf",
   "hal": "https://hal.science/hal-00995049",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "lescornel:hal-00749519",
@@ -4363,7 +4565,8 @@
   "pdf": "https://hal.science/hal-00749519v2/file/lesco_soumis.pdf",
   "hal": "https://hal.science/hal-00749519",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "dimeglio:hal-02631097",
@@ -4392,7 +4595,8 @@
   "pdf": "",
   "hal": "https://hal.inrae.fr/hal-02631097",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsblazre2014aunifiedfram",
@@ -4419,7 +4623,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "besse:hal-00959267",
@@ -4446,7 +4651,8 @@
   "pdf": "https://hal.science/hal-00959267v3/file/st-stat-vs-bigdata.pdf",
   "hal": "https://hal.science/hal-00959267",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gslirio2014estimationof",
@@ -4475,7 +4681,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00949508",
@@ -4500,7 +4707,8 @@
   "pdf": "https://hal.science/hal-00949508v1/file/VersionF_Web.pdf",
   "hal": "https://hal.science/hal-00949508",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "brunet2014biological",
@@ -4529,7 +4737,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "blazere:hal-01980634",
@@ -4556,7 +4765,8 @@
   "pdf": "https://hal.science/hal-01980634v1/file/gp-lasso-glm-final-v.pdf",
   "hal": "https://hal.science/hal-01980634",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gallon:hal-01135106",
@@ -4583,7 +4793,8 @@
   "pdf": "https://hal.science/hal-01135106v1/file/Gallon_13737.pdf",
   "hal": "https://hal.science/hal-01135106",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbraga2013anewpartialt",
@@ -4616,7 +4827,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00966142",
@@ -4642,7 +4854,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-00966142",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "cohen:hal-00638121",
@@ -4671,7 +4884,8 @@
   "pdf": "https://hal.science/hal-00638121v1/file/LAN_Final_2011.pdf",
   "hal": "https://hal.science/hal-00638121",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "kien:hal-00739585",
@@ -4703,7 +4917,8 @@
   "pdf": "https://hal.science/hal-00739585v2/file/ModelingWeatherConditionsConsequencesOnRoadTraffickingBehaviors.pdf",
   "hal": "https://hal.science/hal-00739585",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "biscay:hal-00675273",
@@ -4730,7 +4945,8 @@
   "pdf": "https://hal.science/hal-00675273v1/file/Adaptive_cov.pdf",
   "hal": "https://hal.science/hal-00675273",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00934906",
@@ -4755,7 +4971,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-00934906",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00938779",
@@ -4780,7 +4997,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-00938779",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes2012traveltime",
@@ -4809,7 +5027,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "laurent:hal-00440825",
@@ -4836,7 +5055,8 @@
   "pdf": "https://hal.science/hal-00440825v2/file/Version2.pdf",
   "hal": "https://hal.science/hal-00440825",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bigot:hal-00777107",
@@ -4863,7 +5083,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-00777107",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bigot:hal-00524387",
@@ -4893,7 +5114,8 @@
   "pdf": "https://hal.science/hal-00524387v2/file/GroupLassoFinal.pdf",
   "hal": "https://hal.science/hal-00524387",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "espinasse:hal-00451645",
@@ -4920,7 +5142,8 @@
   "pdf": "https://hal.science/hal-00451645v2/file/blind_forecasting_finalmms.pdf",
   "hal": "https://hal.science/hal-00451645",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "dimeglio:hal-00593180",
@@ -4947,7 +5170,8 @@
   "pdf": "https://hal.science/hal-00593180v2/file/ManiWarp.pdf",
   "hal": "https://hal.science/hal-00593180",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "dupuy:hal-01186532",
@@ -4974,7 +5198,8 @@
   "pdf": "https://hal.science/hal-01186532v1/file/dupuy_13754.pdf",
   "hal": "https://hal.science/hal-01186532",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsloubes2011localasympto",
@@ -4999,7 +5224,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gamboa:hal-00631071",
@@ -5026,7 +5252,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-00631071",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsloubes2011regularisati",
@@ -5049,7 +5276,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "laurent:hal-00528909",
@@ -5076,7 +5304,8 @@
   "pdf": "https://hal.science/hal-00528909v1/file/Article6.pdf",
   "hal": "https://hal.science/hal-00528909",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00612382",
@@ -5101,7 +5330,8 @@
   "pdf": "https://hal.science/hal-00612382v1/file/PEER_stage2_10.1051%252Fps%253A2008024.pdf",
   "hal": "https://hal.science/hal-00612382",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bigot:hal-00440424",
@@ -5130,7 +5360,8 @@
   "pdf": "https://hal.science/hal-00440424v4/file/specdens3.pdf",
   "hal": "https://hal.science/hal-00440424",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "espinasse:inria-00494759",
@@ -5157,7 +5388,8 @@
   "pdf": "https://inria.hal.science/inria-00494759v1/file/p99.pdf",
   "hal": "https://inria.hal.science/inria-00494759",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "rochet:inria-00494763",
@@ -5182,7 +5414,8 @@
   "pdf": "https://inria.hal.science/inria-00494763v1/file/p103.pdf",
   "hal": "https://inria.hal.science/inria-00494763",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "autin:hal-00259253",
@@ -5211,7 +5444,8 @@
   "pdf": "https://hal.science/hal-00259253v3/file/ModelMaxiFinal.pdf",
   "hal": "https://hal.science/hal-00259253",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bigot:hal-00629299",
@@ -5240,7 +5474,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-00629299",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "castillo:hal-00347826",
@@ -5265,7 +5500,8 @@
   "pdf": "https://hal.science/hal-00347826v1/file/RandShifts.pdf",
   "hal": "https://hal.science/hal-00347826",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00389698",
@@ -5290,7 +5526,8 @@
   "pdf": "https://hal.science/hal-00389698v1/file/AMEML2.pdf",
   "hal": "https://hal.science/hal-00389698",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00356428",
@@ -5315,7 +5552,8 @@
   "pdf": "https://hal.science/hal-00356428v1/file/AdaptIV.pdf",
   "hal": "https://hal.science/hal-00356428",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gstreil20093dtoothmodel",
@@ -5351,7 +5589,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsallain2009astatistical",
@@ -5384,7 +5623,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsloubes2009penalizedmax",
@@ -5409,7 +5649,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00634393",
@@ -5434,7 +5675,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-00634393",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsbigot2009statisticalm",
@@ -5461,7 +5703,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "bigot:inria-00632877",
@@ -5488,7 +5731,8 @@
   "pdf": "https://inria.hal.science/inria-00632877v1/file/mfca08_3_3.pdf",
   "hal": "https://inria.hal.science/inria-00632877",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00347815",
@@ -5513,7 +5757,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-00347815",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00460629",
@@ -5539,7 +5784,8 @@
   "pdf": "https://hal.science/hal-00460629v1/file/classifmanifold.pdf",
   "hal": "https://hal.science/hal-00460629",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00635438",
@@ -5562,7 +5808,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-00635438",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "loubes:hal-00459984",
@@ -5587,7 +5834,8 @@
   "pdf": "https://hal.science/hal-00459984v1/file/amem.pdf",
   "hal": "https://hal.science/hal-00459984",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gamboa:hal-00635715",
@@ -5612,7 +5860,8 @@
   "pdf": "",
   "hal": "https://hal.science/hal-00635715",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "lacaux:hal-00095451",
@@ -5637,7 +5886,8 @@
   "pdf": "https://hal.science/hal-00095451v2/file/Hurst_CLJML-0702.pdf",
   "hal": "https://hal.science/hal-00095451",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsloubes2007multiobjecti",
@@ -5665,7 +5915,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gamboa:hal-00635716",
@@ -5692,7 +5943,8 @@
   "pdf": "https://hal.science/hal-00635716v1/file/2007_Gamboa_Electronic%20Journal%20of%20Statistics_1.pdf",
   "hal": "https://hal.science/hal-00635716",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsloubes2007sparsityanda",
@@ -5715,7 +5967,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "chafai:hal-00003341",
@@ -5740,7 +5993,8 @@
   "pdf": "https://hal.science/hal-00003341v1/file/DC-JML-2004-4HAL.pdf",
   "hal": "https://hal.science/hal-00003341",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsfermin2006bayesianmeth",
@@ -5767,7 +6021,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsloubes2006roadtraffick",
@@ -5798,7 +6053,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsgamboa2005waveletestim",
@@ -5823,7 +6079,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsloubes2004discussionof",
@@ -5846,7 +6103,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsvanhems2004saturationsp",
@@ -5872,7 +6130,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsloubes2002adaptiveesti",
@@ -5897,7 +6156,8 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  },
  {
   "key": "gsloubs2002solvingdiffe",
@@ -5922,6 +6182,7 @@
   "pdf": "",
   "hal": "",
   "arxiv": "",
-  "code": ""
+  "code": "",
+  "app": ""
  }
 ]

@@ -30,7 +30,7 @@
 
     <h3 class="research-nav__heading">Publication type</h3>
     <ul class="research-nav__types">
-      {% assign type_labels = "journal:Journal,conference:Conference,preprint:Preprint,patent:Patent" | split: "," %}
+      {% assign type_labels = "journal:Journal,conference:Conference,preprint:Preprint,patent:Patent,software:Software" | split: "," %}
       {% for tl in type_labels %}
         {% assign parts = tl | split: ":" %}
         {% assign n = pubs | where: "type", parts[0] | size %}
@@ -78,7 +78,7 @@
   var desc = document.getElementById('research-desc');
   var count = document.getElementById('research-count');
   var empty = document.getElementById('research-empty');
-  var state = { theme: 'all', types: { journal: true, conference: true, preprint: true, patent: true } };
+  var state = { theme: 'all', types: { journal: true, conference: true, preprint: true, patent: true, software: true } };
 
   function isTheme(slug) {
     return links.some(function (a) { return a.dataset.theme === slug; });

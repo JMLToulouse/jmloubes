@@ -65,6 +65,37 @@ redirect_from:
   <p>A detailed CV is available <a href="{{ '/cv/' | relative_url }}">here</a>.</p>
 </div>
 
+<div class="section" id="research">
+  <h2>Research</h2>
+  <p>
+    Trained as a mathematician, I began by modelling complex systems driven by randomness: building statistical
+    models that estimate their structure and forecast their behaviour, from road traffic to inverse problems and
+    deformations of curves and distributions. This work has always been tied to industry, which I see both as a
+    field of application for mathematics and as a source of new mathematical problems.
+  </p>
+  <p>
+    My work then moved to <a href="{{ '/publications/' | relative_url }}#machine-learning">machine learning</a>, with
+    applications in industry and biology: anomaly detection and predictive maintenance in aerospace and manufacturing,
+    and the analysis of genomic and metagenomic data. These collaborations led to
+    <a href="{{ '/publications/' | relative_url }}#industrial-projects">industrial patents</a> and to more than fifteen
+    research contracts and industrial PhDs with partners such as Airbus (EADS), Continental, Michelin, L'Oréal,
+    Total, EDF and Liebherr Aerospace.
+  </p>
+  <p>
+    As machine learning came to make decisions that affect people, I turned to <strong>trustworthy AI</strong>:
+    robustness, bias and fairness, and explainability, using tools such as
+    <a href="{{ '/publications/' | relative_url }}#optimal-transport">optimal transport</a> and sensitivity analysis.
+    A better AI is not only a mathematical question, so this work is multidisciplinary, carried out with lawyers,
+    economists and specialists of governance and regulation.
+  </p>
+  <p>
+    Today my research focuses on the <a href="{{ '/publications/' | relative_url }}#evaluation-of-ai">evaluation of AI</a>.
+    Evaluation is the starting point for a better and safer AI: a system can only be trusted, regulated or improved once
+    its behaviour can be measured. This is the aim of the Regalia team at Inria and of the national program on AI
+    evaluation at INESIA.
+  </p>
+</div>
+
 <div class="section" id="selected">
   <h2>Selected publications</h2>
   {% for topic in site.data.selected_publications %}
