@@ -1,0 +1,45 @@
+# Post-Doc or visiting students, used by the Teaching section and the /students/ page.
+# Source: list given by J-M. Loubes (2026-10); affiliations checked on public profiles.
+# status: current | former. Leave unknown fields empty.
+
+- name: "Rodrigo Maulen-Soto"
+  status: "current"
+  start: "2026"
+  topic: "Optimization and machine learning for AI evaluation"
+  position: ""
+  url: "https://rodrigomaulen.github.io/"
+
+- name: "Clément Lezane"
+  status: "current"
+  start: "2025"
+  topic: "Optimization and machine learning"
+  position: ""
+  url: "https://www.linkedin.com/in/cl%C3%A9ment-lezane-7222b01b6/"
+
+- name: "Adriana Monteiro"
+  status: "former"
+  start: "2024"
+  topic: "Fairness in machine learning"
+  position: "Postdoctoral fellow, FGV School of Applied Mathematics (Rio de Janeiro)"
+  url: "https://impa.br/notices/i-am-at-the-intersection-between-the-real-and-the-theoretical-says-adriana-monteiro/?lang=en"
+
+- name: "David Rodríguez-Vítores"
+  status: "former"
+  start: "2024"
+  topic: "Optimal transport and applications"
+  position: ""
+  url: "https://scholar.google.com/citations?user=1-MPUjMAAAAJ"
+
+- name: "Renan Del Buono Brotto"
+  status: "former"
+  start: "2022"
+  topic: "Inverse problems and deep learning"
+  position: ""
+  url: "https://scholar.google.com/citations?user=y4qJU1UAAAAJ"
+
+- name: "Marina Agulló Antolín"
+  status: "former"
+  start: "2018"
+  topic: "Trimming and optimal transport"
+  position: ""
+  url: "https://www.linkedin.com/in/marina-agull%C3%B3-antol%C3%ADn-a19a76142/"

@@ -120,6 +120,13 @@ redirect_from:
       <li><strong>{{ t.title }}:</strong> {{ t.text }}</li>
     {% endfor %}
   </ul>
+  <h3 class="cv-heading">Post-Doc or visiting students</h3>
+  <ul>
+    {% for p in site.data.postdocs %}
+      <li><a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ p.name }}</a> ({{ p.start }}{% if p.status == "current" %}–{% endif %}): {{ p.topic }}</li>
+    {% endfor %}
+  </ul>
+
   {% assign current = site.data.phd_students | where: "status", "current" %}
   {% assign former = site.data.phd_students | where: "status", "former" %}
   <h3 class="cv-heading">PhD students</h3>
@@ -127,7 +134,7 @@ redirect_from:
     {% for st in current %}{{ st.name }}{% if st.context != "" %} ({{ st.context }}){% endif %}{% unless forloop.last %}; {% endunless %}{% endfor %}.</p>
   <p><strong>Former ({{ former | size }}):</strong>
     {% for st in former %}{{ st.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>
-  <p class="more-link"><a href="{{ '/students/' | relative_url }}">→ Full list with thesis titles, dates and current positions</a></p>
+  <p class="more-link"><a href="{{ '/students/' | relative_url }}">→ Post-Doc, visiting and PhD students: full list with topics, dates and current positions</a></p>
 
   <h3 class="cv-heading">Resources</h3>
   <ul>

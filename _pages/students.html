@@ -1,12 +1,38 @@
 ---
 layout: onepage
-title: PhD students
+title: Post-Doc, visiting and PhD students
 permalink: /students/
 ---
 
 {% comment %} Built from _data/phd_students.yml. {% endcomment %}
 {% assign current = site.data.phd_students | where: "status", "current" %}
 {% assign former = site.data.phd_students | where: "status", "former" %}
+
+<div class="section" id="postdocs">
+  <h2>Post-Doc or visiting students</h2>
+  <div class="students-scroll">
+    <table class="students">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Started</th>
+          <th scope="col">Topic</th>
+          <th scope="col">Current position</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for p in site.data.postdocs %}
+          <tr>
+            <th scope="row"><a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ p.name }}</a></th>
+            <td class="students__dates">{{ p.start }}</td>
+            <td>{{ p.topic }}</td>
+            <td>{% if p.status == "current" %}In the team{% else %}{{ p.position | default: "—" }}{% endif %}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
 
 <div class="section" id="students">
   <h2>PhD students</h2>
