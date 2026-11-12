@@ -54,7 +54,7 @@ VENUE_RANK = [
     # Journals, national and other outlets
     "Stat. Soc.", "RSTI-ISI", "Dalloz IP/IT", "Book chapter",
     # Conferences, top tier
-    "NeurIPS", "ICML", "CVPR", "ECCV", "AISTATS",
+    "NeurIPS", "ICML", "CVPR", "ECCV", "EMNLP", "AISTATS",
     # Conferences, strong
     "SaTML", "ECML PKDD", "ECAI", "MICCAI", "ICASSP", "ICMI", "ACL Findings",
     # Conferences, other
@@ -93,6 +93,7 @@ VENUE_ABBR = [
     (r"journ[ée]es de (la )?statistique", "JdS"),
     (r"its world congress", "ITS World Congress"),
     (r"partial least squares", "PLS"),
+    (r"\bemnlp\b|empirical methods in natural language", "EMNLP"),
     (r"association for computational linguistics", "ACL Findings"),
     (r"openaccess series in informatics", "OASIcs"),
     (r"journal of machine learning research", "JMLR"),

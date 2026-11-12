@@ -3,6 +3,12 @@
 
 - date: October 2026
   text: >-
+    Our article <a href="https://arxiv.org/abs/2603.16749">Probing Cultural Signals in Large Language Models through Author Profiling</a>
+    (Valentin Lafargue, Ariel Guerra-Adames, Emmanuelle Claeys, Elouan Vuichard, Jean-Michel Loubes) is published in the
+    main conference of <a href="https://2026.emnlp.org/">EMNLP 2026</a> (Budapest).
+
+- date: October 2026
+  text: >-
     <a href="https://www.trackllm.net/index.html">TrackLLM</a> is online: it continuously monitors LLM APIs to detect
     undisclosed changes of the models behind them, building on our ICML 2026 paper
     <a href="https://arxiv.org/abs/2602.11083">Token-Efficient Change Detection in LLM APIs</a> and its black-box

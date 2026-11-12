@@ -425,6 +425,39 @@
   "app": ""
  },
  {
+  "key": "gslafargue2026probingcultu",
+  "type": "conference",
+  "themes": [
+   "evaluation-of-ai"
+  ],
+  "title": "Probing Cultural Signals in Large Language Models through Author Profiling",
+  "authors": [
+   "Valentin Lafargue",
+   "Ariel Guerra-Adames",
+   "Emmanuelle Claeys",
+   "Elouan Vuichard",
+   "Jean-Michel Loubes"
+  ],
+  "me": [
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "venue": "EMNLP 2026 - Conference on Empirical Methods in Natural Language Processing",
+  "abbr": "EMNLP",
+  "year": 2026,
+  "month": 10,
+  "doi": "",
+  "url": "https://arxiv.org/abs/2603.16749",
+  "pdf": "",
+  "hal": "",
+  "arxiv": "2603.16749",
+  "code": "",
+  "app": ""
+ },
+ {
   "key": "monteiro:hal-05519642",
   "type": "conference",
   "themes": [
@@ -776,39 +809,6 @@
   "pdf": "https://hal.science/hal-03095805v4/file/l1_spectralclustering.pdf",
   "hal": "https://hal.science/hal-03095805",
   "arxiv": "",
-  "code": "",
-  "app": ""
- },
- {
-  "key": "gslafargue2026probingcultu",
-  "type": "preprint",
-  "themes": [
-   "evaluation-of-ai"
-  ],
-  "title": "Probing Cultural Signals in Large Language Models through Author Profiling",
-  "authors": [
-   "Valentin Lafargue",
-   "Ariel Guerra-Adames",
-   "Emmanuelle Claeys",
-   "Elouan Vuichard",
-   "Jean-Michel Loubes"
-  ],
-  "me": [
-   false,
-   false,
-   false,
-   false,
-   true
-  ],
-  "venue": "arXiv",
-  "abbr": "Preprint",
-  "year": 2026,
-  "month": 3,
-  "doi": "",
-  "url": "https://arxiv.org/abs/2603.16749",
-  "pdf": "",
-  "hal": "",
-  "arxiv": "2603.16749",
   "code": "",
   "app": ""
  },
