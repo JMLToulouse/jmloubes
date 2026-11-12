@@ -116,7 +116,7 @@
   "url": "https://hal.science/hal-04923829",
   "pdf": "https://hal.science/hal-04923829v3/file/main_TMLR_FINAL.pdf",
   "hal": "https://hal.science/hal-04923829",
-  "arxiv": "",
+  "arxiv": "2502.01701",
   "code": "",
   "app": ""
  },
@@ -287,7 +287,7 @@
   "url": "https://hal.science/hal-05638043",
   "pdf": "https://hal.science/hal-05638043v1/file/main.pdf",
   "hal": "https://hal.science/hal-05638043",
-  "arxiv": "",
+  "arxiv": "2606.04683",
   "code": "",
   "app": ""
  },
@@ -323,7 +323,7 @@
   "url": "https://hal.science/hal-05506096",
   "pdf": "https://hal.science/hal-05506096v2/file/main.pdf",
   "hal": "https://hal.science/hal-05506096",
-  "arxiv": "",
+  "arxiv": "2602.11083",
   "code": "",
   "app": ""
  },
@@ -578,7 +578,7 @@
   "url": "https://doi.org/10.4230/OASIcs.DX.2026.3",
   "pdf": "https://hal.science/hal-05712708v2/file/An%20Explainable%20GNN%20Framework%20for%20Component-Level%20Anomaly%20Diagnosis.pdf",
   "hal": "https://hal.science/hal-05712708",
-  "arxiv": "",
+  "arxiv": "2608.09246",
   "code": "",
   "app": ""
  },
@@ -601,7 +601,7 @@
    false,
    true
   ],
-  "venue": "",
+  "venue": "arXiv",
   "abbr": "Preprint",
   "year": 2026,
   "month": 10,
@@ -609,7 +609,7 @@
   "url": "https://hal.science/hal-05775266",
   "pdf": "https://hal.science/hal-05775266v1/file/HAL.pdf",
   "hal": "https://hal.science/hal-05775266",
-  "arxiv": "",
+  "arxiv": "2610.06421",
   "code": "",
   "app": ""
  },
@@ -667,7 +667,7 @@
    true,
    false
   ],
-  "venue": "",
+  "venue": "arXiv",
   "abbr": "Preprint",
   "year": 2026,
   "month": 7,
@@ -675,7 +675,7 @@
   "url": "https://hal.science/hal-05706876",
   "pdf": "https://hal.science/hal-05706876v1/file/Fair_Forests_preprint.pdf",
   "hal": "https://hal.science/hal-05706876",
-  "arxiv": "",
+  "arxiv": "2607.28014",
   "code": "",
   "app": ""
  },
@@ -868,7 +868,7 @@
    true,
    false
   ],
-  "venue": "",
+  "venue": "arXiv",
   "abbr": "Preprint",
   "year": 2026,
   "month": 2,
@@ -876,7 +876,7 @@
   "url": "https://hal.science/hal-05301780",
   "pdf": "https://hal.science/hal-05301780v4/file/main.pdf",
   "hal": "https://hal.science/hal-05301780",
-  "arxiv": "",
+  "arxiv": "2510.07088",
   "code": "",
   "app": ""
  },
@@ -1069,7 +1069,7 @@
   "url": "https://hal.science/hal-04923578",
   "pdf": "https://hal.science/hal-04923578v1/file/main.pdf",
   "hal": "https://hal.science/hal-04923578",
-  "arxiv": "",
+  "arxiv": "2502.01168",
   "code": "",
   "app": ""
  },
@@ -1219,7 +1219,7 @@
    false,
    true
   ],
-  "venue": "",
+  "venue": "arXiv",
   "abbr": "Preprint",
   "year": 2025,
   "month": 11,
@@ -1227,7 +1227,7 @@
   "url": "https://ut-toulouseinp.hal.science/hal-05374841",
   "pdf": "https://ut-toulouseinp.hal.science/hal-05374841v1/file/Claeys_2025.pdf",
   "hal": "https://ut-toulouseinp.hal.science/hal-05374841",
-  "arxiv": "",
+  "arxiv": "2510.16462",
   "code": "",
   "app": ""
  },
@@ -1567,7 +1567,7 @@
    false,
    true
   ],
-  "venue": "",
+  "venue": "arXiv",
   "abbr": "Preprint",
   "year": 2024,
   "month": 4,
@@ -1575,7 +1575,7 @@
   "url": "https://hal.science/hal-04537254",
   "pdf": "https://hal.science/hal-04537254v1/file/paperMFJM.pdf",
   "hal": "https://hal.science/hal-04537254",
-  "arxiv": "",
+  "arxiv": "2404.06090",
   "code": "",
   "app": ""
  },
@@ -2429,7 +2429,7 @@
    false,
    true
   ],
-  "venue": "",
+  "venue": "arXiv",
   "abbr": "Preprint",
   "year": 2022,
   "month": 2,
@@ -2437,7 +2437,7 @@
   "url": "https://hal.science/hal-03575178",
   "pdf": "https://hal.science/hal-03575178v1/file/text.pdf",
   "hal": "https://hal.science/hal-03575178",
-  "arxiv": "",
+  "arxiv": "2202.07965",
   "code": "",
   "app": ""
  },
@@ -2762,7 +2762,7 @@
    false,
    true
   ],
-  "venue": "",
+  "venue": "arXiv",
   "abbr": "Preprint",
   "year": 2021,
   "month": 2,
@@ -2770,7 +2770,7 @@
   "url": "https://hal.science/hal-03142788",
   "pdf": "https://hal.science/hal-03142788v1/file/OTextension.pdf",
   "hal": "https://hal.science/hal-03142788",
-  "arxiv": "",
+  "arxiv": "2102.08644",
   "code": "",
   "app": ""
  },
@@ -3026,7 +3026,7 @@
    false,
    true
   ],
-  "venue": "",
+  "venue": "arXiv",
   "abbr": "Preprint",
   "year": 2020,
   "month": 10,
@@ -3034,7 +3034,7 @@
   "url": "https://hal.science/hal-02964972",
   "pdf": "",
   "hal": "https://hal.science/hal-02964972",
-  "arxiv": "2001.07864",
+  "arxiv": "2005.13755",
   "code": "",
   "app": ""
  },
@@ -3218,7 +3218,7 @@
   "url": "https://doi.org/10.1016/j.jmva.2018.09.014",
   "pdf": "https://hal.science/hal-01269785v4/file/NewCLTBootstrapWasserteinDeformation.pdf",
   "hal": "https://hal.science/hal-01269785",
-  "arxiv": "1508.06465",
+  "arxiv": "1611.04323",
   "code": "",
   "app": ""
  },
